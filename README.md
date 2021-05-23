@@ -1,7 +1,7 @@
 # investment_assistant
 **Under Development
 
-Intellij Idea is recommended IDE.
+Intellij IDEA is recommended IDE.
 #
 import project from version control using this repository URL. Hold Patience.
 
