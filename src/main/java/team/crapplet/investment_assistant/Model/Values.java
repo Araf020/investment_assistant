@@ -1,22 +1,30 @@
 package team.crapplet.investment_assistant.Model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "values")
+
 public class Values {
 
 
+    @Id
     private  String CodeName;
     private  int year;
 
-    private String enterpriseValueMultiple;
+    private Double enterpriseValueMultiple;
 
-    private String priceFairValue;
+    private Double priceFairValue;
 
-    private String Enterprise_Value;
+    private Double Enterprise_Value;
 
-    private String Enterprise_Value_over_EBITDA;
+    private Double Enterprise_Value_over_EBITDA;
 
-    private String Tangible_Asset_Value;
+    private Double Tangible_Asset_Value;
 
-    private String Net_Current_Asset_Value;
+    private Double Net_Current_Asset_Value;
 
     public String getCodeName() {
         return CodeName;
@@ -36,56 +44,56 @@ public class Values {
         return this;
     }
 
-    public String getEnterpriseValueMultiple() {
+    public Double getEnterpriseValueMultiple() {
         return enterpriseValueMultiple;
     }
 
-    public Values setEnterpriseValueMultiple(String enterpriseValueMultiple) {
+    public Values setEnterpriseValueMultiple(Double enterpriseValueMultiple) {
         this.enterpriseValueMultiple = enterpriseValueMultiple;
         return this;
     }
 
-    public String getPriceFairValue() {
+    public Double getPriceFairValue() {
         return priceFairValue;
     }
 
-    public Values setPriceFairValue(String priceFairValue) {
+    public Values setPriceFairValue(Double priceFairValue) {
         this.priceFairValue = priceFairValue;
         return this;
     }
 
-    public String getEnterprise_Value() {
+    public Double getEnterprise_Value() {
         return Enterprise_Value;
     }
 
-    public Values setEnterprise_Value(String enterprise_Value) {
+    public Values setEnterprise_Value(Double enterprise_Value) {
         Enterprise_Value = enterprise_Value;
         return this;
     }
 
-    public String getEnterprise_Value_over_EBITDA() {
+    public Double getEnterprise_Value_over_EBITDA() {
         return Enterprise_Value_over_EBITDA;
     }
 
-    public Values setEnterprise_Value_over_EBITDA(String enterprise_Value_over_EBITDA) {
+    public Values setEnterprise_Value_over_EBITDA(Double enterprise_Value_over_EBITDA) {
         Enterprise_Value_over_EBITDA = enterprise_Value_over_EBITDA;
         return this;
     }
 
-    public String getTangible_Asset_Value() {
+    public Double getTangible_Asset_Value() {
         return Tangible_Asset_Value;
     }
 
-    public Values setTangible_Asset_Value(String tangible_Asset_Value) {
+    public Values setTangible_Asset_Value(Double tangible_Asset_Value) {
         Tangible_Asset_Value = tangible_Asset_Value;
         return this;
     }
 
-    public String getNet_Current_Asset_Value() {
+    public Double getNet_Current_Asset_Value() {
         return Net_Current_Asset_Value;
     }
 
-    public Values setNet_Current_Asset_Value(String net_Current_Asset_Value) {
+    public Values setNet_Current_Asset_Value(Double net_Current_Asset_Value) {
         Net_Current_Asset_Value = net_Current_Asset_Value;
         return this;
     }

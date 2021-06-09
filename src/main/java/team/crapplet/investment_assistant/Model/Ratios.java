@@ -6,65 +6,65 @@ public class Ratios {
     private  String CodeName;
     private  int year;
 
-    private String priceBookValueRatio;
+    private Double priceBookValueRatio;
 
-    private String priceToBookRatio;
+    private Double priceToBookRatio;
 
-    private String priceToSalesRatio;
+    private Double priceToSalesRatio;
 
-    private String priceToFreeCashFlowsRatio;
+    private Double priceToFreeCashFlowsRatio;
 
-    private String priceToOperatingCashFlowsRatio;
+    private Double priceToOperatingCashFlowsRatio;
 
-    private String priceCashFlowRatio;
+    private Double priceCashFlowRatio;
 
-    private String priceSalesRatio;
+    private Double priceSalesRatio;
 
-    private String currentRatio;
+    private Double currentRatio;
 
-    private String quickRatio;
+    private Double quickRatio;
 
-    private String priceEarningsRatio;
+    private Double priceEarningsRatio;
 
-    private String cashRatio;
+    private Double cashRatio;
 
-    private String debtRatio;
+    private Double debtRatio;
 
-    private String debtEquityRatio;
+    private Double debtEquityRatio;
 
-    private String cashFlowToDebtRatio;
+    private Double cashFlowToDebtRatio;
 
-    private String payoutRatio;
+    private Double payoutRatio;
 
-    private String operatingCashFlowSalesRatio;
+    private Double operatingCashFlowSalesRatio;
 
-    private String freeCashFlowOperatingCashFlowRatio;
+    private Double freeCashFlowOperatingCashFlowRatio;
 
-    private String cashFlowCoverageRatios;
+    private Double cashFlowCoverageRatios;
 
-    private String shortTermCoverageRatios;
+    private Double shortTermCoverageRatios;
 
-    private String capitalExpenditureCoverageRatios;
+    private Double capitalExpenditureCoverageRatios;
 
-    private String dividendpaidAndCapexCoverageRatios;
+    private Double dividendpaidAndCapexCoverageRatios;
 
-    private String dividendPayoutRatio;
+    private Double dividendPayoutRatio;
 
-    private String PE_ratio;
+    private Double PE_ratio;
 
-    private String Price_to_Sales_Ratio;
+    private Double Price_to_Sales_Ratio;
 
-    private String POCF_ratio;
+    private Double POCF_ratio;
 
-    private String PFCF_ratio;
+    private Double PFCF_ratio;
 
-    private String PB_ratio;
+    private Double PB_ratio;
 
-    private String PTB_ratio;
+    private Double PTB_ratio;
 
-    private String Current_ratio;
+    private Double Current_ratio;
 
-    private String Payout_Ratio;
+    private Double Payout_Ratio;
 
 
     public String getCodeName() {
@@ -83,243 +83,243 @@ public class Ratios {
         this.year = year;
     }
 
-    public String getPriceBookValueRatio() {
+    public Double getPriceBookValueRatio() {
         return priceBookValueRatio;
     }
 
-    public void setPriceBookValueRatio(String priceBookValueRatio) {
+    public void setPriceBookValueRatio(Double priceBookValueRatio) {
         this.priceBookValueRatio = priceBookValueRatio;
     }
 
-    public String getPriceToBookRatio() {
+    public Double getPriceToBookRatio() {
         return priceToBookRatio;
     }
 
-    public void setPriceToBookRatio(String priceToBookRatio) {
+    public void setPriceToBookRatio(Double priceToBookRatio) {
         this.priceToBookRatio = priceToBookRatio;
     }
 
-    public String getPriceToSalesRatio() {
+    public Double getPriceToSalesRatio() {
         return priceToSalesRatio;
     }
 
-    public void setPriceToSalesRatio(String priceToSalesRatio) {
+    public void setPriceToSalesRatio(Double priceToSalesRatio) {
         this.priceToSalesRatio = priceToSalesRatio;
     }
 
-    public String getPriceToFreeCashFlowsRatio() {
+    public Double getPriceToFreeCashFlowsRatio() {
         return priceToFreeCashFlowsRatio;
     }
 
-    public void setPriceToFreeCashFlowsRatio(String priceToFreeCashFlowsRatio) {
+    public void setPriceToFreeCashFlowsRatio(Double priceToFreeCashFlowsRatio) {
         this.priceToFreeCashFlowsRatio = priceToFreeCashFlowsRatio;
     }
 
-    public String getPriceToOperatingCashFlowsRatio() {
+    public Double getPriceToOperatingCashFlowsRatio() {
         return priceToOperatingCashFlowsRatio;
     }
 
-    public void setPriceToOperatingCashFlowsRatio(String priceToOperatingCashFlowsRatio) {
+    public void setPriceToOperatingCashFlowsRatio(Double priceToOperatingCashFlowsRatio) {
         this.priceToOperatingCashFlowsRatio = priceToOperatingCashFlowsRatio;
     }
 
-    public String getPriceCashFlowRatio() {
+    public Double getPriceCashFlowRatio() {
         return priceCashFlowRatio;
     }
 
-    public void setPriceCashFlowRatio(String priceCashFlowRatio) {
+    public void setPriceCashFlowRatio(Double priceCashFlowRatio) {
         this.priceCashFlowRatio = priceCashFlowRatio;
     }
 
-    public String getPriceSalesRatio() {
+    public Double getPriceSalesRatio() {
         return priceSalesRatio;
     }
 
-    public void setPriceSalesRatio(String priceSalesRatio) {
+    public void setPriceSalesRatio(Double priceSalesRatio) {
         this.priceSalesRatio = priceSalesRatio;
     }
 
-    public String getCurrentRatio() {
+    public Double getCurrentRatio() {
         return currentRatio;
     }
 
-    public void setCurrentRatio(String currentRatio) {
+    public void setCurrentRatio(Double currentRatio) {
         this.currentRatio = currentRatio;
     }
 
-    public String getQuickRatio() {
+    public Double getQuickRatio() {
         return quickRatio;
     }
 
-    public void setQuickRatio(String quickRatio) {
+    public void setQuickRatio(Double quickRatio) {
         this.quickRatio = quickRatio;
     }
 
-    public String getPriceEarningsRatio() {
+    public Double getPriceEarningsRatio() {
         return priceEarningsRatio;
     }
 
-    public void setPriceEarningsRatio(String priceEarningsRatio) {
+    public void setPriceEarningsRatio(Double priceEarningsRatio) {
         this.priceEarningsRatio = priceEarningsRatio;
     }
 
-    public String getCashRatio() {
+    public Double getCashRatio() {
         return cashRatio;
     }
 
-    public void setCashRatio(String cashRatio) {
+    public void setCashRatio(Double cashRatio) {
         this.cashRatio = cashRatio;
     }
 
-    public String getDebtRatio() {
+    public Double getDebtRatio() {
         return debtRatio;
     }
 
-    public void setDebtRatio(String debtRatio) {
+    public void setDebtRatio(Double debtRatio) {
         this.debtRatio = debtRatio;
     }
 
-    public String getDebtEquityRatio() {
+    public Double getDebtEquityRatio() {
         return debtEquityRatio;
     }
 
-    public void setDebtEquityRatio(String debtEquityRatio) {
+    public void setDebtEquityRatio(Double debtEquityRatio) {
         this.debtEquityRatio = debtEquityRatio;
     }
 
-    public String getCashFlowToDebtRatio() {
+    public Double getCashFlowToDebtRatio() {
         return cashFlowToDebtRatio;
     }
 
-    public void setCashFlowToDebtRatio(String cashFlowToDebtRatio) {
+    public void setCashFlowToDebtRatio(Double cashFlowToDebtRatio) {
         this.cashFlowToDebtRatio = cashFlowToDebtRatio;
     }
 
-    public String getPayoutRatio() {
+    public Double getPayoutRatio() {
         return payoutRatio;
     }
 
-    public void setPayoutRatio(String payoutRatio) {
+    public void setPayoutRatio(Double payoutRatio) {
         this.payoutRatio = payoutRatio;
     }
 
-    public String getOperatingCashFlowSalesRatio() {
+    public Double getOperatingCashFlowSalesRatio() {
         return operatingCashFlowSalesRatio;
     }
 
-    public void setOperatingCashFlowSalesRatio(String operatingCashFlowSalesRatio) {
+    public void setOperatingCashFlowSalesRatio(Double operatingCashFlowSalesRatio) {
         this.operatingCashFlowSalesRatio = operatingCashFlowSalesRatio;
     }
 
-    public String getFreeCashFlowOperatingCashFlowRatio() {
+    public Double getFreeCashFlowOperatingCashFlowRatio() {
         return freeCashFlowOperatingCashFlowRatio;
     }
 
-    public void setFreeCashFlowOperatingCashFlowRatio(String freeCashFlowOperatingCashFlowRatio) {
+    public void setFreeCashFlowOperatingCashFlowRatio(Double freeCashFlowOperatingCashFlowRatio) {
         this.freeCashFlowOperatingCashFlowRatio = freeCashFlowOperatingCashFlowRatio;
     }
 
-    public String getCashFlowCoverageRatios() {
+    public Double getCashFlowCoverageRatios() {
         return cashFlowCoverageRatios;
     }
 
-    public void setCashFlowCoverageRatios(String cashFlowCoverageRatios) {
+    public void setCashFlowCoverageRatios(Double cashFlowCoverageRatios) {
         this.cashFlowCoverageRatios = cashFlowCoverageRatios;
     }
 
-    public String getShortTermCoverageRatios() {
+    public Double getShortTermCoverageRatios() {
         return shortTermCoverageRatios;
     }
 
-    public void setShortTermCoverageRatios(String shortTermCoverageRatios) {
+    public void setShortTermCoverageRatios(Double shortTermCoverageRatios) {
         this.shortTermCoverageRatios = shortTermCoverageRatios;
     }
 
-    public String getCapitalExpenditureCoverageRatios() {
+    public Double getCapitalExpenditureCoverageRatios() {
         return capitalExpenditureCoverageRatios;
     }
 
-    public void setCapitalExpenditureCoverageRatios(String capitalExpenditureCoverageRatios) {
+    public void setCapitalExpenditureCoverageRatios(Double capitalExpenditureCoverageRatios) {
         this.capitalExpenditureCoverageRatios = capitalExpenditureCoverageRatios;
     }
 
-    public String getDividendpaidAndCapexCoverageRatios() {
+    public Double getDividendpaidAndCapexCoverageRatios() {
         return dividendpaidAndCapexCoverageRatios;
     }
 
-    public void setDividendpaidAndCapexCoverageRatios(String dividendpaidAndCapexCoverageRatios) {
+    public void setDividendpaidAndCapexCoverageRatios(Double dividendpaidAndCapexCoverageRatios) {
         this.dividendpaidAndCapexCoverageRatios = dividendpaidAndCapexCoverageRatios;
     }
 
-    public String getDividendPayoutRatio() {
+    public Double getDividendPayoutRatio() {
         return dividendPayoutRatio;
     }
 
-    public void setDividendPayoutRatio(String dividendPayoutRatio) {
+    public void setDividendPayoutRatio(Double dividendPayoutRatio) {
         this.dividendPayoutRatio = dividendPayoutRatio;
     }
 
-    public String getPE_ratio() {
+    public Double getPE_ratio() {
         return PE_ratio;
     }
 
-    public void setPE_ratio(String PE_ratio) {
+    public void setPE_ratio(Double PE_ratio) {
         this.PE_ratio = PE_ratio;
     }
 
-    public String getPrice_to_Sales_Ratio() {
+    public Double getPrice_to_Sales_Ratio() {
         return Price_to_Sales_Ratio;
     }
 
-    public void setPrice_to_Sales_Ratio(String price_to_Sales_Ratio) {
+    public void setPrice_to_Sales_Ratio(Double price_to_Sales_Ratio) {
         Price_to_Sales_Ratio = price_to_Sales_Ratio;
     }
 
-    public String getPOCF_ratio() {
+    public Double getPOCF_ratio() {
         return POCF_ratio;
     }
 
-    public void setPOCF_ratio(String POCF_ratio) {
+    public void setPOCF_ratio(Double POCF_ratio) {
         this.POCF_ratio = POCF_ratio;
     }
 
-    public String getPFCF_ratio() {
+    public Double getPFCF_ratio() {
         return PFCF_ratio;
     }
 
-    public void setPFCF_ratio(String PFCF_ratio) {
+    public void setPFCF_ratio(Double PFCF_ratio) {
         this.PFCF_ratio = PFCF_ratio;
     }
 
-    public String getPB_ratio() {
+    public Double getPB_ratio() {
         return PB_ratio;
     }
 
-    public void setPB_ratio(String PB_ratio) {
+    public void setPB_ratio(Double PB_ratio) {
         this.PB_ratio = PB_ratio;
     }
 
-    public String getPTB_ratio() {
+    public Double getPTB_ratio() {
         return PTB_ratio;
     }
 
-    public void setPTB_ratio(String PTB_ratio) {
+    public void setPTB_ratio(Double PTB_ratio) {
         this.PTB_ratio = PTB_ratio;
     }
 
-    public String getCurrent_ratio() {
+    public Double getCurrent_ratio() {
         return Current_ratio;
     }
 
-    public void setCurrent_ratio(String current_ratio) {
+    public void setCurrent_ratio(Double current_ratio) {
         Current_ratio = current_ratio;
     }
 
-    public String getPayout_Ratio() {
+    public Double getPayout_Ratio() {
         return Payout_Ratio;
     }
 
-    public void setPayout_Ratio(String payout_Ratio) {
+    public void setPayout_Ratio(Double payout_Ratio) {
         Payout_Ratio = payout_Ratio;
     }
 }
