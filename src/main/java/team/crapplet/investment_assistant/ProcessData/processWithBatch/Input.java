@@ -2,6 +2,8 @@ package team.crapplet.investment_assistant.ProcessData.processWithBatch;
 
 public class Input{
 
+
+private String company_id;
 private String Cost_of_Revenue;
 private String Gross_Profit;
 private String R_D_Expenses;
@@ -284,6 +286,7 @@ private String cls;
                  String fiveY_Dividend_per_Share_Growth_per_Share, String threeY_Dividend_per_Share_Growth_per_Share, String receivables_growth, String inventory_Growth,
                  String asset_Growth, String book_Value_per_Share_Growth, String debt_Growth, String r_D_Expense_Growth,
                  String SG_A_Expenses_Growth, String sector, String two019_PRICE_VAR_percent, String acls) {
+
         Cost_of_Revenue = cost_of_Revenue;
         Gross_Profit = gross_Profit;
         R_D_Expenses = r_D_Expenses;
@@ -511,6 +514,22 @@ private String cls;
         cls = acls;
     }
 
+
+    public String getCompany_id() {
+        return company_id;
+    }
+
+    public void setCompany_id(String company_id) {
+        this.company_id = company_id;
+    }
+
+    public String getCls() {
+        return cls;
+    }
+
+    public void setCls(String cls) {
+        this.cls = cls;
+    }
 
     public String getCost_of_Revenue() {
         return Cost_of_Revenue;
