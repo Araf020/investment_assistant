@@ -20,4 +20,6 @@ public class Incomes {
 
     private String Income_Quality;
 
+    private String nIperEBT;
+
 }

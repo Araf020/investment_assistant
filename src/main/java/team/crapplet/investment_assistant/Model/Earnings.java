@@ -6,10 +6,10 @@ public class Earnings {
 
     private String Earnings_Before_Tax_Margin;
 
-    private String Retained_earnings_deficit;
-
-
+    private String EBITDA;
 
     private String Earnings_Yield;
+
+    private String ebtperEBIT;
 
 }
