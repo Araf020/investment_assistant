@@ -230,6 +230,8 @@ private String Sector;
 private String two019_PRICE_VAR_percent;
 private String cls;
 
+public Input(){}
+
     public Input(String cost_of_Revenue, String gross_Profit, String r_D_Expenses, String SG_A_Expense,
                  String operating_Expenses, String operating_Income, String interest_Expense, String earnings_before_Tax,
                  String income_Tax_Expense, String net_Income_Non_Controlling_int, String net_Income_Discontinued_ops,

@@ -2,6 +2,9 @@ package team.crapplet.investment_assistant.Model;
 
 public class GrossProfit_to_Cls {
 
+
+    private  String CodeName;
+    private  int year;
     private String company_id;
     private String Gross_Profit;
     private String Preferred_Dividends;
