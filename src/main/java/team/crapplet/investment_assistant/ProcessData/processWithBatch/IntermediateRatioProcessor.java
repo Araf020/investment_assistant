@@ -24,14 +24,17 @@ public class IntermediateRatioProcessor implements ItemProcessor<InputDataSets, 
          * */
 
 
-        values.setCodeName(inputDataSets.getCompany_id());
-        values.setEnterprise_Value(Double.parseDouble(inputDataSets.getEnterprise_Value()));
-        values.setEnterpriseValueMultiple(Double.parseDouble(inputDataSets.getEnterpriseValueMultiple()));
-        values.setPriceFairValue(Double.parseDouble(inputDataSets.getPriceFairValue()));
-        values.setNet_Current_Asset_Value(Double.parseDouble(inputDataSets.getNet_Current_Asset_Value()));
-        values.setTangible_Asset_Value(Double.parseDouble(inputDataSets.getTangible_Asset_Value()));
-        values.setNet_Current_Asset_Value(Double.parseDouble(inputDataSets.getNet_Current_Asset_Value()));
-        values.setEnterprise_Value_over_EBITDA(Double.parseDouble(inputDataSets.getEnterprise_Value_over_EBITDA()));
+        values.setCodeName(inputDataSets.getName());
+        System.out.println("Name: "+inputDataSets.get_Sector());
+
+//        values.setEnterprise_Value_over_EBITDA(312321.30921);
+//        values.setEnterprise_Value(Double.parseDouble(inputDataSets.getEnterprise_Value()));
+//        values.setEnterpriseValueMultiple(Double.parseDouble(inputDataSets.getEnterpriseValueMultiple()));
+//        values.setPriceFairValue(Double.parseDouble(inputDataSets.getPriceFairValue()));
+//        values.setNet_Current_Asset_Value(Double.parseDouble(inputDataSets.getNet_Current_Asset_Value()));
+//        values.setTangible_Asset_Value(Double.parseDouble(inputDataSets.getTangible_Asset_Value()));
+//        values.setNet_Current_Asset_Value(Double.parseDouble(inputDataSets.getNet_Current_Asset_Value()));
+//        values.setEnterprise_Value_over_EBITDA(Double.parseDouble(inputDataSets.getEnterprise_Value_over_earnings_ibtDA()));
 
         values.setYear(2018);
 

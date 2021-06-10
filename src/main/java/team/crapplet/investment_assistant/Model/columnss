@@ -1,453 +1,225 @@
-
-Name
+RAD,
+22927540000.0,
+0.1039,
+17862833000.0,
+5064707000.0,
+0.0,
+4776995000.0,
+4816124000.0,
+248583000.0,
+200065000.0,
+48491000.0,
+44438000.0,
+0.0,
+27000.0,
+4053000.0,
+0.0,
+4053000.0,
+0.08,
+0.08,
+52618361.0,
+52618361.0,
+0.0,
+0.2209,
+0.028999999999999998,
+0.0108,
+0.0,
+-0.001,
+655922000.0,
+248556000.0,
+4053000.0,
+0.0021,
+0.0002,
+245410000.0,
+0.0,
+245410000.0,
+1771126000.0,
+1789541000.0,
+5065288000.0,
+1526462000.0,
+2398253000.0,
+0.0,
+1505564000.0,
+6528464000.0,
+11593752000.0,
+1613909000.0,
+17709000.0,
+3005248000.0,
+3273092000.0,
+3290801000.0,
+0.0,
+0.0,
+0.0,
+7974434000.0,
+10979682000.0,
+-42317000.0,
+-5237157000.0,
+614070000.0,
+0.0,
+3045391000.0,
+1259211000.0,
+1373630000.0,
+407366000.0,
+22939000.0,
+232117000.0,
+-254149000.0,
+0.0,
+16852000.0,
+-464259000.0,
+313412000.0,
+6951000.0,
+0.0,
+353081000.0,
+0.0,
+120939000.0,
+-22032000.0,
+-0.5533,
+8.963,
+0.0,
+0.2401,
+1307.5,
+0.0,
+23.7117,
+23.711665068048,
+1357.9769456205,
+0.24005543379708,
+-0.0,
+13.755267486988,
+8.9629530193626,
+0.010840936271401,
+0.1950908447191,
+0.083582520467716,
+0.22090058506059,
+1.0,
+0.010842113894469,
+0.00017677430723052,
+0.9164174795322799,
+0.0011,
+0.0066,
+0.0186,
+0.083582520467716,
+0.1950908447191,
+0.010840936271401,
+-0.8719,
+10.2203,
+15.020052906656,
+1.9775772329785999,
+1.685,
+0.6710048555061,
+0.08166048193027702,
+-36.5666,
+28.1958,
 ,
-Revenue
+25.693,
 ,
-Revenue Growth
-,
-Cost of Revenue
-,
-Gross Profit
-,
-R&D Expenses
-,
-SG&A Expense
-,
-Operating Expenses
-,
-Operating Income
-,
-Interest Expense
-,
-Earnings before Tax
-,
-Income Tax Expense
-,
-Net Income - Non-Controlling int
-,
-Net Income - Discontinued ops
-,
-Net Income
-,
-Preferred Dividends
-,
-Net Income Com
-,
-EPS
-,
-EPS Diluted
-,
-Weighted Average Shs Out
-,
-Weighted Average Shs Out (Dil)
-,
-Dividend per Share
-,
-Gross Margin
-,
-EBITDA Margin
-,
-EBIT Margin
-,
-Profit Margin
-,
-Free Cash Flow margin
-,
-EBITDA
-,
-EBIT
-,
-Consolidated Income
-,
-Earnings Before Tax Margin
-,
-Net Profit Margin
-,
-Cash and cash equivalents
-,
-Short-term investments
-,
-Cash and short-term investments
-,
-Receivables
-,
-Inventories
-,
-Total current assets
-,
-roperty
-,
-Plant & Equipment Net
-
- Goodwill and Intangible Assets
- ,
- Long-term investments
- ,
- Tax assets
- ,
- Total non-current assets
- ,
- Total assets
- ,
- Payables
- ,
- Short-term debt
- ,
- Total current liabilities
- ,
- Long-term debt
- ,
- Total debt
- ,
- Deferred revenue
- ,
- Tax Liabilities
- ,
- Deposit Liabilities
- ,
- Total non-current liabilities
- ,
- Total liabilities
- ,
- Other comprehensive income
- ,
- Retained earnings (deficit)
- ,
- Total shareholders equity
- ,
- Investments
- ,
- Net Debt
- ,
- Other Assets
- ,
- Other Liabilities
- ,
- Depreciation & Amortization
- ,
- Stock-based compensation
- ,
- Operating Cash Flow
- ,
- Capital Expenditure
- ,
- Acquisitions and disposals
- ,
- Investment purchases and sales
- ,
- Investing Cash flow
- ,
- Issuance (repayment) of debt
- ,
- Issuance (buybacks) of shares
- ,
- Dividend payments
- ,
- Financing Cash Flow
- ,
- Effect of forex changes on cash
- ,
- Net cash flow / Change in cash
- ,
- Free Cash Flow
- ,
- Net Cash/Marketcap
- ,
- priceBookValueRatio
- ,
- priceToBookRatio
- ,
- priceToSalesRatio
- ,
- priceEarningsRatio
- ,
- priceToFreeCashFlowsRatio
- ,
- priceToOperatingCashFlowsRatio
- ,
- priceCashFlowRatio
- ,
- priceEarningsToGrowthRatio
- ,
- priceSalesRatio
- ,
- dividendYield
- ,
- enterpriseValueMultiple
- ,
- priceFairValue
- ,
- ebitperRevenue
- ,
- ebtperEBIT
- ,
- niperEBT
- ,
- grossProfitMargin
- ,
- operatingProfitMargin
- ,
- pretaxProfitMargin
- ,
- netProfitMargin
- ,
- effectiveTaxRate
- ,
- returnOnAssets
- ,
- returnOnEquity
- ,
- returnOnCapitalEmployed
- ,
- nIperEBT
- ,
- eBTperEBIT
- ,
- eBITperRevenue
- ,
- payablesTurnover
- ,
- inventoryTurnover
- ,
- fixedAssetTurnover
- ,
- assetTurnover
- ,
- currentRatio
- ,
- quickRatio
- ,
- cashRatio
- ,
- daysOfSalesOutstanding
- ,
- daysOfInventoryOutstanding
- ,
- operatingCycle
- ,
- daysOfPayablesOutstanding
- ,
- cashConversionCycle
- ,
- debtRatio
- ,
- debtEquityRatio
- ,
- longtermDebtToCapitalization
- ,
- totalDebtToCapitalization
- ,
- interestCoverage
- ,
- cashFlowToDebtRatio
- ,
- companyEquityMultiplier
- ,
- operatingCashFlowPerShare
- ,
- freeCashFlowPerShare
- ,
- cashPerShare
- ,
- payoutRatio
- ,
- operatingCashFlowSalesRatio
- ,
- freeCashFlowOperatingCashFlowRatio
- ,
- cashFlowCoverageRatios
- ,
- shortTermCoverageRatios
- ,
- capitalExpenditureCoverageRatios
- ,
- dividendpaidAndCapexCoverageRatios
- ,
- dividendPayoutRatio
- ,
- Revenue per Share
- ,
- Net Income per Share
- ,
- Operating Cash Flow per Share
- ,
- Free Cash Flow per Share
- ,
- Cash per Share
- ,
- Book Value per Share
- ,
- Tangible Book Value per Share
- ,
- Shareholders Equity per Share
- ,
- Interest Debt per Share
- ,
- Market Cap
- ,
- Enterprise Value
- ,
- PE ratio
- ,
- Price to Sales Ratio
- ,
- POCF ratio
- ,
- PFCF ratio
- ,
- PB ratio
- ,
- PTB ratio
- ,
- EV to Sales
- ,
- Enterprise Value over EBITDA
- ,
- EV to Operating cash flow
- ,
- EV to Free cash flow
- ,
- Earnings Yield
- ,
- Free Cash Flow Yield
- ,
- Debt to Equity
- ,
- Debt to Assets
- ,
- Net Debt to EBITDA
- ,
- Current ratio
- ,
- Interest Coverage
- ,
- Income Quality
- ,
- Dividend Yield
- ,
- Payout Ratio
- ,
- SG&A to Revenue
- ,
- R&D to Revenue
- ,
- Intangibles to Total Assets
- ,
- Capex to Operating Cash Flow
- ,
- Capex to Revenue
- ,
- Capex to Depreciation
- ,
- Stock-based compensation to Revenue
- ,
- Graham Number
- ,
- ROIC
- ,
- Return on Tangible Assets
- ,
- Graham Net-Net
- ,
- Working Capital
- ,
- Tangible Asset Value
- ,
- Net Current Asset Value
- ,
- Invested Capital
- ,
- Average Receivables
- ,
- Average Payables
- ,
- Average Inventory
- ,
- Days Sales Outstanding
- ,
- Days Payables Outstanding
- ,
- Days of Inventory on Hand
- ,
- Receivables Turnover
- ,
- Payables Turnover
- ,
- Inventory Turnover
- ,
- ROE
- ,
- Capex per Share
- ,
- Gross Profit Growth
- ,
- EBIT Growth
- ,
- Operating Income Growth
- ,
- Net Income Growth
- ,
- EPS Growth
- ,
- EPS Diluted Growth
- ,
- Weighted Average Shares Growth
- ,
- Weighted Average Shares Diluted Growth
- ,
- Dividends per Share Growth
- ,
- Operating Cash Flow growth
- ,
- Free Cash Flow growth
- ,
- 10Y Revenue Growth (per Share)
- ,
- 5Y Revenue Growth (per Share)
- ,
- 3Y Revenue Growth (per Share)
- ,
- 10Y Operating CF Growth (per Share)
- ,
- 5Y Operating CF Growth (per Share)
- ,
- 3Y Operating CF Growth (per Share)
- ,
- 10Y Net Income Growth (per Share)
- ,
- 5Y Net Income Growth (per Share)
- ,
- 3Y Net Income Growth (per Share)
- ,
- 10Y Shareholders Equity Growth (per Share)
- ,
- 5Y Shareholders Equity Growth (per Share)
- ,
- 3Y Shareholders Equity Growth (per Share)
- ,
- 10Y Dividend per Share Growth (per Share)
- ,
- 5Y Dividend per Share Growth (per Share)
- ,
- 3Y Dividend per Share Growth (per Share)
- ,
- Receivables growth
- ,
- Inventory Growth
- ,
- Asset Growth
- ,
- Book Value per Share Growth
- ,
- Debt Growth
- ,
- R&D Expense Growth
- ,
- SG&A Expenses Growth
- ,
- Sector
- ,
- 2019 PRICE VAR [%]
- ,
- Class
-
+0.2838,
+5.359,
+0.84202613629172,
+0.84274256435104,
+1.2424,
+0.070535106802265,
+18.880179784064,
+4.4113,
+0.596,
+4.664,
+0.0,
+0.010123938285573,
+-0.09491764928893599,
+0.070535106802265,
+13.107290078491001,
+0.91331069569426,
+0.91331069569426,
+-0.0,
+435.7327,
+0.077,
+4.4113,
+0.596,
+4.664,
+11.67,
+174.75799999999998,
+11.6703,
+62.5409,
+5503880560.6,
+8549271560.6,
+1307.5,
+0.2401,
+23.7117,
+0.0,
+8.963,
+0.0,
+0.3729,
+13.034,
+36.8317,
+-388.0388,
+0.0008,
+-0.004,
+5.359,
+0.2838,
+4.6429,
+1.685,
+1.2424,
+57.2704,
+0.0,
+0.0,
+0.2084,
+0.0,
+0.2069,
+1.0949,
+0.0111,
+-0.6239,
+0.001,
+4.5832,
+0.0186,
+0.0011,
+-1.0746,
+2060040000.0,
+9195499000.0,
+-5914394000.0,
+9235642000.0,
+1686067000.0,
+1578353000.0,
+2243322500.0,
+28.1958,
+25.693,
+-36.5666,
+13.5982,
+-0.8719,
+10.2203,
+0.0066,
+-4.83,
+0.0146,
+-0.3803,
+-0.3299,
+-0.9755,
+-0.975,
+-0.975,
+0.0056,
+0.0192,
+0.0,
+-0.7713,
+-1.0353,
+-0.0397,
+-0.0561,
+-0.0621,
+-0.0922,
+-0.0576,
+-0.3279,
+-0.2267,
+0.0,
+-0.7538,
+-0.1544,
+0.0,
+0.0,
+0.0,
+0.0,
+0.0,
+0.1063,
+-0.3365,
+0.0281,
+0.0502,
+-0.5295,
+0.0,
+0.0427,
+Consumer Defensive,
+-66.6666659204426,
+0

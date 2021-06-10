@@ -36,10 +36,12 @@ public class JobCompletionNotificationListener extends JobExecutionListenerSuppo
 
 
 
-//                jdbcTemplate.query("select * from values",
-//                        (rs, row) -> new Values()
-//
-//                ).forEach(values -> log.info("Found <" + values + "> in the database."));
+
+
+                jdbcTemplate.query("select code_name, year from values",
+                        (rs, row) -> new Values()
+
+                ).forEach(values -> log.info("Found <" + values.getCodeName() + ": "+values.getYear()+"> in the database."));
 
 //
            // Map<String, Team> teamData = new HashMap<>();

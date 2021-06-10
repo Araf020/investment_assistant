@@ -2,238 +2,240 @@ package team.crapplet.investment_assistant.ProcessData.processWithBatch;
 
 public class InputDataSets {
 
+    private String Name;
+    private String Revenue;
+    private String Revenue_Growth;
+    private String Cost_of_Revenue;
+    private String Gross_Profit;
+    private String R_D_Expenses;
+    private String SG_A_Expense;
+    private String Operating_Expenses;
+    private String Operating_Income;
+    private String Interest_Expense;
+    private String Earnings_before_Tax;
+    private String Income_Tax_Expense;
+    private String Net_Income___Non_Controlling_int;
+    private String Net_Income___Discontinued_ops;
+    private String Net_Income;
+    private String Preferred_Dividends;
+    private String Net_Income_Com;
+    private String EPS;
+    private String EPS_Diluted;
+    private String Weighted_Average_Shs_Out;
+    private String Weighted_Average_Shs_Out_Dil;
+    private String Dividend_per_Share;
+    private String Gross_Margin;
+    private String EBITDA_Margin;
+    private String EBIT_Margin;
+    private String Profit_Margin;
+    private String Free_Cash_Flow_margin;
+    private String EBITDA;
+    private String EBIT;
+    private String Consolidated_Income;
+    private String Earnings_Before_Tax_Margin;
+    private String Net_Profit_Margin;
+    private String Cash_and_cash_equivalents;
+    private String Short_term_investments;
+    private String Cash_and_short_term_investments;
+    private String Receivables;
+    private String Inventories;
+    private String Total_current_assets;
+    private String Property_Plant___Equipment_Net;
+    private String _Goodwill_and_Intangible_Assets;
+    private String _Long_term_investments;
+    private String _Tax_assets;
+    private String _Total_non_current_assets;
+    private String _Total_assets;
+    private String _Payables;
+    private String _Short_term_debt;
+    private String _Total_current_liabilities;
+    private String _Long_term_debt;
+    private String _Total_debt;
+    private String _Deferred_revenue;
+    private String _Tax_Liabilities;
+    private String _Deposit_Liabilities;
+    private String _Total_non_current_liabilities;
+    private String _Total_liabilities;
+    private String _Other_comprehensive_income;
+    private String _Retained_earnings_deficit;
+    private String _Total_shareholders_equity;
+    private String _Investments;
+    private String _Net_Debt;
+    private String _Other_Assets;
+    private String _Other_Liabilities;
+    private String _Depreciation___Amortization;
+    private String _Stock_based_compensation;
+    private String _Operating_Cash_Flow;
+    private String _Capital_Expenditure;
+    private String _Acquisitions_and_disposals;
+    private String _Investment_purchases_and_sales;
+    private String _Investing_Cash_flow;
+    private String _Issuance_repayment_of_deb;
+    private String _Issuance_buybacks_of_share;
+    private String _Dividend_payments;
+    private String _Financing_Cash_Flow;
+    private String _Effect_of_forex_changes_on_cash;
+    private String _Net_cash_flow_per_Change_in_cash;
+    private String _Free_Cash_Flow;
+    private String _Net_Cash_per_Marketcap;
+    private String _priceBookValueRatio;
+    private String _priceToBookRatio;
+    private String _priceToSalesRatio;
+    private String _priceEarningsRatio;
+    private String _priceToFreeCashFlowsRatio;
+    private String _priceToOperatingCashFlowsRatio;
+    private String _priceCashFlowRatio;
+    private String _priceEarningsToGrowthRatio;
+    private String _priceSalesRatio;
+    private String _dividendYield;
+    private String _enterpriseValueMultiple;
+    private String _priceFairValue;
+    private String _ebitperRevenue;
+    private String _ebtperEBIT;
+    private String _niperEBT;
+    private String _grossProfitMargin;
+    private String _operatingProfitMargin;
+    private String _pretaxProfitMargin;
+    private String _netProfitMargin;
+    private String _effectiveTaxRate;
+    private String _returnOnAssets;
+    private String _returnOnEquity;
+    private String _returnOnCapitalEmployed;
+    private String _nIperEBT;
+    private String _eBTperEBIT;
+    private String _eBITperRevenue;
+    private String _payablesTurnover;
+    private String _inventoryTurnover;
+    private String _fixedAssetTurnover;
+    private String _assetTurnover;
+    private String _currentRatio;
+    private String _quickRatio;
+    private String _cashRatio;
+    private String _daysOfSalesOutstanding;
+    private String _daysOfInventoryOutstanding;
+    private String _operatingCycle;
+    private String _daysOfPayablesOutstanding;
+    private String _cashConversionCycle;
+    private String _debtRatio;
+    private String _debtEquityRatio;
+    private String _longtermDebtToCapitalization;
+    private String _totalDebtToCapitalization;
+    private String _interestCoverage;
+    private String _cashFlowToDebtRatio;
+    private String _companyEquityMultiplier;
+    private String _operatingCashFlowPerShare;
+    private String _freeCashFlowPerShare;
+    private String _cashPerShare;
+    private String _payoutRatio;
+    private String _operatingCashFlowSalesRatio;
+    private String _freeCashFlowOperatingCashFlowRatio;
+    private String _cashFlowCoverageRatios;
+    private String _shortTermCoverageRatios;
+    private String _capitalExpenditureCoverageRatios;
+    private String _dividendpaidAndCapexCoverageRatios;
+    private String _dividendPayoutRatio;
+    private String _Revenue_per_Share;
+    private String _Net_Income_per_Share;
+    private String _Operating_Cash_Flow_per_Share;
+    private String _Free_Cash_Flow_per_Share;
+    private String _Cash_per_Share;
+    private String _Book_Value_per_Share;
+    private String _Tangible_Book_Value_per_Share;
+    private String _Shareholders_Equity_per_Share;
+    private String _Interest_Debt_per_Share;
+    private String _Market_Cap;
+    private String _Enterprise_Value;
+    private String _PE_ratio;
+    private String _Price_to_Sales_Ratio;
+    private String _POCF_ratio;
+    private String _PFCF_ratio;
+    private String _PB_ratio;
+    private String _PTB_ratio;
+    private String _EV_to_Sales;
+    private String _Enterprise_Value_over_EBITDA;
+    private String _EV_to_Operating_cash_flow;
+    private String _EV_to_Free_cash_flow;
+    private String _Earnings_Yield;
+    private String _Free_Cash_Flow_Yield;
+    private String _Debt_to_Equity;
+    private String _Debt_to_Assets;
+    private String _Net_Debt_to_EBITDA;
+    private String _Current_ratio;
+    private String _Interest_Coverage;
+    private String _Income_Quality;
+    private String _Dividend_Yield;
+    private String _Payout_Ratio;
+    private String _SG_A_to_Revenue;
+    private String _R_D_to_Revenue;
+    private String _Intangibles_to_Total_Assets;
+    private String _Capex_to_Operating_Cash_Flow;
+    private String _Capex_to_Revenue;
+    private String _Capex_to_Depreciation;
+    private String _Stock_based_compensation_to_Revenue;
+    private String _Graham_Number;
+    private String _ROIC;
+    private String _Return_on_Tangible_Assets;
+    private String _Graham_Net_Net;
+    private String _Working_Capital;
+    private String _Tangible_Asset_Value;
+    private String _Net_Current_Asset_Value;
+    private String _Invested_Capital;
+    private String _Average_Receivables;
+    private String _Average_Payables;
+    private String _Average_Inventory;
+    private String _Days_Sales_Outstanding;
+    private String _Days_Payables_Outstanding;
+    private String _Days_of_Inventory_on_Hand;
+    private String _Receivables_Turnover;
+    private String _Payables_Turnover;
+    private String _Inventory_Turnover;
+    private String _ROE;
+    private String _Capex_per_Share;
+    private String _Gross_Profit_Growth;
+    private String _EBIT_Growth;
+    private String _Operating_Income_Growth;
+    private String _Net_Income_Growth;
+    private String _EPS_Growth;
+    private String _EPS_Diluted_Growth;
+    private String _Weighted_Average_Shares_Growth;
+    private String _Weighted_Average_Shares_Diluted_Growth;
+    private String _Dividends_per_Share_Growth;
+    private String _Operating_Cash_Flow_growth;
+    private String _Free_Cash_Flow_growth;
+    private String _10Y_Revenue_Growth_per_Share;
+    private String _5Y_Revenue_Growth_per_Share;
+    private String _3Y_Revenue_Growth_per_Share;
+    private String _10Y_Operating_CF_Growth_per_Share;
+    private String _5Y_Operating_CF_Growth_per_Share;
+    private String _3Y_Operating_CF_Growth_per_Share;
+    private String _10Y_Net_Income_Growth_per_Share;
+    private String _5Y_Net_Income_Growth_per_Share;
+    private String _3Y_Net_Income_Growth_per_Share;
+    private String _10Y_Shareholders_Equity_Growth_per_Share;
+    private String _5Y_Shareholders_Equity_Growth_per_Share;
+    private String _3Y_Shareholders_Equity_Growth_per_Share;
+    private String _10Y_Dividend_per_Share_Growth_per_Share;
+    private String _5Y_Dividend_per_Share_Growth_per_Share;
+    private String _3Y_Dividend_per_Share_Growth_per_Share;
+    private String _Receivables_growth;
+    private String _Inventory_Growth;
+    private String _Asset_Growth;
+    private String _Book_Value_per_Share_Growth;
+    private String _Debt_Growth;
+    private String _R_D_Expense_Growth;
+    private String _SG_A_Expenses_Growth;
+    private String _Sector;
+    private String _2018_PRICE_VAR_percent;
+    private String _Class;
 
-private String company_id;
-private String Cost_of_Revenue;
-private String Gross_Profit;
-private String R_D_Expenses;
-private String SG_A_Expense;
-private String Operating_Expenses;
-private String Operating_Income;
-private String Interest_Expense;
-private String Earnings_before_Tax;
-private String Income_Tax_Expense;
-private String Net_Income_Non_Controlling_int;
-private String Net_Income_Discontinued_ops;
-private String Net_Income;
-private String Preferred_Dividends;
-private String Net_Income_Com;
-private String EPS;
-private String EPS_Diluted;
-private String Weighted_Average_Shs_Out;
-private String Weighted_Average_Shs_Out_Dil;
-private String Dividend_per_Share;
-private String Gross_Margin;
-private String Revenue_Growth;
-private String Revenue;
-private String EBITDA_Margin;
-private String EBIT_Margin;
-private String Profit_Margin;
-private String Free_Cash_Flow_margin;
-private String EBITDA;
-private String EBIT;
-private String Consolidated_Income;
-private String Earnings_Before_Tax_Margin;
-private String Net_Profit_Margin;
-private String Cash_and_cash_equivalents;
-private String Short_term_investments;
-private String Cash_and_short_term_investments;
-private String Receivables;
-private String Inventories;
-private String Total_current_assets;
-private String Property;
-private String Plant_Equipment_Net;
-private String Goodwill_and_Intangible_Assets;
-private String Long_term_investments;
-private String Tax_assets;
-private String Total_non_current_assets;
-private String Total_assets;
-private String Payables;
-private String Short_term_debt;
-private String Total_current_liabilities;
-private String Long_term_debt;
-private String Total_debt;
-private String Deferred_revenue;
-private String Tax_Liabilities;
-private String Deposit_Liabilities;
-private String Total_non_current_liabilities;
-private String Total_liabilities;
-private String Other_comprehensive_income;
-private String Retained_earnings_deficit;
-private String Total_shareholders_equity;
-private String Investments;
-private String Net_Debt;
-private String Other_Assets;
-private String Other_Liabilities;
-private String Depreciation_Amortization;
-private String Stock_based_compensation;
-private String Operating_Cash_Flow;
-private String Capital_Expenditure;
-private String Acquisitions_and_disposals;
-private String Investment_purchases_and_sales;
-private String Investing_Cash_flow;
-private String Issuance_repayment_of_debt;
-private String Issuance_buybacks_of_shares;
-private String Dividend_payments;
-private String Financing_Cash_Flow;
-private String Effect_of_forex_changes_on_cash;
-private String Net_cash_flow__per__Change_in_cash;
-private String Free_Cash_Flow;
-private String Net_Cash_per_Marketcap;
-private String priceBookValueRatio;
-private String priceToBookRatio;
-private String priceToSalesRatio;
-private String priceEarningsRatio;
-private String priceToFreeCashFlowsRatio;
-private String priceToOperatingCashFlowsRatio;
-private String priceCashFlowRatio;
-private String priceEarningsToGrowthRatio;
-private String priceSalesRatio;
-private String dividendYield;
-private String enterpriseValueMultiple;
-private String priceFairValue;
-private String ebitperRevenue;
-private String ebtperEBIT;
-private String niperEBT;
-private String grossProfitMargin;
-private String operatingProfitMargin;
-private String pretaxProfitMargin;
-private String netProfitMargin;
-private String effectiveTaxRate;
-private String returnOnAssets;
-private String returnOnEquity;
-private String returnOnCapitalEmployed;
-private String nIperEBT;
-private String eBTperEBIT;
-private String eBITperRevenue;
-private String payablesTurnover;
-private String inventoryTurnover;
-private String fixedAssetTurnover;
-private String assetTurnover;
-private String currentRatio;
-private String quickRatio;
-private String cashRatio;
-private String daysOfSalesOutstanding;
-private String daysOfInventoryOutstanding;
-private String operatingCycle;
-private String daysOfPayablesOutstanding;
-private String cashConversionCycle;
-private String debtRatio;
-private String debtEquityRatio;
-private String longtermDebtToCapitalization;
-private String totalDebtToCapitalization;
-private String interestCoverage;
-private String cashFlowToDebtRatio;
-private String companyEquityMultiplier;
-private String operatingCashFlowPerShare;
-private String freeCashFlowPerShare;
-private String cashPerShare;
-private String payoutRatio;
-private String operatingCashFlowSalesRatio;
-private String freeCashFlowOperatingCashFlowRatio;
-private String cashFlowCoverageRatios;
-private String shortTermCoverageRatios;
-private String capitalExpenditureCoverageRatios;
-private String dividendpaidAndCapexCoverageRatios;
-private String dividendPayoutRatio;
-private String Revenue_per_Share;
-private String Net_Income_per_Share;
-private String Operating_Cash_Flow_per_Share;
-private String Free_Cash_Flow_per_Share;
-private String Cash_per_Share;
-private String Book_Value_per_Share;
-private String Tangible_Book_Value_per_Share;
-private String Shareholders_Equity_per_Share;
-private String Interest_Debt_per_Share;
-private String Market_Cap;
-private String Enterprise_Value;
-private String PE_ratio;
-private String Price_to_Sales_Ratio;
-private String POCF_ratio;
-private String PFCF_ratio;
-private String PB_ratio;
-private String PTB_ratio;
-private String EV_to_Sales;
-private String Enterprise_Value_over_EBITDA;
-private String EV_to_Operating_cash_flow;
-private String EV_to_Free_cash_flow;
-private String Earnings_Yield;
-private String Free_Cash_Flow_Yield;
-private String Debt_to_Equity;
-private String Debt_to_Assets;
-private String Net_Debt_to_EBITDA;
-private String Current_ratio;
-private String Interest_Coverage;
-private String Income_Quality;
-private String Dividend_Yield;
-private String Payout_Ratio;
-private String SG_A_to_Revenue;
-private String R_D_to_Revenue;
-private String Intangibles_to_Total_Assets;
-private String Capex_to_Operating_Cash_Flow;
-private String Capex_to_Revenue;
-private String Capex_to_Depreciation;
-private String Stock_based_compensation_to_Revenue;
-private String Graham_Number;
-private String ROIC;
-private String Return_on_Tangible_Assets;
-private String Graham_Net_Net;
-private String Working_Capital;
-private String Tangible_Asset_Value;
-private String Net_Current_Asset_Value;
-private String Invested_Capital;
-private String Average_Receivables;
-private String Average_Payables;
-private String Average_Inventory;
-private String Days_Sales_Outstanding;
-private String Days_Payables_Outstanding;
-private String Days_of_Inventory_on_Hand;
-private String Receivables_Turnover;
-private String Payables_Turnover;
-private String Inventory_Turnover;
-private String ROE;
-private String Capex_per_Share;
-private String Gross_Profit_Growth;
-private String EBIT_Growth;
-private String Operating_Income_Growth;
-private String Net_Income_Growth;
-private String EPS_Growth;
-private String EPS_Diluted_Growth;
-private String Weighted_Average_Shares_Growth;
-private String Weighted_Average_Shares_Diluted_Growth;
-private String Dividends_per_Share_Growth;
-private String Operating_Cash_Flow_growth;
-private String Free_Cash_Flow_growth;
-private String tenY_Revenue_Growth_per_Share;
-private String fiveY_Revenue_Growth_per_Share;
-private String threeY_Revenue_Growth_per_Share;
-private String tenY_Operating_CF_Growth_per_Share;
-private String fiveY_Operating_CF_Growth_per_Share;
-private String threeY_Operating_CF_Growth_per_Share;
-private String tenY_Net_Income_Growth_per_Share;
-private String fiveY_Net_Income_Growth_per_Share;
-private String threeY_Net_Income_Growth_per_Share;
-private String tenY_Shareholders_Equity_Growth_per_Share;
-private String fiveY_Shareholders_Equity_Growth_per_Share;
-private String threeY_Shareholders_Equity_Growth_per_Share;
-private String tenY_Dividend_per_Share_Growth_per_Share;
-private String fiveY_Dividend_per_Share_Growth_per_Share;
-private String threeY_Dividend_per_Share_Growth_per_Share;
-private String Receivables_growth;
-private String Inventory_Growth;
-private String Asset_Growth;
-private String Book_Value_per_Share_Growth;
-private String Debt_Growth;
-private String R_D_Expense_Growth;
-private String SG_A_Expenses_Growth;
-private String Sector;
-private String two019_PRICE_VAR_percent;
-//private String cls;
 
-public InputDataSets(){}
+    public  InputDataSets(){
 
-    public InputDataSets(String company_id, String cost_of_Revenue, String gross_Profit, String r_D_Expenses, String SG_A_Expense, String operating_Expenses, String operating_Income, String interest_Expense, String earnings_before_Tax, String income_Tax_Expense, String net_Income_Non_Controlling_int, String net_Income_Discontinued_ops, String net_Income, String preferred_Dividends, String net_Income_Com, String EPS, String EPS_Diluted, String weighted_Average_Shs_Out, String weighted_Average_Shs_Out_Dil, String dividend_per_Share, String gross_Margin, String revenue_Growth, String revenue, String EBITDA_Margin, String EBIT_Margin, String profit_Margin, String free_Cash_Flow_margin, String EBITDA, String EBIT, String consolidated_Income, String earnings_Before_Tax_Margin, String net_Profit_Margin, String cash_and_cash_equivalents, String short_term_investments, String cash_and_short_term_investments, String receivables, String inventories, String total_current_assets, String property, String plant_Equipment_Net, String goodwill_and_Intangible_Assets, String long_term_investments, String tax_assets, String total_non_current_assets, String total_assets, String payables, String short_term_debt, String total_current_liabilities, String long_term_debt, String total_debt, String deferred_revenue, String tax_Liabilities, String deposit_Liabilities, String total_non_current_liabilities, String total_liabilities, String other_comprehensive_income, String retained_earnings_deficit, String total_shareholders_equity, String investments, String net_Debt, String other_Assets, String other_Liabilities, String depreciation_Amortization, String stock_based_compensation, String operating_Cash_Flow, String capital_Expenditure, String acquisitions_and_disposals, String investment_purchases_and_sales, String investing_Cash_flow, String issuance_repayment_of_debt, String issuance_buybacks_of_shares, String dividend_payments, String financing_Cash_Flow, String effect_of_forex_changes_on_cash, String net_cash_flow__per__Change_in_cash, String free_Cash_Flow, String net_Cash_per_Marketcap, String priceBookValueRatio, String priceToBookRatio, String priceToSalesRatio, String priceEarningsRatio, String priceToFreeCashFlowsRatio, String priceToOperatingCashFlowsRatio, String priceCashFlowRatio, String priceEarningsToGrowthRatio, String priceSalesRatio, String dividendYield, String enterpriseValueMultiple, String priceFairValue, String ebitperRevenue, String ebtperEBIT, String niperEBT, String grossProfitMargin, String operatingProfitMargin, String pretaxProfitMargin, String netProfitMargin, String effectiveTaxRate, String returnOnAssets, String returnOnEquity, String returnOnCapitalEmployed, String nIperEBT, String eBTperEBIT, String eBITperRevenue, String payablesTurnover, String inventoryTurnover, String fixedAssetTurnover, String assetTurnover, String currentRatio, String quickRatio, String cashRatio, String daysOfSalesOutstanding, String daysOfInventoryOutstanding, String operatingCycle, String daysOfPayablesOutstanding, String cashConversionCycle, String debtRatio, String debtEquityRatio, String longtermDebtToCapitalization, String totalDebtToCapitalization, String interestCoverage, String cashFlowToDebtRatio, String companyEquityMultiplier, String operatingCashFlowPerShare, String freeCashFlowPerShare, String cashPerShare, String payoutRatio, String operatingCashFlowSalesRatio, String freeCashFlowOperatingCashFlowRatio, String cashFlowCoverageRatios, String shortTermCoverageRatios, String capitalExpenditureCoverageRatios, String dividendpaidAndCapexCoverageRatios, String dividendPayoutRatio, String revenue_per_Share, String net_Income_per_Share, String operating_Cash_Flow_per_Share, String free_Cash_Flow_per_Share, String cash_per_Share, String book_Value_per_Share, String tangible_Book_Value_per_Share, String shareholders_Equity_per_Share, String interest_Debt_per_Share, String market_Cap, String enterprise_Value, String PE_ratio, String price_to_Sales_Ratio, String POCF_ratio, String PFCF_ratio, String PB_ratio, String PTB_ratio, String EV_to_Sales, String enterprise_Value_over_EBITDA, String EV_to_Operating_cash_flow, String EV_to_Free_cash_flow, String earnings_Yield, String free_Cash_Flow_Yield, String debt_to_Equity, String debt_to_Assets, String net_Debt_to_EBITDA, String current_ratio, String interest_Coverage, String income_Quality, String dividend_Yield, String payout_Ratio, String SG_A_to_Revenue, String r_D_to_Revenue, String intangibles_to_Total_Assets, String capex_to_Operating_Cash_Flow, String capex_to_Revenue, String capex_to_Depreciation, String stock_based_compensation_to_Revenue, String graham_Number, String ROIC, String return_on_Tangible_Assets, String graham_Net_Net, String working_Capital, String tangible_Asset_Value, String net_Current_Asset_Value, String invested_Capital, String average_Receivables, String average_Payables, String average_Inventory, String days_Sales_Outstanding, String days_Payables_Outstanding, String days_of_Inventory_on_Hand, String receivables_Turnover, String payables_Turnover, String inventory_Turnover, String ROE, String capex_per_Share, String gross_Profit_Growth, String EBIT_Growth, String operating_Income_Growth, String net_Income_Growth, String EPS_Growth, String EPS_Diluted_Growth, String weighted_Average_Shares_Growth, String weighted_Average_Shares_Diluted_Growth, String dividends_per_Share_Growth, String operating_Cash_Flow_growth, String free_Cash_Flow_growth, String tenY_Revenue_Growth_per_Share, String fiveY_Revenue_Growth_per_Share, String threeY_Revenue_Growth_per_Share, String tenY_Operating_CF_Growth_per_Share, String fiveY_Operating_CF_Growth_per_Share, String threeY_Operating_CF_Growth_per_Share, String tenY_Net_Income_Growth_per_Share, String fiveY_Net_Income_Growth_per_Share, String threeY_Net_Income_Growth_per_Share, String tenY_Shareholders_Equity_Growth_per_Share, String fiveY_Shareholders_Equity_Growth_per_Share, String threeY_Shareholders_Equity_Growth_per_Share, String tenY_Dividend_per_Share_Growth_per_Share, String fiveY_Dividend_per_Share_Growth_per_Share, String threeY_Dividend_per_Share_Growth_per_Share, String receivables_growth, String inventory_Growth, String asset_Growth, String book_Value_per_Share_Growth, String debt_Growth, String r_D_Expense_Growth, String SG_A_Expenses_Growth, String sector, String two019_PRICE_VAR_percent) {
-        this.company_id = company_id;
+    }
+    public InputDataSets(String name, String revenue, String revenue_Growth, String cost_of_Revenue, String gross_Profit, String r_D_Expenses, String SG_A_Expense, String operating_Expenses, String operating_Income, String interest_Expense, String earnings_before_Tax, String income_Tax_Expense, String net_Income___Non_Controlling_int, String net_Income___Discontinued_ops, String net_Income, String preferred_Dividends, String net_Income_Com, String EPS, String EPS_Diluted, String weighted_Average_Shs_Out, String weighted_Average_Shs_Out_Dil, String dividend_per_Share, String gross_Margin, String EBITDA_Margin, String EBIT_Margin, String profit_Margin, String free_Cash_Flow_margin, String EBITDA, String EBIT, String consolidated_Income, String earnings_Before_Tax_Margin, String net_Profit_Margin, String cash_and_cash_equivalents, String short_term_investments, String cash_and_short_term_investments, String receivables, String inventories, String total_current_assets, String property_Plant___Equipment_Net, String _Goodwill_and_Intangible_Assets, String _Long_term_investments, String _Tax_assets, String _Total_non_current_assets, String _Total_assets, String _Payables, String _Short_term_debt, String _Total_current_liabilities, String _Long_term_debt, String _Total_debt, String _Deferred_revenue, String _Tax_Liabilities, String _Deposit_Liabilities, String _Total_non_current_liabilities, String _Total_liabilities, String _Other_comprehensive_income, String _Retained_earnings_deficit, String _Total_shareholders_equity, String _Investments, String _Net_Debt, String _Other_Assets, String _Other_Liabilities, String _Depreciation___Amortization, String _Stock_based_compensation, String _Operating_Cash_Flow, String _Capital_Expenditure, String _Acquisitions_and_disposals, String _Investment_purchases_and_sales, String _Investing_Cash_flow, String _Issuance_repayment_of_deb, String _Issuance_buybacks_of_share, String _Dividend_payments, String _Financing_Cash_Flow, String _Effect_of_forex_changes_on_cash, String _Net_cash_flow_per_Change_in_cash, String _Free_Cash_Flow, String _Net_Cash_per_Marketcap, String _priceBookValueRatio, String _priceToBookRatio, String _priceToSalesRatio, String _priceEarningsRatio, String _priceToFreeCashFlowsRatio, String _priceToOperatingCashFlowsRatio, String _priceCashFlowRatio, String _priceEarningsToGrowthRatio, String _priceSalesRatio, String _dividendYield, String _enterpriseValueMultiple, String _priceFairValue, String _ebitperRevenue, String _ebtperEBIT, String _niperEBT, String _grossProfitMargin, String _operatingProfitMargin, String _pretaxProfitMargin, String _netProfitMargin, String _effectiveTaxRate, String _returnOnAssets, String _returnOnEquity, String _returnOnCapitalEmployed, String _nIperEBT, String _eBTperEBIT, String _eBITperRevenue, String _payablesTurnover, String _inventoryTurnover, String _fixedAssetTurnover, String _assetTurnover, String _currentRatio, String _quickRatio, String _cashRatio, String _daysOfSalesOutstanding, String _daysOfInventoryOutstanding, String _operatingCycle, String _daysOfPayablesOutstanding, String _cashConversionCycle, String _debtRatio, String _debtEquityRatio, String _longtermDebtToCapitalization, String _totalDebtToCapitalization, String _interestCoverage, String _cashFlowToDebtRatio, String _companyEquityMultiplier, String _operatingCashFlowPerShare, String _freeCashFlowPerShare, String _cashPerShare, String _payoutRatio, String _operatingCashFlowSalesRatio, String _freeCashFlowOperatingCashFlowRatio, String _cashFlowCoverageRatios, String _shortTermCoverageRatios, String _capitalExpenditureCoverageRatios, String _dividendpaidAndCapexCoverageRatios, String _dividendPayoutRatio, String _Revenue_per_Share, String _Net_Income_per_Share, String _Operating_Cash_Flow_per_Share, String _Free_Cash_Flow_per_Share, String _Cash_per_Share, String _Book_Value_per_Share, String _Tangible_Book_Value_per_Share, String _Shareholders_Equity_per_Share, String _Interest_Debt_per_Share, String _Market_Cap, String _Enterprise_Value, String _PE_ratio, String _Price_to_Sales_Ratio, String _POCF_ratio, String _PFCF_ratio, String _PB_ratio, String _PTB_ratio, String _EV_to_Sales, String _Enterprise_Value_over_EBITDA, String _EV_to_Operating_cash_flow, String _EV_to_Free_cash_flow, String _Earnings_Yield, String _Free_Cash_Flow_Yield, String _Debt_to_Equity, String _Debt_to_Assets, String _Net_Debt_to_EBITDA, String _Current_ratio, String _Interest_Coverage, String _Income_Quality, String _Dividend_Yield, String _Payout_Ratio, String _SG_A_to_Revenue, String _R_D_to_Revenue, String _Intangibles_to_Total_Assets, String _Capex_to_Operating_Cash_Flow, String _Capex_to_Revenue, String _Capex_to_Depreciation, String _Stock_based_compensation_to_Revenue, String _Graham_Number, String _ROIC, String _Return_on_Tangible_Assets, String _Graham_Net_Net, String _Working_Capital, String _Tangible_Asset_Value, String _Net_Current_Asset_Value, String _Invested_Capital, String _Average_Receivables, String _Average_Payables, String _Average_Inventory, String _Days_Sales_Outstanding, String _Days_Payables_Outstanding, String _Days_of_Inventory_on_Hand, String _Receivables_Turnover, String _Payables_Turnover, String _Inventory_Turnover, String _ROE, String _Capex_per_Share, String _Gross_Profit_Growth, String _EBIT_Growth, String _Operating_Income_Growth, String _Net_Income_Growth, String _EPS_Growth, String _EPS_Diluted_Growth, String _Weighted_Average_Shares_Growth, String _Weighted_Average_Shares_Diluted_Growth, String _Dividends_per_Share_Growth, String _Operating_Cash_Flow_growth, String _Free_Cash_Flow_growth, String _10Y_Revenue_Growth_per_Share, String _5Y_Revenue_Growth_per_Share, String _3Y_Revenue_Growth_per_Share, String _10Y_Operating_CF_Growth_per_Share, String _5Y_Operating_CF_Growth_per_Share, String _3Y_Operating_CF_Growth_per_Share, String _10Y_Net_Income_Growth_per_Share, String _5Y_Net_Income_Growth_per_Share, String _3Y_Net_Income_Growth_per_Share, String _10Y_Shareholders_Equity_Growth_per_Share, String _5Y_Shareholders_Equity_Growth_per_Share, String _3Y_Shareholders_Equity_Growth_per_Share, String _10Y_Dividend_per_Share_Growth_per_Share, String _5Y_Dividend_per_Share_Growth_per_Share, String _3Y_Dividend_per_Share_Growth_per_Share, String _Receivables_growth, String _Inventory_Growth, String _Asset_Growth, String _Book_Value_per_Share_Growth, String _Debt_Growth, String _R_D_Expense_Growth, String _SG_A_Expenses_Growth, String _Sector, String _2018_PRICE_VAR_percent, String _cls) {
+        Name = name;
+        Revenue = revenue;
+        Revenue_Growth = revenue_Growth;
         Cost_of_Revenue = cost_of_Revenue;
         Gross_Profit = gross_Profit;
         R_D_Expenses = r_D_Expenses;
@@ -243,8 +245,8 @@ public InputDataSets(){}
         Interest_Expense = interest_Expense;
         Earnings_before_Tax = earnings_before_Tax;
         Income_Tax_Expense = income_Tax_Expense;
-        Net_Income_Non_Controlling_int = net_Income_Non_Controlling_int;
-        Net_Income_Discontinued_ops = net_Income_Discontinued_ops;
+        Net_Income___Non_Controlling_int = net_Income___Non_Controlling_int;
+        Net_Income___Discontinued_ops = net_Income___Discontinued_ops;
         Net_Income = net_Income;
         Preferred_Dividends = preferred_Dividends;
         Net_Income_Com = net_Income_Com;
@@ -254,8 +256,6 @@ public InputDataSets(){}
         Weighted_Average_Shs_Out_Dil = weighted_Average_Shs_Out_Dil;
         Dividend_per_Share = dividend_per_Share;
         Gross_Margin = gross_Margin;
-        Revenue_Growth = revenue_Growth;
-        Revenue = revenue;
         this.EBITDA_Margin = EBITDA_Margin;
         this.EBIT_Margin = EBIT_Margin;
         Profit_Margin = profit_Margin;
@@ -271,2289 +271,2220 @@ public InputDataSets(){}
         Receivables = receivables;
         Inventories = inventories;
         Total_current_assets = total_current_assets;
-        Property = property;
-        Plant_Equipment_Net = plant_Equipment_Net;
-        Goodwill_and_Intangible_Assets = goodwill_and_Intangible_Assets;
-        Long_term_investments = long_term_investments;
-        Tax_assets = tax_assets;
-        Total_non_current_assets = total_non_current_assets;
-        Total_assets = total_assets;
-        Payables = payables;
-        Short_term_debt = short_term_debt;
-        Total_current_liabilities = total_current_liabilities;
-        Long_term_debt = long_term_debt;
-        Total_debt = total_debt;
-        Deferred_revenue = deferred_revenue;
-        Tax_Liabilities = tax_Liabilities;
-        Deposit_Liabilities = deposit_Liabilities;
-        Total_non_current_liabilities = total_non_current_liabilities;
-        Total_liabilities = total_liabilities;
-        Other_comprehensive_income = other_comprehensive_income;
-        Retained_earnings_deficit = retained_earnings_deficit;
-        Total_shareholders_equity = total_shareholders_equity;
-        Investments = investments;
-        Net_Debt = net_Debt;
-        Other_Assets = other_Assets;
-        Other_Liabilities = other_Liabilities;
-        Depreciation_Amortization = depreciation_Amortization;
-        Stock_based_compensation = stock_based_compensation;
-        Operating_Cash_Flow = operating_Cash_Flow;
-        Capital_Expenditure = capital_Expenditure;
-        Acquisitions_and_disposals = acquisitions_and_disposals;
-        Investment_purchases_and_sales = investment_purchases_and_sales;
-        Investing_Cash_flow = investing_Cash_flow;
-        Issuance_repayment_of_debt = issuance_repayment_of_debt;
-        Issuance_buybacks_of_shares = issuance_buybacks_of_shares;
-        Dividend_payments = dividend_payments;
-        Financing_Cash_Flow = financing_Cash_Flow;
-        Effect_of_forex_changes_on_cash = effect_of_forex_changes_on_cash;
-        Net_cash_flow__per__Change_in_cash = net_cash_flow__per__Change_in_cash;
-        Free_Cash_Flow = free_Cash_Flow;
-        Net_Cash_per_Marketcap = net_Cash_per_Marketcap;
-        this.priceBookValueRatio = priceBookValueRatio;
-        this.priceToBookRatio = priceToBookRatio;
-        this.priceToSalesRatio = priceToSalesRatio;
-        this.priceEarningsRatio = priceEarningsRatio;
-        this.priceToFreeCashFlowsRatio = priceToFreeCashFlowsRatio;
-        this.priceToOperatingCashFlowsRatio = priceToOperatingCashFlowsRatio;
-        this.priceCashFlowRatio = priceCashFlowRatio;
-        this.priceEarningsToGrowthRatio = priceEarningsToGrowthRatio;
-        this.priceSalesRatio = priceSalesRatio;
-        this.dividendYield = dividendYield;
-        this.enterpriseValueMultiple = enterpriseValueMultiple;
-        this.priceFairValue = priceFairValue;
-        this.ebitperRevenue = ebitperRevenue;
-        this.ebtperEBIT = ebtperEBIT;
-        this.niperEBT = niperEBT;
-        this.grossProfitMargin = grossProfitMargin;
-        this.operatingProfitMargin = operatingProfitMargin;
-        this.pretaxProfitMargin = pretaxProfitMargin;
-        this.netProfitMargin = netProfitMargin;
-        this.effectiveTaxRate = effectiveTaxRate;
-        this.returnOnAssets = returnOnAssets;
-        this.returnOnEquity = returnOnEquity;
-        this.returnOnCapitalEmployed = returnOnCapitalEmployed;
-        this.nIperEBT = nIperEBT;
-        this.eBTperEBIT = eBTperEBIT;
-        this.eBITperRevenue = eBITperRevenue;
-        this.payablesTurnover = payablesTurnover;
-        this.inventoryTurnover = inventoryTurnover;
-        this.fixedAssetTurnover = fixedAssetTurnover;
-        this.assetTurnover = assetTurnover;
-        this.currentRatio = currentRatio;
-        this.quickRatio = quickRatio;
-        this.cashRatio = cashRatio;
-        this.daysOfSalesOutstanding = daysOfSalesOutstanding;
-        this.daysOfInventoryOutstanding = daysOfInventoryOutstanding;
-        this.operatingCycle = operatingCycle;
-        this.daysOfPayablesOutstanding = daysOfPayablesOutstanding;
-        this.cashConversionCycle = cashConversionCycle;
-        this.debtRatio = debtRatio;
-        this.debtEquityRatio = debtEquityRatio;
-        this.longtermDebtToCapitalization = longtermDebtToCapitalization;
-        this.totalDebtToCapitalization = totalDebtToCapitalization;
-        this.interestCoverage = interestCoverage;
-        this.cashFlowToDebtRatio = cashFlowToDebtRatio;
-        this.companyEquityMultiplier = companyEquityMultiplier;
-        this.operatingCashFlowPerShare = operatingCashFlowPerShare;
-        this.freeCashFlowPerShare = freeCashFlowPerShare;
-        this.cashPerShare = cashPerShare;
-        this.payoutRatio = payoutRatio;
-        this.operatingCashFlowSalesRatio = operatingCashFlowSalesRatio;
-        this.freeCashFlowOperatingCashFlowRatio = freeCashFlowOperatingCashFlowRatio;
-        this.cashFlowCoverageRatios = cashFlowCoverageRatios;
-        this.shortTermCoverageRatios = shortTermCoverageRatios;
-        this.capitalExpenditureCoverageRatios = capitalExpenditureCoverageRatios;
-        this.dividendpaidAndCapexCoverageRatios = dividendpaidAndCapexCoverageRatios;
-        this.dividendPayoutRatio = dividendPayoutRatio;
-        Revenue_per_Share = revenue_per_Share;
-        Net_Income_per_Share = net_Income_per_Share;
-        Operating_Cash_Flow_per_Share = operating_Cash_Flow_per_Share;
-        Free_Cash_Flow_per_Share = free_Cash_Flow_per_Share;
-        Cash_per_Share = cash_per_Share;
-        Book_Value_per_Share = book_Value_per_Share;
-        Tangible_Book_Value_per_Share = tangible_Book_Value_per_Share;
-        Shareholders_Equity_per_Share = shareholders_Equity_per_Share;
-        Interest_Debt_per_Share = interest_Debt_per_Share;
-        Market_Cap = market_Cap;
-        Enterprise_Value = enterprise_Value;
-        this.PE_ratio = PE_ratio;
-        Price_to_Sales_Ratio = price_to_Sales_Ratio;
-        this.POCF_ratio = POCF_ratio;
-        this.PFCF_ratio = PFCF_ratio;
-        this.PB_ratio = PB_ratio;
-        this.PTB_ratio = PTB_ratio;
-        this.EV_to_Sales = EV_to_Sales;
-        Enterprise_Value_over_EBITDA = enterprise_Value_over_EBITDA;
-        this.EV_to_Operating_cash_flow = EV_to_Operating_cash_flow;
-        this.EV_to_Free_cash_flow = EV_to_Free_cash_flow;
-        Earnings_Yield = earnings_Yield;
-        Free_Cash_Flow_Yield = free_Cash_Flow_Yield;
-        Debt_to_Equity = debt_to_Equity;
-        Debt_to_Assets = debt_to_Assets;
-        Net_Debt_to_EBITDA = net_Debt_to_EBITDA;
-        Current_ratio = current_ratio;
-        Interest_Coverage = interest_Coverage;
-        Income_Quality = income_Quality;
-        Dividend_Yield = dividend_Yield;
-        Payout_Ratio = payout_Ratio;
-        this.SG_A_to_Revenue = SG_A_to_Revenue;
-        R_D_to_Revenue = r_D_to_Revenue;
-        Intangibles_to_Total_Assets = intangibles_to_Total_Assets;
-        Capex_to_Operating_Cash_Flow = capex_to_Operating_Cash_Flow;
-        Capex_to_Revenue = capex_to_Revenue;
-        Capex_to_Depreciation = capex_to_Depreciation;
-        Stock_based_compensation_to_Revenue = stock_based_compensation_to_Revenue;
-        Graham_Number = graham_Number;
-        this.ROIC = ROIC;
-        Return_on_Tangible_Assets = return_on_Tangible_Assets;
-        Graham_Net_Net = graham_Net_Net;
-        Working_Capital = working_Capital;
-        Tangible_Asset_Value = tangible_Asset_Value;
-        Net_Current_Asset_Value = net_Current_Asset_Value;
-        Invested_Capital = invested_Capital;
-        Average_Receivables = average_Receivables;
-        Average_Payables = average_Payables;
-        Average_Inventory = average_Inventory;
-        Days_Sales_Outstanding = days_Sales_Outstanding;
-        Days_Payables_Outstanding = days_Payables_Outstanding;
-        Days_of_Inventory_on_Hand = days_of_Inventory_on_Hand;
-        Receivables_Turnover = receivables_Turnover;
-        Payables_Turnover = payables_Turnover;
-        Inventory_Turnover = inventory_Turnover;
-        this.ROE = ROE;
-        Capex_per_Share = capex_per_Share;
-        Gross_Profit_Growth = gross_Profit_Growth;
-        this.EBIT_Growth = EBIT_Growth;
-        Operating_Income_Growth = operating_Income_Growth;
-        Net_Income_Growth = net_Income_Growth;
-        this.EPS_Growth = EPS_Growth;
-        this.EPS_Diluted_Growth = EPS_Diluted_Growth;
-        Weighted_Average_Shares_Growth = weighted_Average_Shares_Growth;
-        Weighted_Average_Shares_Diluted_Growth = weighted_Average_Shares_Diluted_Growth;
-        Dividends_per_Share_Growth = dividends_per_Share_Growth;
-        Operating_Cash_Flow_growth = operating_Cash_Flow_growth;
-        Free_Cash_Flow_growth = free_Cash_Flow_growth;
-        this.tenY_Revenue_Growth_per_Share = tenY_Revenue_Growth_per_Share;
-        this.fiveY_Revenue_Growth_per_Share = fiveY_Revenue_Growth_per_Share;
-        this.threeY_Revenue_Growth_per_Share = threeY_Revenue_Growth_per_Share;
-        this.tenY_Operating_CF_Growth_per_Share = tenY_Operating_CF_Growth_per_Share;
-        this.fiveY_Operating_CF_Growth_per_Share = fiveY_Operating_CF_Growth_per_Share;
-        this.threeY_Operating_CF_Growth_per_Share = threeY_Operating_CF_Growth_per_Share;
-        this.tenY_Net_Income_Growth_per_Share = tenY_Net_Income_Growth_per_Share;
-        this.fiveY_Net_Income_Growth_per_Share = fiveY_Net_Income_Growth_per_Share;
-        this.threeY_Net_Income_Growth_per_Share = threeY_Net_Income_Growth_per_Share;
-        this.tenY_Shareholders_Equity_Growth_per_Share = tenY_Shareholders_Equity_Growth_per_Share;
-        this.fiveY_Shareholders_Equity_Growth_per_Share = fiveY_Shareholders_Equity_Growth_per_Share;
-        this.threeY_Shareholders_Equity_Growth_per_Share = threeY_Shareholders_Equity_Growth_per_Share;
-        this.tenY_Dividend_per_Share_Growth_per_Share = tenY_Dividend_per_Share_Growth_per_Share;
-        this.fiveY_Dividend_per_Share_Growth_per_Share = fiveY_Dividend_per_Share_Growth_per_Share;
-        this.threeY_Dividend_per_Share_Growth_per_Share = threeY_Dividend_per_Share_Growth_per_Share;
-        Receivables_growth = receivables_growth;
-        Inventory_Growth = inventory_Growth;
-        Asset_Growth = asset_Growth;
-        Book_Value_per_Share_Growth = book_Value_per_Share_Growth;
-        Debt_Growth = debt_Growth;
-        R_D_Expense_Growth = r_D_Expense_Growth;
-        this.SG_A_Expenses_Growth = SG_A_Expenses_Growth;
-        Sector = sector;
-        this.two019_PRICE_VAR_percent = two019_PRICE_VAR_percent;
-        //this.cls = cls;
+
+        this.Property_Plant___Equipment_Net =property_Plant___Equipment_Net ;
+        this._Goodwill_and_Intangible_Assets = _Goodwill_and_Intangible_Assets;
+        this._Long_term_investments = _Long_term_investments;
+        this._Tax_assets = _Tax_assets;
+        this._Total_non_current_assets = _Total_non_current_assets;
+        this._Total_assets = _Total_assets;
+        this._Payables = _Payables;
+        this._Short_term_debt = _Short_term_debt;
+        this._Total_current_liabilities = _Total_current_liabilities;
+        this._Long_term_debt = _Long_term_debt;
+        this._Total_debt = _Total_debt;
+        this._Deferred_revenue = _Deferred_revenue;
+        this._Tax_Liabilities = _Tax_Liabilities;
+        this._Deposit_Liabilities = _Deposit_Liabilities;
+        this._Total_non_current_liabilities = _Total_non_current_liabilities;
+        this._Total_liabilities = _Total_liabilities;
+        this._Other_comprehensive_income = _Other_comprehensive_income;
+        this._Retained_earnings_deficit = _Retained_earnings_deficit;
+        this._Total_shareholders_equity = _Total_shareholders_equity;
+        this._Investments = _Investments;
+        this._Net_Debt = _Net_Debt;
+        this._Other_Assets = _Other_Assets;
+        this._Other_Liabilities = _Other_Liabilities;
+        this._Depreciation___Amortization = _Depreciation___Amortization;
+        this._Stock_based_compensation = _Stock_based_compensation;
+        this._Operating_Cash_Flow = _Operating_Cash_Flow;
+        this._Capital_Expenditure = _Capital_Expenditure;
+        this._Acquisitions_and_disposals = _Acquisitions_and_disposals;
+        this._Investment_purchases_and_sales = _Investment_purchases_and_sales;
+        this._Investing_Cash_flow = _Investing_Cash_flow;
+        this._Issuance_repayment_of_deb = _Issuance_repayment_of_deb;
+        this._Issuance_buybacks_of_share = _Issuance_buybacks_of_share;
+        this._Dividend_payments = _Dividend_payments;
+        this._Financing_Cash_Flow = _Financing_Cash_Flow;
+        this._Effect_of_forex_changes_on_cash = _Effect_of_forex_changes_on_cash;
+        this._Net_cash_flow_per_Change_in_cash = _Net_cash_flow_per_Change_in_cash;
+        this._Free_Cash_Flow = _Free_Cash_Flow;
+        this._Net_Cash_per_Marketcap = _Net_Cash_per_Marketcap;
+        this._priceBookValueRatio = _priceBookValueRatio;
+        this._priceToBookRatio = _priceToBookRatio;
+        this._priceToSalesRatio = _priceToSalesRatio;
+        this._priceEarningsRatio = _priceEarningsRatio;
+        this._priceToFreeCashFlowsRatio = _priceToFreeCashFlowsRatio;
+        this._priceToOperatingCashFlowsRatio = _priceToOperatingCashFlowsRatio;
+        this._priceCashFlowRatio = _priceCashFlowRatio;
+        this._priceEarningsToGrowthRatio = _priceEarningsToGrowthRatio;
+        this._priceSalesRatio = _priceSalesRatio;
+        this._dividendYield = _dividendYield;
+        this._enterpriseValueMultiple = _enterpriseValueMultiple;
+        this._priceFairValue = _priceFairValue;
+        this._ebitperRevenue = _ebitperRevenue;
+        this._ebtperEBIT = _ebtperEBIT;
+        this._niperEBT = _niperEBT;
+        this._grossProfitMargin = _grossProfitMargin;
+        this._operatingProfitMargin = _operatingProfitMargin;
+        this._pretaxProfitMargin = _pretaxProfitMargin;
+        this._netProfitMargin = _netProfitMargin;
+        this._effectiveTaxRate = _effectiveTaxRate;
+        this._returnOnAssets = _returnOnAssets;
+        this._returnOnEquity = _returnOnEquity;
+        this._returnOnCapitalEmployed = _returnOnCapitalEmployed;
+        this._nIperEBT = _nIperEBT;
+        this._eBTperEBIT = _eBTperEBIT;
+        this._eBITperRevenue = _eBITperRevenue;
+        this._payablesTurnover = _payablesTurnover;
+        this._inventoryTurnover = _inventoryTurnover;
+        this._fixedAssetTurnover = _fixedAssetTurnover;
+        this._assetTurnover = _assetTurnover;
+        this._currentRatio = _currentRatio;
+        this._quickRatio = _quickRatio;
+        this._cashRatio = _cashRatio;
+        this._daysOfSalesOutstanding = _daysOfSalesOutstanding;
+        this._daysOfInventoryOutstanding = _daysOfInventoryOutstanding;
+        this._operatingCycle = _operatingCycle;
+        this._daysOfPayablesOutstanding = _daysOfPayablesOutstanding;
+        this._cashConversionCycle = _cashConversionCycle;
+        this._debtRatio = _debtRatio;
+        this._debtEquityRatio = _debtEquityRatio;
+        this._longtermDebtToCapitalization = _longtermDebtToCapitalization;
+        this._totalDebtToCapitalization = _totalDebtToCapitalization;
+        this._interestCoverage = _interestCoverage;
+        this._cashFlowToDebtRatio = _cashFlowToDebtRatio;
+        this._companyEquityMultiplier = _companyEquityMultiplier;
+        this._operatingCashFlowPerShare = _operatingCashFlowPerShare;
+        this._freeCashFlowPerShare = _freeCashFlowPerShare;
+        this._cashPerShare = _cashPerShare;
+        this._payoutRatio = _payoutRatio;
+        this._operatingCashFlowSalesRatio = _operatingCashFlowSalesRatio;
+        this._freeCashFlowOperatingCashFlowRatio = _freeCashFlowOperatingCashFlowRatio;
+        this._cashFlowCoverageRatios = _cashFlowCoverageRatios;
+        this._shortTermCoverageRatios = _shortTermCoverageRatios;
+        this._capitalExpenditureCoverageRatios = _capitalExpenditureCoverageRatios;
+        this._dividendpaidAndCapexCoverageRatios = _dividendpaidAndCapexCoverageRatios;
+        this._dividendPayoutRatio = _dividendPayoutRatio;
+        this._Revenue_per_Share = _Revenue_per_Share;
+        this._Net_Income_per_Share = _Net_Income_per_Share;
+        this._Operating_Cash_Flow_per_Share = _Operating_Cash_Flow_per_Share;
+        this._Free_Cash_Flow_per_Share = _Free_Cash_Flow_per_Share;
+        this._Cash_per_Share = _Cash_per_Share;
+        this._Book_Value_per_Share = _Book_Value_per_Share;
+        this._Tangible_Book_Value_per_Share = _Tangible_Book_Value_per_Share;
+        this._Shareholders_Equity_per_Share = _Shareholders_Equity_per_Share;
+        this._Interest_Debt_per_Share = _Interest_Debt_per_Share;
+        this._Market_Cap = _Market_Cap;
+        this._Enterprise_Value = _Enterprise_Value;
+        this._PE_ratio = _PE_ratio;
+        this._Price_to_Sales_Ratio = _Price_to_Sales_Ratio;
+        this._POCF_ratio = _POCF_ratio;
+        this._PFCF_ratio = _PFCF_ratio;
+        this._PB_ratio = _PB_ratio;
+        this._PTB_ratio = _PTB_ratio;
+        this._EV_to_Sales = _EV_to_Sales;
+        this._Enterprise_Value_over_EBITDA = _Enterprise_Value_over_EBITDA;
+        this._EV_to_Operating_cash_flow = _EV_to_Operating_cash_flow;
+        this._EV_to_Free_cash_flow = _EV_to_Free_cash_flow;
+        this._Earnings_Yield = _Earnings_Yield;
+        this._Free_Cash_Flow_Yield = _Free_Cash_Flow_Yield;
+        this._Debt_to_Equity = _Debt_to_Equity;
+        this._Debt_to_Assets = _Debt_to_Assets;
+        this._Net_Debt_to_EBITDA = _Net_Debt_to_EBITDA;
+        this._Current_ratio = _Current_ratio;
+        this._Interest_Coverage = _Interest_Coverage;
+        this._Income_Quality = _Income_Quality;
+        this._Dividend_Yield = _Dividend_Yield;
+        this._Payout_Ratio = _Payout_Ratio;
+        this._SG_A_to_Revenue = _SG_A_to_Revenue;
+        this._R_D_to_Revenue = _R_D_to_Revenue;
+        this._Intangibles_to_Total_Assets = _Intangibles_to_Total_Assets;
+        this._Capex_to_Operating_Cash_Flow = _Capex_to_Operating_Cash_Flow;
+        this._Capex_to_Revenue = _Capex_to_Revenue;
+        this._Capex_to_Depreciation = _Capex_to_Depreciation;
+        this._Stock_based_compensation_to_Revenue = _Stock_based_compensation_to_Revenue;
+        this._Graham_Number = _Graham_Number;
+        this._ROIC = _ROIC;
+        this._Return_on_Tangible_Assets = _Return_on_Tangible_Assets;
+        this._Graham_Net_Net = _Graham_Net_Net;
+        this._Working_Capital = _Working_Capital;
+        this._Tangible_Asset_Value = _Tangible_Asset_Value;
+        this._Net_Current_Asset_Value = _Net_Current_Asset_Value;
+        this._Invested_Capital = _Invested_Capital;
+        this._Average_Receivables = _Average_Receivables;
+        this._Average_Payables = _Average_Payables;
+        this._Average_Inventory = _Average_Inventory;
+        this._Days_Sales_Outstanding = _Days_Sales_Outstanding;
+        this._Days_Payables_Outstanding = _Days_Payables_Outstanding;
+        this._Days_of_Inventory_on_Hand = _Days_of_Inventory_on_Hand;
+        this._Receivables_Turnover = _Receivables_Turnover;
+        this._Payables_Turnover = _Payables_Turnover;
+        this._Inventory_Turnover = _Inventory_Turnover;
+        this._ROE = _ROE;
+        this._Capex_per_Share = _Capex_per_Share;
+        this._Gross_Profit_Growth = _Gross_Profit_Growth;
+        this._EBIT_Growth = _EBIT_Growth;
+        this._Operating_Income_Growth = _Operating_Income_Growth;
+        this._Net_Income_Growth = _Net_Income_Growth;
+        this._EPS_Growth = _EPS_Growth;
+        this._EPS_Diluted_Growth = _EPS_Diluted_Growth;
+        this._Weighted_Average_Shares_Growth = _Weighted_Average_Shares_Growth;
+        this._Weighted_Average_Shares_Diluted_Growth = _Weighted_Average_Shares_Diluted_Growth;
+        this._Dividends_per_Share_Growth = _Dividends_per_Share_Growth;
+        this._Operating_Cash_Flow_growth = _Operating_Cash_Flow_growth;
+        this._Free_Cash_Flow_growth = _Free_Cash_Flow_growth;
+        this._10Y_Revenue_Growth_per_Share = _10Y_Revenue_Growth_per_Share;
+        this._5Y_Revenue_Growth_per_Share = _5Y_Revenue_Growth_per_Share;
+        this._3Y_Revenue_Growth_per_Share = _3Y_Revenue_Growth_per_Share;
+        this._10Y_Operating_CF_Growth_per_Share = _10Y_Operating_CF_Growth_per_Share;
+        this._5Y_Operating_CF_Growth_per_Share = _5Y_Operating_CF_Growth_per_Share;
+        this._3Y_Operating_CF_Growth_per_Share = _3Y_Operating_CF_Growth_per_Share;
+        this._10Y_Net_Income_Growth_per_Share = _10Y_Net_Income_Growth_per_Share;
+        this._5Y_Net_Income_Growth_per_Share = _5Y_Net_Income_Growth_per_Share;
+        this._3Y_Net_Income_Growth_per_Share = _3Y_Net_Income_Growth_per_Share;
+        this._10Y_Shareholders_Equity_Growth_per_Share = _10Y_Shareholders_Equity_Growth_per_Share;
+        this._5Y_Shareholders_Equity_Growth_per_Share = _5Y_Shareholders_Equity_Growth_per_Share;
+        this._3Y_Shareholders_Equity_Growth_per_Share = _3Y_Shareholders_Equity_Growth_per_Share;
+        this._10Y_Dividend_per_Share_Growth_per_Share = _10Y_Dividend_per_Share_Growth_per_Share;
+        this._5Y_Dividend_per_Share_Growth_per_Share = _5Y_Dividend_per_Share_Growth_per_Share;
+        this._3Y_Dividend_per_Share_Growth_per_Share = _3Y_Dividend_per_Share_Growth_per_Share;
+        this._Receivables_growth = _Receivables_growth;
+        this._Inventory_Growth = _Inventory_Growth;
+        this._Asset_Growth = _Asset_Growth;
+        this._Book_Value_per_Share_Growth = _Book_Value_per_Share_Growth;
+        this._Debt_Growth = _Debt_Growth;
+        this._R_D_Expense_Growth = _R_D_Expense_Growth;
+        this._SG_A_Expenses_Growth = _SG_A_Expenses_Growth;
+        this._Sector = _Sector;
+        this._2018_PRICE_VAR_percent = _2018_PRICE_VAR_percent;
+        this._Class = _cls;
     }
 
-//    public InputDataSets(String cost_of_Revenue, String gross_Profit, String r_D_Expenses, String SG_A_Expense,
-//                         String operating_Expenses, String operating_Income, String interest_Expense, String earnings_before_Tax,
-//                         String income_Tax_Expense, String net_Income_Non_Controlling_int, String net_Income_Discontinued_ops,
-//                         String net_Income, String preferred_Dividends, String net_Income_Com, String EPS, String EPS_Diluted,
-//                         String weighted_Average_Shs_Out, String weighted_Average_Shs_Out_Dil, String dividend_per_Share,
-//                         String gross_Margin, String revenue_Growth, String revenue, String EBITDA_Margin, String EBIT_Margin,
-//                         String profit_Margin, String free_Cash_Flow_margin, String EBITDA, String EBIT, String consolidated_Income,
-//                         String earnings_Before_Tax_Margin, String net_Profit_Margin, String cash_and_cash_equivalents,
-//                         String short_term_investments, String cash_and_short_term_investments, String receivables,
-//                         String inventories, String total_current_assets, String property, String plant_Equipment_Net,
-//                         String goodwill_and_Intangible_Assets, String long_term_investments, String tax_assets,
-//                         String total_non_current_assets, String total_assets, String payables, String short_term_debt,
-//                         String total_current_liabilities, String long_term_debt, String total_debt, String deferred_revenue,
-//                         String tax_Liabilities, String deposit_Liabilities, String total_non_current_liabilities,
-//                         String total_liabilities, String other_comprehensive_income, String retained_earnings_deficit,
-//                         String total_shareholders_equity, String investments, String net_Debt, String other_Assets,
-//                         String other_Liabilities, String depreciation_Amortization, String stock_based_compensation,
-//                         String operating_Cash_Flow, String capital_Expenditure, String acquisitions_and_disposals,
-//                         String investment_purchases_and_sales, String investing_Cash_flow, String issuance_repayment_of_debt,
-//                         String issuance_buybacks_of_shares, String dividend_payments, String financing_Cash_Flow,
-//                         String effect_of_forex_changes_on_cash, String net_cash_flow__per__Change_in_cash,
-//                         String free_Cash_Flow, String net_Cash_per_Marketcap, String priceBookValueRatio,
-//                         String priceToBookRatio, String priceToSalesRatio, String priceEarningsRatio,
-//                         String priceToFreeCashFlowsRatio, String priceToOperatingCashFlowsRatio,
-//                         String priceCashFlowRatio, String priceEarningsToGrowthRatio, String priceSalesRatio,
-//                         String dividendYield, String enterpriseValueMultiple, String priceFairValue, String ebitperRevenue,
-//                         String ebtperEBIT, String niperEBT, String grossProfitMargin, String operatingProfitMargin,
-//                         String pretaxProfitMargin, String netProfitMargin, String effectiveTaxRate,
-//                         String returnOnAssets, String returnOnEquity, String returnOnCapitalEmployed, String nIperEBT,
-//                         String eBTperEBIT, String eBITperRevenue, String payablesTurnover, String inventoryTurnover,
-//                         String fixedAssetTurnover, String assetTurnover, String currentRatio, String quickRatio, String cashRatio,
-//                         String daysOfSalesOutstanding, String daysOfInventoryOutstanding, String operatingCycle,
-//                         String daysOfPayablesOutstanding, String cashConversionCycle, String debtRatio, String debtEquityRatio,
-//                         String longtermDebtToCapitalization, String totalDebtToCapitalization, String interestCoverage,
-//                         String cashFlowToDebtRatio, String companyEquityMultiplier, String operatingCashFlowPerShare,
-//                         String freeCashFlowPerShare, String cashPerShare, String payoutRatio, String operatingCashFlowSalesRatio,
-//                         String freeCashFlowOperatingCashFlowRatio, String cashFlowCoverageRatios, String shortTermCoverageRatios,
-//                         String capitalExpenditureCoverageRatios, String dividendpaidAndCapexCoverageRatios, String dividendPayoutRatio,
-//                         String revenue_per_Share, String net_Income_per_Share, String operating_Cash_Flow_per_Share,
-//                         String free_Cash_Flow_per_Share, String cash_per_Share, String book_Value_per_Share, String tangible_Book_Value_per_Share,
-//                         String shareholders_Equity_per_Share, String interest_Debt_per_Share, String market_Cap, String enterprise_Value,
-//                         String PE_ratio, String price_to_Sales_Ratio, String POCF_ratio, String PFCF_ratio, String PB_ratio, String PTB_ratio,
-//                         String EV_to_Sales, String enterprise_Value_over_EBITDA, String EV_to_Operating_cash_flow, String EV_to_Free_cash_flow, String earnings_Yield, String free_Cash_Flow_Yield, String debt_to_Equity, String debt_to_Assets, String net_Debt_to_EBITDA, String current_ratio, String interest_Coverage, String income_Quality, String dividend_Yield,
-//                         String payout_Ratio, String SG_A_to_Revenue, String r_D_to_Revenue, String intangibles_to_Total_Assets,
-//                         String capex_to_Operating_Cash_Flow, String capex_to_Revenue, String capex_to_Depreciation, String stock_based_compensation_to_Revenue, String graham_Number, String ROIC, String return_on_Tangible_Assets, String graham_Net_Net, String working_Capital, String tangible_Asset_Value, String net_Current_Asset_Value, String invested_Capital, String average_Receivables, String average_Payables, String average_Inventory, String days_Sales_Outstanding,
-//                         String days_Payables_Outstanding, String days_of_Inventory_on_Hand, String receivables_Turnover, String payables_Turnover,
-//                         String inventory_Turnover, String ROE, String capex_per_Share, String gross_Profit_Growth, String EBIT_Growth,
-//                         String operating_Income_Growth, String net_Income_Growth, String EPS_Growth, String EPS_Diluted_Growth,
-//                         String weighted_Average_Shares_Growth, String weighted_Average_Shares_Diluted_Growth,
-//                         String dividends_per_Share_Growth, String operating_Cash_Flow_growth, String free_Cash_Flow_growth,
-//                         String tenY_Revenue_Growth_per_Share, String fiveY_Revenue_Growth_per_Share, String threeY_Revenue_Growth_per_Share, String tenY_Operating_CF_Growth_per_Share, String fiveY_Operating_CF_Growth_per_Share, String threeY_Operating_CF_Growth_per_Share, String tenY_Net_Income_Growth_per_Share, String fiveY_Net_Income_Growth_per_Share,
-//                         String threeY_Net_Income_Growth_per_Share, String tenY_Shareholders_Equity_Growth_per_Share, String fiveY_Shareholders_Equity_Growth_per_Share,
-//                         String threeY_Shareholders_Equity_Growth_per_Share, String tenY_Dividend_per_Share_Growth_per_Share,
-//                         String fiveY_Dividend_per_Share_Growth_per_Share, String threeY_Dividend_per_Share_Growth_per_Share, String receivables_growth, String inventory_Growth,
-//                         String asset_Growth, String book_Value_per_Share_Growth, String debt_Growth, String r_D_Expense_Growth,
-//                         String SG_A_Expenses_Growth, String sector, String two019_PRICE_VAR_percent, String acls) {
-//
-//        Cost_of_Revenue = cost_of_Revenue;
-//        Gross_Profit = gross_Profit;
-//        R_D_Expenses = r_D_Expenses;
-//        this.SG_A_Expense = SG_A_Expense;
-//        Operating_Expenses = operating_Expenses;
-//        Operating_Income = operating_Income;
-//        Interest_Expense = interest_Expense;
-//        Earnings_before_Tax = earnings_before_Tax;
-//        Income_Tax_Expense = income_Tax_Expense;
-//        Net_Income_Non_Controlling_int = net_Income_Non_Controlling_int;
-//        Net_Income_Discontinued_ops = net_Income_Discontinued_ops;
-//        Net_Income = net_Income;
-//        Preferred_Dividends = preferred_Dividends;
-//        Net_Income_Com = net_Income_Com;
-//        this.EPS = EPS;
-//        this.EPS_Diluted = EPS_Diluted;
-//        Weighted_Average_Shs_Out = weighted_Average_Shs_Out;
-//        Weighted_Average_Shs_Out_Dil = weighted_Average_Shs_Out_Dil;
-//        Dividend_per_Share = dividend_per_Share;
-//        Gross_Margin = gross_Margin;
-//        Revenue_Growth = revenue_Growth;
-//        Revenue = revenue;
-//        this.EBITDA_Margin = EBITDA_Margin;
-//        this.EBIT_Margin = EBIT_Margin;
-//        Profit_Margin = profit_Margin;
-//        Free_Cash_Flow_margin = free_Cash_Flow_margin;
-//        this.EBITDA = EBITDA;
-//        this.EBIT = EBIT;
-//        Consolidated_Income = consolidated_Income;
-//        Earnings_Before_Tax_Margin = earnings_Before_Tax_Margin;
-//        Net_Profit_Margin = net_Profit_Margin;
-//        Cash_and_cash_equivalents = cash_and_cash_equivalents;
-//        Short_term_investments = short_term_investments;
-//        Cash_and_short_term_investments = cash_and_short_term_investments;
-//        Receivables = receivables;
-//        Inventories = inventories;
-//        Total_current_assets = total_current_assets;
-//        Property = property;
-//        Plant_Equipment_Net = plant_Equipment_Net;
-//        Goodwill_and_Intangible_Assets = goodwill_and_Intangible_Assets;
-//        Long_term_investments = long_term_investments;
-//        Tax_assets = tax_assets;
-//        Total_non_current_assets = total_non_current_assets;
-//        Total_assets = total_assets;
-//        Payables = payables;
-//        Short_term_debt = short_term_debt;
-//        Total_current_liabilities = total_current_liabilities;
-//        Long_term_debt = long_term_debt;
-//        Total_debt = total_debt;
-//        Deferred_revenue = deferred_revenue;
-//        Tax_Liabilities = tax_Liabilities;
-//        Deposit_Liabilities = deposit_Liabilities;
-//        Total_non_current_liabilities = total_non_current_liabilities;
-//        Total_liabilities = total_liabilities;
-//        Other_comprehensive_income = other_comprehensive_income;
-//        Retained_earnings_deficit = retained_earnings_deficit;
-//        Total_shareholders_equity = total_shareholders_equity;
-//        Investments = investments;
-//        Net_Debt = net_Debt;
-//        Other_Assets = other_Assets;
-//        Other_Liabilities = other_Liabilities;
-//        Depreciation_Amortization = depreciation_Amortization;
-//        Stock_based_compensation = stock_based_compensation;
-//        Operating_Cash_Flow = operating_Cash_Flow;
-//        Capital_Expenditure = capital_Expenditure;
-//        Acquisitions_and_disposals = acquisitions_and_disposals;
-//        Investment_purchases_and_sales = investment_purchases_and_sales;
-//        Investing_Cash_flow = investing_Cash_flow;
-//        Issuance_repayment_of_debt = issuance_repayment_of_debt;
-//        Issuance_buybacks_of_shares = issuance_buybacks_of_shares;
-//        Dividend_payments = dividend_payments;
-//        Financing_Cash_Flow = financing_Cash_Flow;
-//        Effect_of_forex_changes_on_cash = effect_of_forex_changes_on_cash;
-//        Net_cash_flow__per__Change_in_cash = net_cash_flow__per__Change_in_cash;
-//        Free_Cash_Flow = free_Cash_Flow;
-//        Net_Cash_per_Marketcap = net_Cash_per_Marketcap;
-//        this.priceBookValueRatio = priceBookValueRatio;
-//        this.priceToBookRatio = priceToBookRatio;
-//        this.priceToSalesRatio = priceToSalesRatio;
-//        this.priceEarningsRatio = priceEarningsRatio;
-//        this.priceToFreeCashFlowsRatio = priceToFreeCashFlowsRatio;
-//        this.priceToOperatingCashFlowsRatio = priceToOperatingCashFlowsRatio;
-//        this.priceCashFlowRatio = priceCashFlowRatio;
-//        this.priceEarningsToGrowthRatio = priceEarningsToGrowthRatio;
-//        this.priceSalesRatio = priceSalesRatio;
-//        this.dividendYield = dividendYield;
-//        this.enterpriseValueMultiple = enterpriseValueMultiple;
-//        this.priceFairValue = priceFairValue;
-//        this.ebitperRevenue = ebitperRevenue;
-//        this.ebtperEBIT = ebtperEBIT;
-//        this.niperEBT = niperEBT;
-//        this.grossProfitMargin = grossProfitMargin;
-//        this.operatingProfitMargin = operatingProfitMargin;
-//        this.pretaxProfitMargin = pretaxProfitMargin;
-//        this.netProfitMargin = netProfitMargin;
-//        this.effectiveTaxRate = effectiveTaxRate;
-//        this.returnOnAssets = returnOnAssets;
-//        this.returnOnEquity = returnOnEquity;
-//        this.returnOnCapitalEmployed = returnOnCapitalEmployed;
-//        this.nIperEBT = nIperEBT;
-//        this.eBTperEBIT = eBTperEBIT;
-//        this.eBITperRevenue = eBITperRevenue;
-//        this.payablesTurnover = payablesTurnover;
-//        this.inventoryTurnover = inventoryTurnover;
-//        this.fixedAssetTurnover = fixedAssetTurnover;
-//        this.assetTurnover = assetTurnover;
-//        this.currentRatio = currentRatio;
-//        this.quickRatio = quickRatio;
-//        this.cashRatio = cashRatio;
-//        this.daysOfSalesOutstanding = daysOfSalesOutstanding;
-//        this.daysOfInventoryOutstanding = daysOfInventoryOutstanding;
-//        this.operatingCycle = operatingCycle;
-//        this.daysOfPayablesOutstanding = daysOfPayablesOutstanding;
-//        this.cashConversionCycle = cashConversionCycle;
-//        this.debtRatio = debtRatio;
-//        this.debtEquityRatio = debtEquityRatio;
-//        this.longtermDebtToCapitalization = longtermDebtToCapitalization;
-//        this.totalDebtToCapitalization = totalDebtToCapitalization;
-//        this.interestCoverage = interestCoverage;
-//        this.cashFlowToDebtRatio = cashFlowToDebtRatio;
-//        this.companyEquityMultiplier = companyEquityMultiplier;
-//        this.operatingCashFlowPerShare = operatingCashFlowPerShare;
-//        this.freeCashFlowPerShare = freeCashFlowPerShare;
-//        this.cashPerShare = cashPerShare;
-//        this.payoutRatio = payoutRatio;
-//        this.operatingCashFlowSalesRatio = operatingCashFlowSalesRatio;
-//        this.freeCashFlowOperatingCashFlowRatio = freeCashFlowOperatingCashFlowRatio;
-//        this.cashFlowCoverageRatios = cashFlowCoverageRatios;
-//        this.shortTermCoverageRatios = shortTermCoverageRatios;
-//        this.capitalExpenditureCoverageRatios = capitalExpenditureCoverageRatios;
-//        this.dividendpaidAndCapexCoverageRatios = dividendpaidAndCapexCoverageRatios;
-//        this.dividendPayoutRatio = dividendPayoutRatio;
-//        Revenue_per_Share = revenue_per_Share;
-//        Net_Income_per_Share = net_Income_per_Share;
-//        Operating_Cash_Flow_per_Share = operating_Cash_Flow_per_Share;
-//        Free_Cash_Flow_per_Share = free_Cash_Flow_per_Share;
-//        Cash_per_Share = cash_per_Share;
-//        Book_Value_per_Share = book_Value_per_Share;
-//        Tangible_Book_Value_per_Share = tangible_Book_Value_per_Share;
-//        Shareholders_Equity_per_Share = shareholders_Equity_per_Share;
-//        Interest_Debt_per_Share = interest_Debt_per_Share;
-//        Market_Cap = market_Cap;
-//        Enterprise_Value = enterprise_Value;
-//        this.PE_ratio = PE_ratio;
-//        Price_to_Sales_Ratio = price_to_Sales_Ratio;
-//        this.POCF_ratio = POCF_ratio;
-//        this.PFCF_ratio = PFCF_ratio;
-//        this.PB_ratio = PB_ratio;
-//        this.PTB_ratio = PTB_ratio;
-//        this.EV_to_Sales = EV_to_Sales;
-//        Enterprise_Value_over_EBITDA = enterprise_Value_over_EBITDA;
-//        this.EV_to_Operating_cash_flow = EV_to_Operating_cash_flow;
-//        this.EV_to_Free_cash_flow = EV_to_Free_cash_flow;
-//        Earnings_Yield = earnings_Yield;
-//        Free_Cash_Flow_Yield = free_Cash_Flow_Yield;
-//        Debt_to_Equity = debt_to_Equity;
-//        Debt_to_Assets = debt_to_Assets;
-//        Net_Debt_to_EBITDA = net_Debt_to_EBITDA;
-//        Current_ratio = current_ratio;
-//        Interest_Coverage = interest_Coverage;
-//        Income_Quality = income_Quality;
-//        Dividend_Yield = dividend_Yield;
-//        Payout_Ratio = payout_Ratio;
-//        this.SG_A_to_Revenue = SG_A_to_Revenue;
-//        R_D_to_Revenue = r_D_to_Revenue;
-//        Intangibles_to_Total_Assets = intangibles_to_Total_Assets;
-//        Capex_to_Operating_Cash_Flow = capex_to_Operating_Cash_Flow;
-//        Capex_to_Revenue = capex_to_Revenue;
-//        Capex_to_Depreciation = capex_to_Depreciation;
-//        Stock_based_compensation_to_Revenue = stock_based_compensation_to_Revenue;
-//        Graham_Number = graham_Number;
-//        this.ROIC = ROIC;
-//        Return_on_Tangible_Assets = return_on_Tangible_Assets;
-//        Graham_Net_Net = graham_Net_Net;
-//        Working_Capital = working_Capital;
-//        Tangible_Asset_Value = tangible_Asset_Value;
-//        Net_Current_Asset_Value = net_Current_Asset_Value;
-//        Invested_Capital = invested_Capital;
-//        Average_Receivables = average_Receivables;
-//        Average_Payables = average_Payables;
-//        Average_Inventory = average_Inventory;
-//        Days_Sales_Outstanding = days_Sales_Outstanding;
-//        Days_Payables_Outstanding = days_Payables_Outstanding;
-//        Days_of_Inventory_on_Hand = days_of_Inventory_on_Hand;
-//        Receivables_Turnover = receivables_Turnover;
-//        Payables_Turnover = payables_Turnover;
-//        Inventory_Turnover = inventory_Turnover;
-//        this.ROE = ROE;
-//        Capex_per_Share = capex_per_Share;
-//        Gross_Profit_Growth = gross_Profit_Growth;
-//        this.EBIT_Growth = EBIT_Growth;
-//        Operating_Income_Growth = operating_Income_Growth;
-//        Net_Income_Growth = net_Income_Growth;
-//        this.EPS_Growth = EPS_Growth;
-//        this.EPS_Diluted_Growth = EPS_Diluted_Growth;
-//        Weighted_Average_Shares_Growth = weighted_Average_Shares_Growth;
-//        Weighted_Average_Shares_Diluted_Growth = weighted_Average_Shares_Diluted_Growth;
-//        Dividends_per_Share_Growth = dividends_per_Share_Growth;
-//        Operating_Cash_Flow_growth = operating_Cash_Flow_growth;
-//        Free_Cash_Flow_growth = free_Cash_Flow_growth;
-//        this.tenY_Revenue_Growth_per_Share = tenY_Revenue_Growth_per_Share;
-//        this.fiveY_Revenue_Growth_per_Share = fiveY_Revenue_Growth_per_Share;
-//        this.threeY_Revenue_Growth_per_Share = threeY_Revenue_Growth_per_Share;
-//        this.tenY_Operating_CF_Growth_per_Share = tenY_Operating_CF_Growth_per_Share;
-//        this.fiveY_Operating_CF_Growth_per_Share = fiveY_Operating_CF_Growth_per_Share;
-//        this.threeY_Operating_CF_Growth_per_Share = threeY_Operating_CF_Growth_per_Share;
-//        this.tenY_Net_Income_Growth_per_Share = tenY_Net_Income_Growth_per_Share;
-//        this.fiveY_Net_Income_Growth_per_Share = fiveY_Net_Income_Growth_per_Share;
-//        this.threeY_Net_Income_Growth_per_Share = threeY_Net_Income_Growth_per_Share;
-//        this.tenY_Shareholders_Equity_Growth_per_Share = tenY_Shareholders_Equity_Growth_per_Share;
-//        this.fiveY_Shareholders_Equity_Growth_per_Share = fiveY_Shareholders_Equity_Growth_per_Share;
-//        this.threeY_Shareholders_Equity_Growth_per_Share = threeY_Shareholders_Equity_Growth_per_Share;
-//        this.tenY_Dividend_per_Share_Growth_per_Share = tenY_Dividend_per_Share_Growth_per_Share;
-//        this.fiveY_Dividend_per_Share_Growth_per_Share = fiveY_Dividend_per_Share_Growth_per_Share;
-//        this.threeY_Dividend_per_Share_Growth_per_Share = threeY_Dividend_per_Share_Growth_per_Share;
-//        Receivables_growth = receivables_growth;
-//        Inventory_Growth = inventory_Growth;
-//        Asset_Growth = asset_Growth;
-//        Book_Value_per_Share_Growth = book_Value_per_Share_Growth;
-//        Debt_Growth = debt_Growth;
-//        R_D_Expense_Growth = r_D_Expense_Growth;
-//        this.SG_A_Expenses_Growth = SG_A_Expenses_Growth;
-//        Sector = sector;
-//        this.two019_PRICE_VAR_percent = two019_PRICE_VAR_percent;
-//        cls = acls;
-//    }
-
-
-    public String getCompany_id() {
-        return company_id;
+    public String getName() {
+        return Name;
     }
 
-    public void setCompany_id(String company_id) {
-        this.company_id = company_id;
-    }
-
-//    public String getCls() {
-//        return cls;
-//    }
-//
-//    public void setCls(String cls) {
-//        this.cls = cls;
-//    }
-
-    public String getCost_of_Revenue() {
-        return Cost_of_Revenue;
-    }
-
-    public void setCost_of_Revenue(String cost_of_Revenue) {
-        this.Cost_of_Revenue = cost_of_Revenue;
-    }
-
-    public String getGross_Profit() {
-        return Gross_Profit;
-    }
-
-    public void setGross_Profit(String gross_Profit) {
-        Gross_Profit = gross_Profit;
-    }
-
-    public String getR_D_Expenses() {
-        return R_D_Expenses;
-    }
-
-    public void setR_D_Expenses(String r_D_Expenses) {
-        R_D_Expenses = r_D_Expenses;
-    }
-
-    public String getSG_A_Expense() {
-        return SG_A_Expense;
-    }
-
-    public void setSG_A_Expense(String SG_A_Expense) {
-        this.SG_A_Expense = SG_A_Expense;
-    }
-
-    public String getOperating_Expenses() {
-        return Operating_Expenses;
-    }
-
-    public void setOperating_Expenses(String operating_Expenses) {
-        Operating_Expenses = operating_Expenses;
-    }
-
-    public String getOperating_Income() {
-        return Operating_Income;
-    }
-
-    public void setOperating_Income(String operating_Income) {
-        Operating_Income = operating_Income;
-    }
-
-    public String getInterest_Expense() {
-        return Interest_Expense;
-    }
-
-    public void setInterest_Expense(String interest_Expense) {
-        Interest_Expense = interest_Expense;
-    }
-
-    public String getEarnings_before_Tax() {
-        return Earnings_before_Tax;
-    }
-
-    public void setEarnings_before_Tax(String earnings_before_Tax) {
-        Earnings_before_Tax = earnings_before_Tax;
-    }
-
-    public String getIncome_Tax_Expense() {
-        return Income_Tax_Expense;
-    }
-
-    public void setIncome_Tax_Expense(String income_Tax_Expense) {
-        Income_Tax_Expense = income_Tax_Expense;
-    }
-
-    public String getNet_Income_Non_Controlling_int() {
-        return Net_Income_Non_Controlling_int;
-    }
-
-    public void setNet_Income_Non_Controlling_int(String net_Income_Non_Controlling_int) {
-        Net_Income_Non_Controlling_int = net_Income_Non_Controlling_int;
-    }
-
-    public String getNet_Income_Discontinued_ops() {
-        return Net_Income_Discontinued_ops;
-    }
-
-    public void setNet_Income_Discontinued_ops(String net_Income_Discontinued_ops) {
-        Net_Income_Discontinued_ops = net_Income_Discontinued_ops;
-    }
-
-    public String getNet_Income() {
-        return Net_Income;
-    }
-
-    public void setNet_Income(String net_Income) {
-        Net_Income = net_Income;
-    }
-
-    public String getPreferred_Dividends() {
-        return Preferred_Dividends;
-    }
-
-    public void setPreferred_Dividends(String preferred_Dividends) {
-        Preferred_Dividends = preferred_Dividends;
-    }
-
-    public String getNet_Income_Com() {
-        return Net_Income_Com;
-    }
-
-    public void setNet_Income_Com(String net_Income_Com) {
-        Net_Income_Com = net_Income_Com;
-    }
-
-    public String getEPS() {
-        return EPS;
-    }
-
-    public void setEPS(String EPS) {
-        this.EPS = EPS;
-    }
-
-    public String getEPS_Diluted() {
-        return EPS_Diluted;
-    }
-
-    public void setEPS_Diluted(String EPS_Diluted) {
-        this.EPS_Diluted = EPS_Diluted;
-    }
-
-    public String getWeighted_Average_Shs_Out() {
-        return Weighted_Average_Shs_Out;
-    }
-
-    public void setWeighted_Average_Shs_Out(String weighted_Average_Shs_Out) {
-        Weighted_Average_Shs_Out = weighted_Average_Shs_Out;
-    }
-
-    public String getWeighted_Average_Shs_Out_Dil() {
-        return Weighted_Average_Shs_Out_Dil;
-    }
-
-    public void setWeighted_Average_Shs_Out_Dil(String weighted_Average_Shs_Out_Dil) {
-        Weighted_Average_Shs_Out_Dil = weighted_Average_Shs_Out_Dil;
-    }
-
-    public String getDividend_per_Share() {
-        return Dividend_per_Share;
-    }
-
-    public void setDividend_per_Share(String dividend_per_Share) {
-        Dividend_per_Share = dividend_per_Share;
-    }
-
-    public String getGross_Margin() {
-        return Gross_Margin;
-    }
-
-    public void setGross_Margin(String gross_Margin) {
-        Gross_Margin = gross_Margin;
-    }
-
-    public String getRevenue_Growth() {
-        return Revenue_Growth;
-    }
-
-    public void setRevenue_Growth(String revenue_Growth) {
-        Revenue_Growth = revenue_Growth;
+    public InputDataSets setName(String name) {
+        Name = name;
+        return this;
     }
 
     public String getRevenue() {
         return Revenue;
     }
 
-    public void setRevenue(String revenue) {
+    public InputDataSets setRevenue(String revenue) {
         Revenue = revenue;
+        return this;
+    }
+
+    public String getRevenue_Growth() {
+        return Revenue_Growth;
+    }
+
+    public InputDataSets setRevenue_Growth(String revenue_Growth) {
+        Revenue_Growth = revenue_Growth;
+        return this;
+    }
+
+    public String getCost_of_Revenue() {
+        return Cost_of_Revenue;
+    }
+
+    public InputDataSets setCost_of_Revenue(String cost_of_Revenue) {
+        Cost_of_Revenue = cost_of_Revenue;
+        return this;
+    }
+
+    public String getGross_Profit() {
+        return Gross_Profit;
+    }
+
+    public InputDataSets setGross_Profit(String gross_Profit) {
+        Gross_Profit = gross_Profit;
+        return this;
+    }
+
+    public String getR_D_Expenses() {
+        return R_D_Expenses;
+    }
+
+    public InputDataSets setR_D_Expenses(String r_D_Expenses) {
+        R_D_Expenses = r_D_Expenses;
+        return this;
+    }
+
+    public String getSG_A_Expense() {
+        return SG_A_Expense;
+    }
+
+    public InputDataSets setSG_A_Expense(String SG_A_Expense) {
+        this.SG_A_Expense = SG_A_Expense;
+        return this;
+    }
+
+    public String getOperating_Expenses() {
+        return Operating_Expenses;
+    }
+
+    public InputDataSets setOperating_Expenses(String operating_Expenses) {
+        Operating_Expenses = operating_Expenses;
+        return this;
+    }
+
+    public String getOperating_Income() {
+        return Operating_Income;
+    }
+
+    public InputDataSets setOperating_Income(String operating_Income) {
+        Operating_Income = operating_Income;
+        return this;
+    }
+
+    public String getInterest_Expense() {
+        return Interest_Expense;
+    }
+
+    public InputDataSets setInterest_Expense(String interest_Expense) {
+        Interest_Expense = interest_Expense;
+        return this;
+    }
+
+    public String getEarnings_before_Tax() {
+        return Earnings_before_Tax;
+    }
+
+    public InputDataSets setEarnings_before_Tax(String earnings_before_Tax) {
+        Earnings_before_Tax = earnings_before_Tax;
+        return this;
+    }
+
+    public String getIncome_Tax_Expense() {
+        return Income_Tax_Expense;
+    }
+
+    public InputDataSets setIncome_Tax_Expense(String income_Tax_Expense) {
+        Income_Tax_Expense = income_Tax_Expense;
+        return this;
+    }
+
+    public String getNet_Income___Non_Controlling_int() {
+        return Net_Income___Non_Controlling_int;
+    }
+
+    public InputDataSets setNet_Income___Non_Controlling_int(String net_Income___Non_Controlling_int) {
+        Net_Income___Non_Controlling_int = net_Income___Non_Controlling_int;
+        return this;
+    }
+
+    public String getNet_Income___Discontinued_ops() {
+        return Net_Income___Discontinued_ops;
+    }
+
+    public InputDataSets setNet_Income___Discontinued_ops(String net_Income___Discontinued_ops) {
+        Net_Income___Discontinued_ops = net_Income___Discontinued_ops;
+        return this;
+    }
+
+    public String getNet_Income() {
+        return Net_Income;
+    }
+
+    public InputDataSets setNet_Income(String net_Income) {
+        Net_Income = net_Income;
+        return this;
+    }
+
+    public String getPreferred_Dividends() {
+        return Preferred_Dividends;
+    }
+
+    public InputDataSets setPreferred_Dividends(String preferred_Dividends) {
+        Preferred_Dividends = preferred_Dividends;
+        return this;
+    }
+
+    public String getNet_Income_Com() {
+        return Net_Income_Com;
+    }
+
+    public InputDataSets setNet_Income_Com(String net_Income_Com) {
+        Net_Income_Com = net_Income_Com;
+        return this;
+    }
+
+    public String getEPS() {
+        return EPS;
+    }
+
+    public InputDataSets setEPS(String EPS) {
+        this.EPS = EPS;
+        return this;
+    }
+
+    public String getEPS_Diluted() {
+        return EPS_Diluted;
+    }
+
+    public InputDataSets setEPS_Diluted(String EPS_Diluted) {
+        this.EPS_Diluted = EPS_Diluted;
+        return this;
+    }
+
+    public String getWeighted_Average_Shs_Out() {
+        return Weighted_Average_Shs_Out;
+    }
+
+    public InputDataSets setWeighted_Average_Shs_Out(String weighted_Average_Shs_Out) {
+        Weighted_Average_Shs_Out = weighted_Average_Shs_Out;
+        return this;
+    }
+
+    public String getWeighted_Average_Shs_Out_Dil() {
+        return Weighted_Average_Shs_Out_Dil;
+    }
+
+    public InputDataSets setWeighted_Average_Shs_Out_Dil(String weighted_Average_Shs_Out_Dil) {
+        Weighted_Average_Shs_Out_Dil = weighted_Average_Shs_Out_Dil;
+        return this;
+    }
+
+    public String getDividend_per_Share() {
+        return Dividend_per_Share;
+    }
+
+    public InputDataSets setDividend_per_Share(String dividend_per_Share) {
+        Dividend_per_Share = dividend_per_Share;
+        return this;
+    }
+
+    public String getGross_Margin() {
+        return Gross_Margin;
+    }
+
+    public InputDataSets setGross_Margin(String gross_Margin) {
+        Gross_Margin = gross_Margin;
+        return this;
     }
 
     public String getEBITDA_Margin() {
         return EBITDA_Margin;
     }
 
-    public void setEBITDA_Margin(String EBITDA_Margin) {
+    public InputDataSets setEBITDA_Margin(String EBITDA_Margin) {
         this.EBITDA_Margin = EBITDA_Margin;
+        return this;
     }
 
     public String getEBIT_Margin() {
         return EBIT_Margin;
     }
 
-    public void setEBIT_Margin(String EBIT_Margin) {
+    public InputDataSets setEBIT_Margin(String EBIT_Margin) {
         this.EBIT_Margin = EBIT_Margin;
+        return this;
     }
 
     public String getProfit_Margin() {
         return Profit_Margin;
     }
 
-    public void setProfit_Margin(String profit_Margin) {
+    public InputDataSets setProfit_Margin(String profit_Margin) {
         Profit_Margin = profit_Margin;
+        return this;
     }
 
     public String getFree_Cash_Flow_margin() {
         return Free_Cash_Flow_margin;
     }
 
-    public void setFree_Cash_Flow_margin(String free_Cash_Flow_margin) {
+    public InputDataSets setFree_Cash_Flow_margin(String free_Cash_Flow_margin) {
         Free_Cash_Flow_margin = free_Cash_Flow_margin;
+        return this;
     }
 
     public String getEBITDA() {
         return EBITDA;
     }
 
-    public void setEBITDA(String EBITDA) {
+    public InputDataSets setEBITDA(String EBITDA) {
         this.EBITDA = EBITDA;
+        return this;
     }
 
     public String getEBIT() {
         return EBIT;
     }
 
-    public void setEBIT(String EBIT) {
+    public InputDataSets setEBIT(String EBIT) {
         this.EBIT = EBIT;
+        return this;
     }
 
     public String getConsolidated_Income() {
         return Consolidated_Income;
     }
 
-    public void setConsolidated_Income(String consolidated_Income) {
+    public InputDataSets setConsolidated_Income(String consolidated_Income) {
         Consolidated_Income = consolidated_Income;
+        return this;
     }
 
     public String getEarnings_Before_Tax_Margin() {
         return Earnings_Before_Tax_Margin;
     }
 
-    public void setEarnings_Before_Tax_Margin(String earnings_Before_Tax_Margin) {
+    public InputDataSets setEarnings_Before_Tax_Margin(String earnings_Before_Tax_Margin) {
         Earnings_Before_Tax_Margin = earnings_Before_Tax_Margin;
+        return this;
     }
 
     public String getNet_Profit_Margin() {
         return Net_Profit_Margin;
     }
 
-    public void setNet_Profit_Margin(String net_Profit_Margin) {
+    public InputDataSets setNet_Profit_Margin(String net_Profit_Margin) {
         Net_Profit_Margin = net_Profit_Margin;
+        return this;
     }
 
     public String getCash_and_cash_equivalents() {
         return Cash_and_cash_equivalents;
     }
 
-    public void setCash_and_cash_equivalents(String cash_and_cash_equivalents) {
+    public InputDataSets setCash_and_cash_equivalents(String cash_and_cash_equivalents) {
         Cash_and_cash_equivalents = cash_and_cash_equivalents;
+        return this;
     }
 
     public String getShort_term_investments() {
         return Short_term_investments;
     }
 
-    public void setShort_term_investments(String short_term_investments) {
+    public InputDataSets setShort_term_investments(String short_term_investments) {
         Short_term_investments = short_term_investments;
+        return this;
     }
 
     public String getCash_and_short_term_investments() {
         return Cash_and_short_term_investments;
     }
 
-    public void setCash_and_short_term_investments(String cash_and_short_term_investments) {
+    public InputDataSets setCash_and_short_term_investments(String cash_and_short_term_investments) {
         Cash_and_short_term_investments = cash_and_short_term_investments;
+        return this;
     }
 
     public String getReceivables() {
         return Receivables;
     }
 
-    public void setReceivables(String receivables) {
+    public InputDataSets setReceivables(String receivables) {
         Receivables = receivables;
+        return this;
     }
 
     public String getInventories() {
         return Inventories;
     }
 
-    public void setInventories(String inventories) {
+    public InputDataSets setInventories(String inventories) {
         Inventories = inventories;
+        return this;
     }
 
     public String getTotal_current_assets() {
         return Total_current_assets;
     }
 
-    public void setTotal_current_assets(String total_current_assets) {
+    public InputDataSets setTotal_current_assets(String total_current_assets) {
         Total_current_assets = total_current_assets;
+        return this;
     }
 
-    public String getProperty() {
-        return Property;
+    public String getProperty_plant_equipmentNet() {
+        return this.Property_Plant___Equipment_Net;
     }
 
-    public void setProperty(String property) {
-        Property = property;
+    public InputDataSets setProperty_plant_equipmentNet(String property) {
+        this.Property_Plant___Equipment_Net = property;
+        return this;
     }
 
-    public String getPlant_Equipment_Net() {
-        return Plant_Equipment_Net;
-    }
 
-    public void setPlant_Equipment_Net(String plant_Equipment_Net) {
-        Plant_Equipment_Net = plant_Equipment_Net;
-    }
 
-    public String getGoodwill_and_Intangible_Assets() {
-        return Goodwill_and_Intangible_Assets;
+    public String get_Goodwill_and_Intangible_Assets() {
+        return _Goodwill_and_Intangible_Assets;
     }
 
-    public void setGoodwill_and_Intangible_Assets(String goodwill_and_Intangible_Assets) {
-        Goodwill_and_Intangible_Assets = goodwill_and_Intangible_Assets;
+    public InputDataSets set_Goodwill_and_Intangible_Assets(String _Goodwill_and_Intangible_Assets) {
+        this._Goodwill_and_Intangible_Assets = _Goodwill_and_Intangible_Assets;
+        return this;
     }
 
-    public String getLong_term_investments() {
-        return Long_term_investments;
+    public String get_Long_term_investments() {
+        return _Long_term_investments;
     }
 
-    public void setLong_term_investments(String long_term_investments) {
-        Long_term_investments = long_term_investments;
+    public InputDataSets set_Long_term_investments(String _Long_term_investments) {
+        this._Long_term_investments = _Long_term_investments;
+        return this;
     }
 
-    public String getTax_assets() {
-        return Tax_assets;
+    public String get_Tax_assets() {
+        return _Tax_assets;
     }
 
-    public void setTax_assets(String tax_assets) {
-        Tax_assets = tax_assets;
+    public InputDataSets set_Tax_assets(String _Tax_assets) {
+        this._Tax_assets = _Tax_assets;
+        return this;
     }
 
-    public String getTotal_non_current_assets() {
-        return Total_non_current_assets;
+    public String get_Total_non_current_assets() {
+        return _Total_non_current_assets;
     }
 
-    public void setTotal_non_current_assets(String total_non_current_assets) {
-        Total_non_current_assets = total_non_current_assets;
+    public InputDataSets set_Total_non_current_assets(String _Total_non_current_assets) {
+        this._Total_non_current_assets = _Total_non_current_assets;
+        return this;
     }
 
-    public String getTotal_assets() {
-        return Total_assets;
+    public String get_Total_assets() {
+        return _Total_assets;
     }
 
-    public void setTotal_assets(String total_assets) {
-        Total_assets = total_assets;
+    public InputDataSets set_Total_assets(String _Total_assets) {
+        this._Total_assets = _Total_assets;
+        return this;
     }
 
-    public String getPayables() {
-        return Payables;
+    public String get_Payables() {
+        return _Payables;
     }
 
-    public void setPayables(String payables) {
-        Payables = payables;
+    public InputDataSets set_Payables(String _Payables) {
+        this._Payables = _Payables;
+        return this;
     }
 
-    public String getShort_term_debt() {
-        return Short_term_debt;
+    public String get_Short_term_debt() {
+        return _Short_term_debt;
     }
 
-    public void setShort_term_debt(String short_term_debt) {
-        Short_term_debt = short_term_debt;
+    public InputDataSets set_Short_term_debt(String _Short_term_debt) {
+        this._Short_term_debt = _Short_term_debt;
+        return this;
     }
 
-    public String getTotal_current_liabilities() {
-        return Total_current_liabilities;
+    public String get_Total_current_liabilities() {
+        return _Total_current_liabilities;
     }
 
-    public void setTotal_current_liabilities(String total_current_liabilities) {
-        Total_current_liabilities = total_current_liabilities;
+    public InputDataSets set_Total_current_liabilities(String _Total_current_liabilities) {
+        this._Total_current_liabilities = _Total_current_liabilities;
+        return this;
     }
 
-    public String getLong_term_debt() {
-        return Long_term_debt;
+    public String get_Long_term_debt() {
+        return _Long_term_debt;
     }
 
-    public void setLong_term_debt(String long_term_debt) {
-        Long_term_debt = long_term_debt;
+    public InputDataSets set_Long_term_debt(String _Long_term_debt) {
+        this._Long_term_debt = _Long_term_debt;
+        return this;
     }
 
-    public String getTotal_debt() {
-        return Total_debt;
+    public String get_Total_debt() {
+        return _Total_debt;
     }
 
-    public void setTotal_debt(String total_debt) {
-        Total_debt = total_debt;
+    public InputDataSets set_Total_debt(String _Total_debt) {
+        this._Total_debt = _Total_debt;
+        return this;
     }
 
-    public String getDeferred_revenue() {
-        return Deferred_revenue;
+    public String get_Deferred_revenue() {
+        return _Deferred_revenue;
     }
 
-    public void setDeferred_revenue(String deferred_revenue) {
-        Deferred_revenue = deferred_revenue;
+    public InputDataSets set_Deferred_revenue(String _Deferred_revenue) {
+        this._Deferred_revenue = _Deferred_revenue;
+        return this;
     }
 
-    public String getTax_Liabilities() {
-        return Tax_Liabilities;
+    public String get_Tax_Liabilities() {
+        return _Tax_Liabilities;
     }
 
-    public void setTax_Liabilities(String tax_Liabilities) {
-        Tax_Liabilities = tax_Liabilities;
+    public InputDataSets set_Tax_Liabilities(String _Tax_Liabilities) {
+        this._Tax_Liabilities = _Tax_Liabilities;
+        return this;
     }
 
-    public String getDeposit_Liabilities() {
-        return Deposit_Liabilities;
+    public String get_Deposit_Liabilities() {
+        return _Deposit_Liabilities;
     }
 
-    public void setDeposit_Liabilities(String deposit_Liabilities) {
-        Deposit_Liabilities = deposit_Liabilities;
+    public InputDataSets set_Deposit_Liabilities(String _Deposit_Liabilities) {
+        this._Deposit_Liabilities = _Deposit_Liabilities;
+        return this;
     }
 
-    public String getTotal_non_current_liabilities() {
-        return Total_non_current_liabilities;
+    public String get_Total_non_current_liabilities() {
+        return _Total_non_current_liabilities;
     }
 
-    public void setTotal_non_current_liabilities(String total_non_current_liabilities) {
-        Total_non_current_liabilities = total_non_current_liabilities;
+    public InputDataSets set_Total_non_current_liabilities(String _Total_non_current_liabilities) {
+        this._Total_non_current_liabilities = _Total_non_current_liabilities;
+        return this;
     }
 
-    public String getTotal_liabilities() {
-        return Total_liabilities;
+    public String get_Total_liabilities() {
+        return _Total_liabilities;
     }
 
-    public void setTotal_liabilities(String total_liabilities) {
-        Total_liabilities = total_liabilities;
+    public InputDataSets set_Total_liabilities(String _Total_liabilities) {
+        this._Total_liabilities = _Total_liabilities;
+        return this;
     }
 
-    public String getOther_comprehensive_income() {
-        return Other_comprehensive_income;
+    public String get_Other_comprehensive_income() {
+        return _Other_comprehensive_income;
     }
 
-    public void setOther_comprehensive_income(String other_comprehensive_income) {
-        Other_comprehensive_income = other_comprehensive_income;
+    public InputDataSets set_Other_comprehensive_income(String _Other_comprehensive_income) {
+        this._Other_comprehensive_income = _Other_comprehensive_income;
+        return this;
     }
 
-    public String getRetained_earnings_deficit() {
-        return Retained_earnings_deficit;
+    public String get_Retained_earnings_deficit() {
+        return _Retained_earnings_deficit;
     }
 
-    public void setRetained_earnings_deficit(String retained_earnings_deficit) {
-        Retained_earnings_deficit = retained_earnings_deficit;
+    public InputDataSets set_Retained_earnings_deficit(String _Retained_earnings_deficit) {
+        this._Retained_earnings_deficit = _Retained_earnings_deficit;
+        return this;
     }
 
-    public String getTotal_shareholders_equity() {
-        return Total_shareholders_equity;
+    public String get_Total_shareholders_equity() {
+        return _Total_shareholders_equity;
     }
 
-    public void setTotal_shareholders_equity(String total_shareholders_equity) {
-        Total_shareholders_equity = total_shareholders_equity;
+    public InputDataSets set_Total_shareholders_equity(String _Total_shareholders_equity) {
+        this._Total_shareholders_equity = _Total_shareholders_equity;
+        return this;
     }
 
-    public String getInvestments() {
-        return Investments;
+    public String get_Investments() {
+        return _Investments;
     }
 
-    public void setInvestments(String investments) {
-        Investments = investments;
+    public InputDataSets set_Investments(String _Investments) {
+        this._Investments = _Investments;
+        return this;
     }
 
-    public String getNet_Debt() {
-        return Net_Debt;
+    public String get_Net_Debt() {
+        return _Net_Debt;
     }
 
-    public void setNet_Debt(String net_Debt) {
-        Net_Debt = net_Debt;
+    public InputDataSets set_Net_Debt(String _Net_Debt) {
+        this._Net_Debt = _Net_Debt;
+        return this;
     }
 
-    public String getOther_Assets() {
-        return Other_Assets;
+    public String get_Other_Assets() {
+        return _Other_Assets;
     }
 
-    public void setOther_Assets(String other_Assets) {
-        Other_Assets = other_Assets;
+    public InputDataSets set_Other_Assets(String _Other_Assets) {
+        this._Other_Assets = _Other_Assets;
+        return this;
     }
 
-    public String getOther_Liabilities() {
-        return Other_Liabilities;
+    public String get_Other_Liabilities() {
+        return _Other_Liabilities;
     }
 
-    public void setOther_Liabilities(String other_Liabilities) {
-        Other_Liabilities = other_Liabilities;
+    public InputDataSets set_Other_Liabilities(String _Other_Liabilities) {
+        this._Other_Liabilities = _Other_Liabilities;
+        return this;
     }
 
-    public String getDepreciation_Amortization() {
-        return Depreciation_Amortization;
+    public String get_Depreciation___Amortization() {
+        return _Depreciation___Amortization;
     }
 
-    public void setDepreciation_Amortization(String depreciation_Amortization) {
-        Depreciation_Amortization = depreciation_Amortization;
+    public InputDataSets set_Depreciation___Amortization(String _Depreciation___Amortization) {
+        this._Depreciation___Amortization = _Depreciation___Amortization;
+        return this;
     }
 
-    public String getStock_based_compensation() {
-        return Stock_based_compensation;
+    public String get_Stock_based_compensation() {
+        return _Stock_based_compensation;
     }
 
-    public void setStock_based_compensation(String stock_based_compensation) {
-        Stock_based_compensation = stock_based_compensation;
+    public InputDataSets set_Stock_based_compensation(String _Stock_based_compensation) {
+        this._Stock_based_compensation = _Stock_based_compensation;
+        return this;
     }
 
-    public String getOperating_Cash_Flow() {
-        return Operating_Cash_Flow;
+    public String get_Operating_Cash_Flow() {
+        return _Operating_Cash_Flow;
     }
 
-    public void setOperating_Cash_Flow(String operating_Cash_Flow) {
-        Operating_Cash_Flow = operating_Cash_Flow;
+    public InputDataSets set_Operating_Cash_Flow(String _Operating_Cash_Flow) {
+        this._Operating_Cash_Flow = _Operating_Cash_Flow;
+        return this;
     }
 
-    public String getCapital_Expenditure() {
-        return Capital_Expenditure;
+    public String get_Capital_Expenditure() {
+        return _Capital_Expenditure;
     }
 
-    public void setCapital_Expenditure(String capital_Expenditure) {
-        Capital_Expenditure = capital_Expenditure;
+    public InputDataSets set_Capital_Expenditure(String _Capital_Expenditure) {
+        this._Capital_Expenditure = _Capital_Expenditure;
+        return this;
     }
 
-    public String getAcquisitions_and_disposals() {
-        return Acquisitions_and_disposals;
+    public String get_Acquisitions_and_disposals() {
+        return _Acquisitions_and_disposals;
     }
 
-    public void setAcquisitions_and_disposals(String acquisitions_and_disposals) {
-        Acquisitions_and_disposals = acquisitions_and_disposals;
+    public InputDataSets set_Acquisitions_and_disposals(String _Acquisitions_and_disposals) {
+        this._Acquisitions_and_disposals = _Acquisitions_and_disposals;
+        return this;
     }
 
-    public String getInvestment_purchases_and_sales() {
-        return Investment_purchases_and_sales;
+    public String get_Investment_purchases_and_sales() {
+        return _Investment_purchases_and_sales;
     }
 
-    public void setInvestment_purchases_and_sales(String investment_purchases_and_sales) {
-        Investment_purchases_and_sales = investment_purchases_and_sales;
+    public InputDataSets set_Investment_purchases_and_sales(String _Investment_purchases_and_sales) {
+        this._Investment_purchases_and_sales = _Investment_purchases_and_sales;
+        return this;
     }
 
-    public String getInvesting_Cash_flow() {
-        return Investing_Cash_flow;
+    public String get_Investing_Cash_flow() {
+        return _Investing_Cash_flow;
     }
 
-    public void setInvesting_Cash_flow(String investing_Cash_flow) {
-        Investing_Cash_flow = investing_Cash_flow;
+    public InputDataSets set_Investing_Cash_flow(String _Investing_Cash_flow) {
+        this._Investing_Cash_flow = _Investing_Cash_flow;
+        return this;
     }
 
-    public String getIssuance_repayment_of_debt() {
-        return Issuance_repayment_of_debt;
+    public String get_Issuance_repayment_of_deb() {
+        return _Issuance_repayment_of_deb;
     }
 
-    public void setIssuance_repayment_of_debt(String issuance_repayment_of_debt) {
-        Issuance_repayment_of_debt = issuance_repayment_of_debt;
+    public InputDataSets set_Issuance_repayment_of_deb(String _Issuance_repayment_of_deb) {
+        this._Issuance_repayment_of_deb = _Issuance_repayment_of_deb;
+        return this;
     }
 
-    public String getIssuance_buybacks_of_shares() {
-        return Issuance_buybacks_of_shares;
+    public String get_Issuance_buybacks_of_share() {
+        return _Issuance_buybacks_of_share;
     }
 
-    public void setIssuance_buybacks_of_shares(String issuance_buybacks_of_shares) {
-        Issuance_buybacks_of_shares = issuance_buybacks_of_shares;
+    public InputDataSets set_Issuance_buybacks_of_share(String _Issuance_buybacks_of_share) {
+        this._Issuance_buybacks_of_share = _Issuance_buybacks_of_share;
+        return this;
     }
 
-    public String getDividend_payments() {
-        return Dividend_payments;
+    public String get_Dividend_payments() {
+        return _Dividend_payments;
     }
 
-    public void setDividend_payments(String dividend_payments) {
-        Dividend_payments = dividend_payments;
+    public InputDataSets set_Dividend_payments(String _Dividend_payments) {
+        this._Dividend_payments = _Dividend_payments;
+        return this;
     }
 
-    public String getFinancing_Cash_Flow() {
-        return Financing_Cash_Flow;
+    public String get_Financing_Cash_Flow() {
+        return _Financing_Cash_Flow;
     }
 
-    public void setFinancing_Cash_Flow(String financing_Cash_Flow) {
-        Financing_Cash_Flow = financing_Cash_Flow;
+    public InputDataSets set_Financing_Cash_Flow(String _Financing_Cash_Flow) {
+        this._Financing_Cash_Flow = _Financing_Cash_Flow;
+        return this;
     }
 
-    public String getEffect_of_forex_changes_on_cash() {
-        return Effect_of_forex_changes_on_cash;
+    public String get_Effect_of_forex_changes_on_cash() {
+        return _Effect_of_forex_changes_on_cash;
     }
 
-    public void setEffect_of_forex_changes_on_cash(String effect_of_forex_changes_on_cash) {
-        Effect_of_forex_changes_on_cash = effect_of_forex_changes_on_cash;
+    public InputDataSets set_Effect_of_forex_changes_on_cash(String _Effect_of_forex_changes_on_cash) {
+        this._Effect_of_forex_changes_on_cash = _Effect_of_forex_changes_on_cash;
+        return this;
     }
 
-    public String getNet_cash_flow__per__Change_in_cash() {
-        return Net_cash_flow__per__Change_in_cash;
+    public String get_Net_cash_flow_per_Change_in_cash() {
+        return _Net_cash_flow_per_Change_in_cash;
     }
 
-    public void setNet_cash_flow__per__Change_in_cash(String net_cash_flow__per__Change_in_cash) {
-        Net_cash_flow__per__Change_in_cash = net_cash_flow__per__Change_in_cash;
+    public InputDataSets set_Net_cash_flow_per_Change_in_cash(String _Net_cash_flow_per_Change_in_cash) {
+        this._Net_cash_flow_per_Change_in_cash = _Net_cash_flow_per_Change_in_cash;
+        return this;
     }
 
-    public String getFree_Cash_Flow() {
-        return Free_Cash_Flow;
+    public String get_Free_Cash_Flow() {
+        return _Free_Cash_Flow;
     }
 
-    public void setFree_Cash_Flow(String free_Cash_Flow) {
-        Free_Cash_Flow = free_Cash_Flow;
+    public InputDataSets set_Free_Cash_Flow(String _Free_Cash_Flow) {
+        this._Free_Cash_Flow = _Free_Cash_Flow;
+        return this;
     }
 
-    public String getNet_Cash_per_Marketcap() {
-        return Net_Cash_per_Marketcap;
+    public String get_Net_Cash_per_Marketcap() {
+        return _Net_Cash_per_Marketcap;
     }
 
-    public void setNet_Cash_per_Marketcap(String net_Cash_per_Marketcap) {
-        Net_Cash_per_Marketcap = net_Cash_per_Marketcap;
+    public InputDataSets set_Net_Cash_per_Marketcap(String _Net_Cash_per_Marketcap) {
+        this._Net_Cash_per_Marketcap = _Net_Cash_per_Marketcap;
+        return this;
     }
 
-    public String getPriceBookValueRatio() {
-        return priceBookValueRatio;
+    public String get_priceBookValueRatio() {
+        return _priceBookValueRatio;
     }
 
-    public void setPriceBookValueRatio(String priceBookValueRatio) {
-        this.priceBookValueRatio = priceBookValueRatio;
+    public InputDataSets set_priceBookValueRatio(String _priceBookValueRatio) {
+        this._priceBookValueRatio = _priceBookValueRatio;
+        return this;
     }
 
-    public String getPriceToBookRatio() {
-        return priceToBookRatio;
+    public String get_priceToBookRatio() {
+        return _priceToBookRatio;
     }
 
-    public void setPriceToBookRatio(String priceToBookRatio) {
-        this.priceToBookRatio = priceToBookRatio;
+    public InputDataSets set_priceToBookRatio(String _priceToBookRatio) {
+        this._priceToBookRatio = _priceToBookRatio;
+        return this;
     }
 
-    public String getPriceToSalesRatio() {
-        return priceToSalesRatio;
+    public String get_priceToSalesRatio() {
+        return _priceToSalesRatio;
     }
 
-    public void setPriceToSalesRatio(String priceToSalesRatio) {
-        this.priceToSalesRatio = priceToSalesRatio;
+    public InputDataSets set_priceToSalesRatio(String _priceToSalesRatio) {
+        this._priceToSalesRatio = _priceToSalesRatio;
+        return this;
     }
 
-    public String getPriceEarningsRatio() {
-        return priceEarningsRatio;
+    public String get_priceEarningsRatio() {
+        return _priceEarningsRatio;
     }
 
-    public void setPriceEarningsRatio(String priceEarningsRatio) {
-        this.priceEarningsRatio = priceEarningsRatio;
+    public InputDataSets set_priceEarningsRatio(String _priceEarningsRatio) {
+        this._priceEarningsRatio = _priceEarningsRatio;
+        return this;
     }
 
-    public String getPriceToFreeCashFlowsRatio() {
-        return priceToFreeCashFlowsRatio;
+    public String get_priceToFreeCashFlowsRatio() {
+        return _priceToFreeCashFlowsRatio;
     }
 
-    public void setPriceToFreeCashFlowsRatio(String priceToFreeCashFlowsRatio) {
-        this.priceToFreeCashFlowsRatio = priceToFreeCashFlowsRatio;
+    public InputDataSets set_priceToFreeCashFlowsRatio(String _priceToFreeCashFlowsRatio) {
+        this._priceToFreeCashFlowsRatio = _priceToFreeCashFlowsRatio;
+        return this;
     }
 
-    public String getPriceToOperatingCashFlowsRatio() {
-        return priceToOperatingCashFlowsRatio;
+    public String get_priceToOperatingCashFlowsRatio() {
+        return _priceToOperatingCashFlowsRatio;
     }
 
-    public void setPriceToOperatingCashFlowsRatio(String priceToOperatingCashFlowsRatio) {
-        this.priceToOperatingCashFlowsRatio = priceToOperatingCashFlowsRatio;
+    public InputDataSets set_priceToOperatingCashFlowsRatio(String _priceToOperatingCashFlowsRatio) {
+        this._priceToOperatingCashFlowsRatio = _priceToOperatingCashFlowsRatio;
+        return this;
     }
 
-    public String getPriceCashFlowRatio() {
-        return priceCashFlowRatio;
+    public String get_priceCashFlowRatio() {
+        return _priceCashFlowRatio;
     }
 
-    public void setPriceCashFlowRatio(String priceCashFlowRatio) {
-        this.priceCashFlowRatio = priceCashFlowRatio;
+    public InputDataSets set_priceCashFlowRatio(String _priceCashFlowRatio) {
+        this._priceCashFlowRatio = _priceCashFlowRatio;
+        return this;
     }
 
-    public String getPriceEarningsToGrowthRatio() {
-        return priceEarningsToGrowthRatio;
+    public String get_priceEarningsToGrowthRatio() {
+        return _priceEarningsToGrowthRatio;
     }
 
-    public void setPriceEarningsToGrowthRatio(String priceEarningsToGrowthRatio) {
-        this.priceEarningsToGrowthRatio = priceEarningsToGrowthRatio;
+    public InputDataSets set_priceEarningsToGrowthRatio(String _priceEarningsToGrowthRatio) {
+        this._priceEarningsToGrowthRatio = _priceEarningsToGrowthRatio;
+        return this;
     }
 
-    public String getPriceSalesRatio() {
-        return priceSalesRatio;
+    public String get_priceSalesRatio() {
+        return _priceSalesRatio;
     }
 
-    public void setPriceSalesRatio(String priceSalesRatio) {
-        this.priceSalesRatio = priceSalesRatio;
+    public InputDataSets set_priceSalesRatio(String _priceSalesRatio) {
+        this._priceSalesRatio = _priceSalesRatio;
+        return this;
     }
 
-    public String getDividendYield() {
-        return dividendYield;
+    public String get_dividendYield() {
+        return _dividendYield;
     }
 
-    public void setDividendYield(String dividendYield) {
-        this.dividendYield = dividendYield;
+    public InputDataSets set_dividendYield(String _dividendYield) {
+        this._dividendYield = _dividendYield;
+        return this;
     }
 
-    public String getEnterpriseValueMultiple() {
-        return enterpriseValueMultiple;
+    public String get_enterpriseValueMultiple() {
+        return _enterpriseValueMultiple;
     }
 
-    public void setEnterpriseValueMultiple(String enterpriseValueMultiple) {
-        this.enterpriseValueMultiple = enterpriseValueMultiple;
+    public InputDataSets set_enterpriseValueMultiple(String _enterpriseValueMultiple) {
+        this._enterpriseValueMultiple = _enterpriseValueMultiple;
+        return this;
     }
 
-    public String getPriceFairValue() {
-        return priceFairValue;
+    public String get_priceFairValue() {
+        return _priceFairValue;
     }
 
-    public void setPriceFairValue(String priceFairValue) {
-        this.priceFairValue = priceFairValue;
+    public InputDataSets set_priceFairValue(String _priceFairValue) {
+        this._priceFairValue = _priceFairValue;
+        return this;
     }
 
-    public String getEbitperRevenue() {
-        return ebitperRevenue;
+    public String get_ebitperRevenue() {
+        return _ebitperRevenue;
     }
 
-    public void setEbitperRevenue(String ebitperRevenue) {
-        this.ebitperRevenue = ebitperRevenue;
+    public InputDataSets set_ebitperRevenue(String _ebitperRevenue) {
+        this._ebitperRevenue = _ebitperRevenue;
+        return this;
     }
 
-    public String getEbtperEBIT() {
-        return ebtperEBIT;
+    public String get_ebtperEBIT() {
+        return _ebtperEBIT;
     }
 
-    public void setEbtperEBIT(String ebtperEBIT) {
-        this.ebtperEBIT = ebtperEBIT;
+    public InputDataSets set_ebtperEBIT(String _ebtperEBIT) {
+        this._ebtperEBIT = _ebtperEBIT;
+        return this;
     }
 
-    public String getNiperEBT() {
-        return niperEBT;
+    public String get_niperEBT() {
+        return _niperEBT;
     }
 
-    public void setNiperEBT(String niperEBT) {
-        this.niperEBT = niperEBT;
+    public InputDataSets set_niperEBT(String _niperEBT) {
+        this._niperEBT = _niperEBT;
+        return this;
     }
 
-    public String getGrossProfitMargin() {
-        return grossProfitMargin;
+    public String get_grossProfitMargin() {
+        return _grossProfitMargin;
     }
 
-    public void setGrossProfitMargin(String grossProfitMargin) {
-        this.grossProfitMargin = grossProfitMargin;
+    public InputDataSets set_grossProfitMargin(String _grossProfitMargin) {
+        this._grossProfitMargin = _grossProfitMargin;
+        return this;
     }
 
-    public String getOperatingProfitMargin() {
-        return operatingProfitMargin;
+    public String get_operatingProfitMargin() {
+        return _operatingProfitMargin;
     }
 
-    public void setOperatingProfitMargin(String operatingProfitMargin) {
-        this.operatingProfitMargin = operatingProfitMargin;
+    public InputDataSets set_operatingProfitMargin(String _operatingProfitMargin) {
+        this._operatingProfitMargin = _operatingProfitMargin;
+        return this;
     }
 
-    public String getPretaxProfitMargin() {
-        return pretaxProfitMargin;
+    public String get_pretaxProfitMargin() {
+        return _pretaxProfitMargin;
     }
 
-    public void setPretaxProfitMargin(String pretaxProfitMargin) {
-        this.pretaxProfitMargin = pretaxProfitMargin;
+    public InputDataSets set_pretaxProfitMargin(String _pretaxProfitMargin) {
+        this._pretaxProfitMargin = _pretaxProfitMargin;
+        return this;
     }
 
-    public String getNetProfitMargin() {
-        return netProfitMargin;
+    public String get_netProfitMargin() {
+        return _netProfitMargin;
     }
 
-    public void setNetProfitMargin(String netProfitMargin) {
-        this.netProfitMargin = netProfitMargin;
+    public InputDataSets set_netProfitMargin(String _netProfitMargin) {
+        this._netProfitMargin = _netProfitMargin;
+        return this;
     }
 
-    public String getEffectiveTaxRate() {
-        return effectiveTaxRate;
+    public String get_effectiveTaxRate() {
+        return _effectiveTaxRate;
     }
 
-    public void setEffectiveTaxRate(String effectiveTaxRate) {
-        this.effectiveTaxRate = effectiveTaxRate;
+    public InputDataSets set_effectiveTaxRate(String _effectiveTaxRate) {
+        this._effectiveTaxRate = _effectiveTaxRate;
+        return this;
     }
 
-    public String getReturnOnAssets() {
-        return returnOnAssets;
+    public String get_returnOnAssets() {
+        return _returnOnAssets;
     }
 
-    public void setReturnOnAssets(String returnOnAssets) {
-        this.returnOnAssets = returnOnAssets;
+    public InputDataSets set_returnOnAssets(String _returnOnAssets) {
+        this._returnOnAssets = _returnOnAssets;
+        return this;
     }
 
-    public String getReturnOnEquity() {
-        return returnOnEquity;
+    public String get_returnOnEquity() {
+        return _returnOnEquity;
     }
 
-    public void setReturnOnEquity(String returnOnEquity) {
-        this.returnOnEquity = returnOnEquity;
+    public InputDataSets set_returnOnEquity(String _returnOnEquity) {
+        this._returnOnEquity = _returnOnEquity;
+        return this;
     }
 
-    public String getReturnOnCapitalEmployed() {
-        return returnOnCapitalEmployed;
+    public String get_returnOnCapitalEmployed() {
+        return _returnOnCapitalEmployed;
     }
 
-    public void setReturnOnCapitalEmployed(String returnOnCapitalEmployed) {
-        this.returnOnCapitalEmployed = returnOnCapitalEmployed;
+    public InputDataSets set_returnOnCapitalEmployed(String _returnOnCapitalEmployed) {
+        this._returnOnCapitalEmployed = _returnOnCapitalEmployed;
+        return this;
     }
 
-    public String getnIperEBT() {
-        return nIperEBT;
+    public String get_nIperEBT() {
+        return _nIperEBT;
     }
 
-    public void setnIperEBT(String nIperEBT) {
-        this.nIperEBT = nIperEBT;
+    public InputDataSets set_nIperEBT(String _nIperEBT) {
+        this._nIperEBT = _nIperEBT;
+        return this;
     }
 
-    public String geteBTperEBIT() {
-        return eBTperEBIT;
+    public String get_eBTperEBIT() {
+        return _eBTperEBIT;
     }
 
-    public void seteBTperEBIT(String eBTperEBIT) {
-        this.eBTperEBIT = eBTperEBIT;
+    public InputDataSets set_eBTperEBIT(String _eBTperEBIT) {
+        this._eBTperEBIT = _eBTperEBIT;
+        return this;
     }
 
-    public String geteBITperRevenue() {
-        return eBITperRevenue;
+    public String get_eBITperRevenue() {
+        return _eBITperRevenue;
     }
 
-    public void seteBITperRevenue(String eBITperRevenue) {
-        this.eBITperRevenue = eBITperRevenue;
+    public InputDataSets set_eBITperRevenue(String _eBITperRevenue) {
+        this._eBITperRevenue = _eBITperRevenue;
+        return this;
     }
 
-    public String getPayablesTurnover() {
-        return payablesTurnover;
+    public String get_payablesTurnover() {
+        return _payablesTurnover;
     }
 
-    public void setPayablesTurnover(String payablesTurnover) {
-        this.payablesTurnover = payablesTurnover;
+    public InputDataSets set_payablesTurnover(String _payablesTurnover) {
+        this._payablesTurnover = _payablesTurnover;
+        return this;
     }
 
-    public String getInventoryTurnover() {
-        return inventoryTurnover;
+    public String get_inventoryTurnover() {
+        return _inventoryTurnover;
     }
 
-    public void setInventoryTurnover(String inventoryTurnover) {
-        this.inventoryTurnover = inventoryTurnover;
+    public InputDataSets set_inventoryTurnover(String _inventoryTurnover) {
+        this._inventoryTurnover = _inventoryTurnover;
+        return this;
     }
 
-    public String getFixedAssetTurnover() {
-        return fixedAssetTurnover;
+    public String get_fixedAssetTurnover() {
+        return _fixedAssetTurnover;
     }
 
-    public void setFixedAssetTurnover(String fixedAssetTurnover) {
-        this.fixedAssetTurnover = fixedAssetTurnover;
+    public InputDataSets set_fixedAssetTurnover(String _fixedAssetTurnover) {
+        this._fixedAssetTurnover = _fixedAssetTurnover;
+        return this;
     }
 
-    public String getAssetTurnover() {
-        return assetTurnover;
+    public String get_assetTurnover() {
+        return _assetTurnover;
     }
 
-    public void setAssetTurnover(String assetTurnover) {
-        this.assetTurnover = assetTurnover;
+    public InputDataSets set_assetTurnover(String _assetTurnover) {
+        this._assetTurnover = _assetTurnover;
+        return this;
     }
 
-    public String getCurrentRatio() {
-        return currentRatio;
+    public String get_currentRatio() {
+        return _currentRatio;
     }
 
-    public void setCurrentRatio(String currentRatio) {
-        this.currentRatio = currentRatio;
+    public InputDataSets set_currentRatio(String _currentRatio) {
+        this._currentRatio = _currentRatio;
+        return this;
     }
 
-    public String getQuickRatio() {
-        return quickRatio;
+    public String get_quickRatio() {
+        return _quickRatio;
     }
 
-    public void setQuickRatio(String quickRatio) {
-        this.quickRatio = quickRatio;
+    public InputDataSets set_quickRatio(String _quickRatio) {
+        this._quickRatio = _quickRatio;
+        return this;
     }
 
-    public String getCashRatio() {
-        return cashRatio;
+    public String get_cashRatio() {
+        return _cashRatio;
     }
 
-    public void setCashRatio(String cashRatio) {
-        this.cashRatio = cashRatio;
+    public InputDataSets set_cashRatio(String _cashRatio) {
+        this._cashRatio = _cashRatio;
+        return this;
     }
 
-    public String getDaysOfSalesOutstanding() {
-        return daysOfSalesOutstanding;
+    public String get_daysOfSalesOutstanding() {
+        return _daysOfSalesOutstanding;
     }
 
-    public void setDaysOfSalesOutstanding(String daysOfSalesOutstanding) {
-        this.daysOfSalesOutstanding = daysOfSalesOutstanding;
+    public InputDataSets set_daysOfSalesOutstanding(String _daysOfSalesOutstanding) {
+        this._daysOfSalesOutstanding = _daysOfSalesOutstanding;
+        return this;
     }
 
-    public String getDaysOfInventoryOutstanding() {
-        return daysOfInventoryOutstanding;
+    public String get_daysOfInventoryOutstanding() {
+        return _daysOfInventoryOutstanding;
     }
 
-    public void setDaysOfInventoryOutstanding(String daysOfInventoryOutstanding) {
-        this.daysOfInventoryOutstanding = daysOfInventoryOutstanding;
+    public InputDataSets set_daysOfInventoryOutstanding(String _daysOfInventoryOutstanding) {
+        this._daysOfInventoryOutstanding = _daysOfInventoryOutstanding;
+        return this;
     }
 
-    public String getOperatingCycle() {
-        return operatingCycle;
+    public String get_operatingCycle() {
+        return _operatingCycle;
     }
 
-    public void setOperatingCycle(String operatingCycle) {
-        this.operatingCycle = operatingCycle;
+    public InputDataSets set_operatingCycle(String _operatingCycle) {
+        this._operatingCycle = _operatingCycle;
+        return this;
     }
 
-    public String getDaysOfPayablesOutstanding() {
-        return daysOfPayablesOutstanding;
+    public String get_daysOfPayablesOutstanding() {
+        return _daysOfPayablesOutstanding;
     }
 
-    public void setDaysOfPayablesOutstanding(String daysOfPayablesOutstanding) {
-        this.daysOfPayablesOutstanding = daysOfPayablesOutstanding;
+    public InputDataSets set_daysOfPayablesOutstanding(String _daysOfPayablesOutstanding) {
+        this._daysOfPayablesOutstanding = _daysOfPayablesOutstanding;
+        return this;
     }
 
-    public String getCashConversionCycle() {
-        return cashConversionCycle;
+    public String get_cashConversionCycle() {
+        return _cashConversionCycle;
     }
 
-    public void setCashConversionCycle(String cashConversionCycle) {
-        this.cashConversionCycle = cashConversionCycle;
+    public InputDataSets set_cashConversionCycle(String _cashConversionCycle) {
+        this._cashConversionCycle = _cashConversionCycle;
+        return this;
     }
 
-    public String getDebtRatio() {
-        return debtRatio;
+    public String get_debtRatio() {
+        return _debtRatio;
     }
 
-    public void setDebtRatio(String debtRatio) {
-        this.debtRatio = debtRatio;
+    public InputDataSets set_debtRatio(String _debtRatio) {
+        this._debtRatio = _debtRatio;
+        return this;
     }
 
-    public String getDebtEquityRatio() {
-        return debtEquityRatio;
+    public String get_debtEquityRatio() {
+        return _debtEquityRatio;
     }
 
-    public void setDebtEquityRatio(String debtEquityRatio) {
-        this.debtEquityRatio = debtEquityRatio;
+    public InputDataSets set_debtEquityRatio(String _debtEquityRatio) {
+        this._debtEquityRatio = _debtEquityRatio;
+        return this;
     }
 
-    public String getLongtermDebtToCapitalization() {
-        return longtermDebtToCapitalization;
+    public String get_longtermDebtToCapitalization() {
+        return _longtermDebtToCapitalization;
     }
 
-    public void setLongtermDebtToCapitalization(String longtermDebtToCapitalization) {
-        this.longtermDebtToCapitalization = longtermDebtToCapitalization;
+    public InputDataSets set_longtermDebtToCapitalization(String _longtermDebtToCapitalization) {
+        this._longtermDebtToCapitalization = _longtermDebtToCapitalization;
+        return this;
     }
 
-    public String getTotalDebtToCapitalization() {
-        return totalDebtToCapitalization;
+    public String get_totalDebtToCapitalization() {
+        return _totalDebtToCapitalization;
     }
 
-    public void setTotalDebtToCapitalization(String totalDebtToCapitalization) {
-        this.totalDebtToCapitalization = totalDebtToCapitalization;
+    public InputDataSets set_totalDebtToCapitalization(String _totalDebtToCapitalization) {
+        this._totalDebtToCapitalization = _totalDebtToCapitalization;
+        return this;
     }
 
-    public String getInterestCoverage() {
-        return interestCoverage;
+    public String get_interestCoverage() {
+        return _interestCoverage;
     }
 
-    public void setInterestCoverage(String interestCoverage) {
-        this.interestCoverage = interestCoverage;
+    public InputDataSets set_interestCoverage(String _interestCoverage) {
+        this._interestCoverage = _interestCoverage;
+        return this;
     }
 
-    public String getCashFlowToDebtRatio() {
-        return cashFlowToDebtRatio;
+    public String get_cashFlowToDebtRatio() {
+        return _cashFlowToDebtRatio;
     }
 
-    public void setCashFlowToDebtRatio(String cashFlowToDebtRatio) {
-        this.cashFlowToDebtRatio = cashFlowToDebtRatio;
+    public InputDataSets set_cashFlowToDebtRatio(String _cashFlowToDebtRatio) {
+        this._cashFlowToDebtRatio = _cashFlowToDebtRatio;
+        return this;
     }
 
-    public String getCompanyEquityMultiplier() {
-        return companyEquityMultiplier;
+    public String get_companyEquityMultiplier() {
+        return _companyEquityMultiplier;
     }
 
-    public void setCompanyEquityMultiplier(String companyEquityMultiplier) {
-        this.companyEquityMultiplier = companyEquityMultiplier;
+    public InputDataSets set_companyEquityMultiplier(String _companyEquityMultiplier) {
+        this._companyEquityMultiplier = _companyEquityMultiplier;
+        return this;
     }
 
-    public String getOperatingCashFlowPerShare() {
-        return operatingCashFlowPerShare;
+    public String get_operatingCashFlowPerShare() {
+        return _operatingCashFlowPerShare;
     }
 
-    public void setOperatingCashFlowPerShare(String operatingCashFlowPerShare) {
-        this.operatingCashFlowPerShare = operatingCashFlowPerShare;
+    public InputDataSets set_operatingCashFlowPerShare(String _operatingCashFlowPerShare) {
+        this._operatingCashFlowPerShare = _operatingCashFlowPerShare;
+        return this;
     }
 
-    public String getFreeCashFlowPerShare() {
-        return freeCashFlowPerShare;
+    public String get_freeCashFlowPerShare() {
+        return _freeCashFlowPerShare;
     }
 
-    public void setFreeCashFlowPerShare(String freeCashFlowPerShare) {
-        this.freeCashFlowPerShare = freeCashFlowPerShare;
+    public InputDataSets set_freeCashFlowPerShare(String _freeCashFlowPerShare) {
+        this._freeCashFlowPerShare = _freeCashFlowPerShare;
+        return this;
     }
 
-    public String getCashPerShare() {
-        return cashPerShare;
+    public String get_cashPerShare() {
+        return _cashPerShare;
     }
 
-    public void setCashPerShare(String cashPerShare) {
-        this.cashPerShare = cashPerShare;
+    public InputDataSets set_cashPerShare(String _cashPerShare) {
+        this._cashPerShare = _cashPerShare;
+        return this;
     }
 
-    public String getPayoutRatio() {
-        return payoutRatio;
+    public String get_payoutRatio() {
+        return _payoutRatio;
     }
 
-    public void setPayoutRatio(String payoutRatio) {
-        this.payoutRatio = payoutRatio;
+    public InputDataSets set_payoutRatio(String _payoutRatio) {
+        this._payoutRatio = _payoutRatio;
+        return this;
     }
 
-    public String getOperatingCashFlowSalesRatio() {
-        return operatingCashFlowSalesRatio;
+    public String get_operatingCashFlowSalesRatio() {
+        return _operatingCashFlowSalesRatio;
     }
 
-    public void setOperatingCashFlowSalesRatio(String operatingCashFlowSalesRatio) {
-        this.operatingCashFlowSalesRatio = operatingCashFlowSalesRatio;
+    public InputDataSets set_operatingCashFlowSalesRatio(String _operatingCashFlowSalesRatio) {
+        this._operatingCashFlowSalesRatio = _operatingCashFlowSalesRatio;
+        return this;
     }
 
-    public String getFreeCashFlowOperatingCashFlowRatio() {
-        return freeCashFlowOperatingCashFlowRatio;
+    public String get_freeCashFlowOperatingCashFlowRatio() {
+        return _freeCashFlowOperatingCashFlowRatio;
     }
 
-    public void setFreeCashFlowOperatingCashFlowRatio(String freeCashFlowOperatingCashFlowRatio) {
-        this.freeCashFlowOperatingCashFlowRatio = freeCashFlowOperatingCashFlowRatio;
+    public InputDataSets set_freeCashFlowOperatingCashFlowRatio(String _freeCashFlowOperatingCashFlowRatio) {
+        this._freeCashFlowOperatingCashFlowRatio = _freeCashFlowOperatingCashFlowRatio;
+        return this;
     }
 
-    public String getCashFlowCoverageRatios() {
-        return cashFlowCoverageRatios;
+    public String get_cashFlowCoverageRatios() {
+        return _cashFlowCoverageRatios;
     }
 
-    public void setCashFlowCoverageRatios(String cashFlowCoverageRatios) {
-        this.cashFlowCoverageRatios = cashFlowCoverageRatios;
+    public InputDataSets set_cashFlowCoverageRatios(String _cashFlowCoverageRatios) {
+        this._cashFlowCoverageRatios = _cashFlowCoverageRatios;
+        return this;
     }
 
-    public String getShortTermCoverageRatios() {
-        return shortTermCoverageRatios;
+    public String get_shortTermCoverageRatios() {
+        return _shortTermCoverageRatios;
     }
 
-    public void setShortTermCoverageRatios(String shortTermCoverageRatios) {
-        this.shortTermCoverageRatios = shortTermCoverageRatios;
+    public InputDataSets set_shortTermCoverageRatios(String _shortTermCoverageRatios) {
+        this._shortTermCoverageRatios = _shortTermCoverageRatios;
+        return this;
     }
 
-    public String getCapitalExpenditureCoverageRatios() {
-        return capitalExpenditureCoverageRatios;
+    public String get_capitalExpenditureCoverageRatios() {
+        return _capitalExpenditureCoverageRatios;
     }
 
-    public void setCapitalExpenditureCoverageRatios(String capitalExpenditureCoverageRatios) {
-        this.capitalExpenditureCoverageRatios = capitalExpenditureCoverageRatios;
+    public InputDataSets set_capitalExpenditureCoverageRatios(String _capitalExpenditureCoverageRatios) {
+        this._capitalExpenditureCoverageRatios = _capitalExpenditureCoverageRatios;
+        return this;
     }
 
-    public String getDividendpaidAndCapexCoverageRatios() {
-        return dividendpaidAndCapexCoverageRatios;
+    public String get_dividendpaidAndCapexCoverageRatios() {
+        return _dividendpaidAndCapexCoverageRatios;
     }
 
-    public void setDividendpaidAndCapexCoverageRatios(String dividendpaidAndCapexCoverageRatios) {
-        this.dividendpaidAndCapexCoverageRatios = dividendpaidAndCapexCoverageRatios;
+    public InputDataSets set_dividendpaidAndCapexCoverageRatios(String _dividendpaidAndCapexCoverageRatios) {
+        this._dividendpaidAndCapexCoverageRatios = _dividendpaidAndCapexCoverageRatios;
+        return this;
     }
 
-    public String getDividendPayoutRatio() {
-        return dividendPayoutRatio;
+    public String get_dividendPayoutRatio() {
+        return _dividendPayoutRatio;
     }
 
-    public void setDividendPayoutRatio(String dividendPayoutRatio) {
-        this.dividendPayoutRatio = dividendPayoutRatio;
+    public InputDataSets set_dividendPayoutRatio(String _dividendPayoutRatio) {
+        this._dividendPayoutRatio = _dividendPayoutRatio;
+        return this;
     }
 
-    public String getRevenue_per_Share() {
-        return Revenue_per_Share;
+    public String get_Revenue_per_Share() {
+        return _Revenue_per_Share;
     }
 
-    public void setRevenue_per_Share(String revenue_per_Share) {
-        Revenue_per_Share = revenue_per_Share;
+    public InputDataSets set_Revenue_per_Share(String _Revenue_per_Share) {
+        this._Revenue_per_Share = _Revenue_per_Share;
+        return this;
     }
 
-    public String getNet_Income_per_Share() {
-        return Net_Income_per_Share;
+    public String get_Net_Income_per_Share() {
+        return _Net_Income_per_Share;
     }
 
-    public void setNet_Income_per_Share(String net_Income_per_Share) {
-        Net_Income_per_Share = net_Income_per_Share;
+    public InputDataSets set_Net_Income_per_Share(String _Net_Income_per_Share) {
+        this._Net_Income_per_Share = _Net_Income_per_Share;
+        return this;
     }
 
-    public String getOperating_Cash_Flow_per_Share() {
-        return Operating_Cash_Flow_per_Share;
+    public String get_Operating_Cash_Flow_per_Share() {
+        return _Operating_Cash_Flow_per_Share;
     }
 
-    public void setOperating_Cash_Flow_per_Share(String operating_Cash_Flow_per_Share) {
-        Operating_Cash_Flow_per_Share = operating_Cash_Flow_per_Share;
+    public InputDataSets set_Operating_Cash_Flow_per_Share(String _Operating_Cash_Flow_per_Share) {
+        this._Operating_Cash_Flow_per_Share = _Operating_Cash_Flow_per_Share;
+        return this;
     }
 
-    public String getFree_Cash_Flow_per_Share() {
-        return Free_Cash_Flow_per_Share;
+    public String get_Free_Cash_Flow_per_Share() {
+        return _Free_Cash_Flow_per_Share;
     }
 
-    public void setFree_Cash_Flow_per_Share(String free_Cash_Flow_per_Share) {
-        Free_Cash_Flow_per_Share = free_Cash_Flow_per_Share;
+    public InputDataSets set_Free_Cash_Flow_per_Share(String _Free_Cash_Flow_per_Share) {
+        this._Free_Cash_Flow_per_Share = _Free_Cash_Flow_per_Share;
+        return this;
     }
 
-    public String getCash_per_Share() {
-        return Cash_per_Share;
+    public String get_Cash_per_Share() {
+        return _Cash_per_Share;
     }
 
-    public void setCash_per_Share(String cash_per_Share) {
-        Cash_per_Share = cash_per_Share;
+    public InputDataSets set_Cash_per_Share(String _Cash_per_Share) {
+        this._Cash_per_Share = _Cash_per_Share;
+        return this;
     }
 
-    public String getBook_Value_per_Share() {
-        return Book_Value_per_Share;
+    public String get_Book_Value_per_Share() {
+        return _Book_Value_per_Share;
     }
 
-    public void setBook_Value_per_Share(String book_Value_per_Share) {
-        Book_Value_per_Share = book_Value_per_Share;
+    public InputDataSets set_Book_Value_per_Share(String _Book_Value_per_Share) {
+        this._Book_Value_per_Share = _Book_Value_per_Share;
+        return this;
     }
 
-    public String getTangible_Book_Value_per_Share() {
-        return Tangible_Book_Value_per_Share;
+    public String get_Tangible_Book_Value_per_Share() {
+        return _Tangible_Book_Value_per_Share;
     }
 
-    public void setTangible_Book_Value_per_Share(String tangible_Book_Value_per_Share) {
-        Tangible_Book_Value_per_Share = tangible_Book_Value_per_Share;
+    public InputDataSets set_Tangible_Book_Value_per_Share(String _Tangible_Book_Value_per_Share) {
+        this._Tangible_Book_Value_per_Share = _Tangible_Book_Value_per_Share;
+        return this;
     }
 
-    public String getShareholders_Equity_per_Share() {
-        return Shareholders_Equity_per_Share;
+    public String get_Shareholders_Equity_per_Share() {
+        return _Shareholders_Equity_per_Share;
     }
 
-    public void setShareholders_Equity_per_Share(String shareholders_Equity_per_Share) {
-        Shareholders_Equity_per_Share = shareholders_Equity_per_Share;
+    public InputDataSets set_Shareholders_Equity_per_Share(String _Shareholders_Equity_per_Share) {
+        this._Shareholders_Equity_per_Share = _Shareholders_Equity_per_Share;
+        return this;
     }
 
-    public String getInterest_Debt_per_Share() {
-        return Interest_Debt_per_Share;
+    public String get_Interest_Debt_per_Share() {
+        return _Interest_Debt_per_Share;
     }
 
-    public void setInterest_Debt_per_Share(String interest_Debt_per_Share) {
-        Interest_Debt_per_Share = interest_Debt_per_Share;
+    public InputDataSets set_Interest_Debt_per_Share(String _Interest_Debt_per_Share) {
+        this._Interest_Debt_per_Share = _Interest_Debt_per_Share;
+        return this;
     }
 
-    public String getMarket_Cap() {
-        return Market_Cap;
+    public String get_Market_Cap() {
+        return _Market_Cap;
     }
 
-    public void setMarket_Cap(String market_Cap) {
-        Market_Cap = market_Cap;
+    public InputDataSets set_Market_Cap(String _Market_Cap) {
+        this._Market_Cap = _Market_Cap;
+        return this;
     }
 
-    public String getEnterprise_Value() {
-        return Enterprise_Value;
+    public String get_Enterprise_Value() {
+        return _Enterprise_Value;
     }
 
-    public void setEnterprise_Value(String enterprise_Value) {
-        Enterprise_Value = enterprise_Value;
+    public InputDataSets set_Enterprise_Value(String _Enterprise_Value) {
+        this._Enterprise_Value = _Enterprise_Value;
+        return this;
     }
 
-    public String getPE_ratio() {
-        return PE_ratio;
+    public String get_PE_ratio() {
+        return _PE_ratio;
     }
 
-    public void setPE_ratio(String PE_ratio) {
-        this.PE_ratio = PE_ratio;
+    public InputDataSets set_PE_ratio(String _PE_ratio) {
+        this._PE_ratio = _PE_ratio;
+        return this;
     }
 
-    public String getPrice_to_Sales_Ratio() {
-        return Price_to_Sales_Ratio;
+    public String get_Price_to_Sales_Ratio() {
+        return _Price_to_Sales_Ratio;
     }
 
-    public void setPrice_to_Sales_Ratio(String price_to_Sales_Ratio) {
-        Price_to_Sales_Ratio = price_to_Sales_Ratio;
+    public InputDataSets set_Price_to_Sales_Ratio(String _Price_to_Sales_Ratio) {
+        this._Price_to_Sales_Ratio = _Price_to_Sales_Ratio;
+        return this;
     }
 
-    public String getPOCF_ratio() {
-        return POCF_ratio;
+    public String get_POCF_ratio() {
+        return _POCF_ratio;
     }
 
-    public void setPOCF_ratio(String POCF_ratio) {
-        this.POCF_ratio = POCF_ratio;
+    public InputDataSets set_POCF_ratio(String _POCF_ratio) {
+        this._POCF_ratio = _POCF_ratio;
+        return this;
     }
 
-    public String getPFCF_ratio() {
-        return PFCF_ratio;
+    public String get_PFCF_ratio() {
+        return _PFCF_ratio;
     }
 
-    public void setPFCF_ratio(String PFCF_ratio) {
-        this.PFCF_ratio = PFCF_ratio;
+    public InputDataSets set_PFCF_ratio(String _PFCF_ratio) {
+        this._PFCF_ratio = _PFCF_ratio;
+        return this;
     }
 
-    public String getPB_ratio() {
-        return PB_ratio;
+    public String get_PB_ratio() {
+        return _PB_ratio;
     }
 
-    public void setPB_ratio(String PB_ratio) {
-        this.PB_ratio = PB_ratio;
+    public InputDataSets set_PB_ratio(String _PB_ratio) {
+        this._PB_ratio = _PB_ratio;
+        return this;
     }
 
-    public String getPTB_ratio() {
-        return PTB_ratio;
+    public String get_PTB_ratio() {
+        return _PTB_ratio;
     }
 
-    public void setPTB_ratio(String PTB_ratio) {
-        this.PTB_ratio = PTB_ratio;
+    public InputDataSets set_PTB_ratio(String _PTB_ratio) {
+        this._PTB_ratio = _PTB_ratio;
+        return this;
     }
 
-    public String getEV_to_Sales() {
-        return EV_to_Sales;
+    public String get_EV_to_Sales() {
+        return _EV_to_Sales;
     }
 
-    public void setEV_to_Sales(String EV_to_Sales) {
-        this.EV_to_Sales = EV_to_Sales;
+    public InputDataSets set_EV_to_Sales(String _EV_to_Sales) {
+        this._EV_to_Sales = _EV_to_Sales;
+        return this;
     }
 
-    public String getEnterprise_Value_over_EBITDA() {
-        return Enterprise_Value_over_EBITDA;
+    public String get_Enterprise_Value_over_EBITDA() {
+        return _Enterprise_Value_over_EBITDA;
     }
 
-    public void setEnterprise_Value_over_EBITDA(String enterprise_Value_over_EBITDA) {
-        Enterprise_Value_over_EBITDA = enterprise_Value_over_EBITDA;
+    public InputDataSets set_Enterprise_Value_over_EBITDA(String _Enterprise_Value_over_EBITDA) {
+        this._Enterprise_Value_over_EBITDA = _Enterprise_Value_over_EBITDA;
+        return this;
     }
 
-    public String getEV_to_Operating_cash_flow() {
-        return EV_to_Operating_cash_flow;
+    public String get_EV_to_Operating_cash_flow() {
+        return _EV_to_Operating_cash_flow;
     }
 
-    public void setEV_to_Operating_cash_flow(String EV_to_Operating_cash_flow) {
-        this.EV_to_Operating_cash_flow = EV_to_Operating_cash_flow;
+    public InputDataSets set_EV_to_Operating_cash_flow(String _EV_to_Operating_cash_flow) {
+        this._EV_to_Operating_cash_flow = _EV_to_Operating_cash_flow;
+        return this;
     }
 
-    public String getEV_to_Free_cash_flow() {
-        return EV_to_Free_cash_flow;
+    public String get_EV_to_Free_cash_flow() {
+        return _EV_to_Free_cash_flow;
     }
 
-    public void setEV_to_Free_cash_flow(String EV_to_Free_cash_flow) {
-        this.EV_to_Free_cash_flow = EV_to_Free_cash_flow;
+    public InputDataSets set_EV_to_Free_cash_flow(String _EV_to_Free_cash_flow) {
+        this._EV_to_Free_cash_flow = _EV_to_Free_cash_flow;
+        return this;
     }
 
-    public String getEarnings_Yield() {
-        return Earnings_Yield;
+    public String get_Earnings_Yield() {
+        return _Earnings_Yield;
     }
 
-    public void setEarnings_Yield(String earnings_Yield) {
-        Earnings_Yield = earnings_Yield;
+    public InputDataSets set_Earnings_Yield(String _Earnings_Yield) {
+        this._Earnings_Yield = _Earnings_Yield;
+        return this;
     }
 
-    public String getFree_Cash_Flow_Yield() {
-        return Free_Cash_Flow_Yield;
+    public String get_Free_Cash_Flow_Yield() {
+        return _Free_Cash_Flow_Yield;
     }
 
-    public void setFree_Cash_Flow_Yield(String free_Cash_Flow_Yield) {
-        Free_Cash_Flow_Yield = free_Cash_Flow_Yield;
+    public InputDataSets set_Free_Cash_Flow_Yield(String _Free_Cash_Flow_Yield) {
+        this._Free_Cash_Flow_Yield = _Free_Cash_Flow_Yield;
+        return this;
     }
 
-    public String getDebt_to_Equity() {
-        return Debt_to_Equity;
+    public String get_Debt_to_Equity() {
+        return _Debt_to_Equity;
     }
 
-    public void setDebt_to_Equity(String debt_to_Equity) {
-        Debt_to_Equity = debt_to_Equity;
+    public InputDataSets set_Debt_to_Equity(String _Debt_to_Equity) {
+        this._Debt_to_Equity = _Debt_to_Equity;
+        return this;
     }
 
-    public String getDebt_to_Assets() {
-        return Debt_to_Assets;
+    public String get_Debt_to_Assets() {
+        return _Debt_to_Assets;
     }
 
-    public void setDebt_to_Assets(String debt_to_Assets) {
-        Debt_to_Assets = debt_to_Assets;
+    public InputDataSets set_Debt_to_Assets(String _Debt_to_Assets) {
+        this._Debt_to_Assets = _Debt_to_Assets;
+        return this;
     }
 
-    public String getNet_Debt_to_EBITDA() {
-        return Net_Debt_to_EBITDA;
+    public String get_Net_Debt_to_EBITDA() {
+        return _Net_Debt_to_EBITDA;
     }
 
-    public void setNet_Debt_to_EBITDA(String net_Debt_to_EBITDA) {
-        Net_Debt_to_EBITDA = net_Debt_to_EBITDA;
+    public InputDataSets set_Net_Debt_to_EBITDA(String _Net_Debt_to_EBITDA) {
+        this._Net_Debt_to_EBITDA = _Net_Debt_to_EBITDA;
+        return this;
     }
 
-    public String getCurrent_ratio() {
-        return Current_ratio;
+    public String get_Current_ratio() {
+        return _Current_ratio;
     }
 
-    public void setCurrent_ratio(String current_ratio) {
-        Current_ratio = current_ratio;
+    public InputDataSets set_Current_ratio(String _Current_ratio) {
+        this._Current_ratio = _Current_ratio;
+        return this;
     }
 
-    public String getInterest_Coverage() {
-        return Interest_Coverage;
+    public String get_Interest_Coverage() {
+        return _Interest_Coverage;
     }
 
-    public void setInterest_Coverage(String interest_Coverage) {
-        Interest_Coverage = interest_Coverage;
+    public InputDataSets set_Interest_Coverage(String _Interest_Coverage) {
+        this._Interest_Coverage = _Interest_Coverage;
+        return this;
     }
 
-    public String getIncome_Quality() {
-        return Income_Quality;
+    public String get_Income_Quality() {
+        return _Income_Quality;
     }
 
-    public void setIncome_Quality(String income_Quality) {
-        Income_Quality = income_Quality;
+    public InputDataSets set_Income_Quality(String _Income_Quality) {
+        this._Income_Quality = _Income_Quality;
+        return this;
     }
 
-    public String getDividend_Yield() {
-        return Dividend_Yield;
+    public String get_Dividend_Yield() {
+        return _Dividend_Yield;
     }
 
-    public void setDividend_Yield(String dividend_Yield) {
-        Dividend_Yield = dividend_Yield;
+    public InputDataSets set_Dividend_Yield(String _Dividend_Yield) {
+        this._Dividend_Yield = _Dividend_Yield;
+        return this;
     }
 
-    public String getPayout_Ratio() {
-        return Payout_Ratio;
+    public String get_Payout_Ratio() {
+        return _Payout_Ratio;
     }
 
-    public void setPayout_Ratio(String payout_Ratio) {
-        Payout_Ratio = payout_Ratio;
+    public InputDataSets set_Payout_Ratio(String _Payout_Ratio) {
+        this._Payout_Ratio = _Payout_Ratio;
+        return this;
     }
 
-    public String getSG_A_to_Revenue() {
-        return SG_A_to_Revenue;
+    public String get_SG_A_to_Revenue() {
+        return _SG_A_to_Revenue;
     }
 
-    public void setSG_A_to_Revenue(String SG_A_to_Revenue) {
-        this.SG_A_to_Revenue = SG_A_to_Revenue;
+    public InputDataSets set_SG_A_to_Revenue(String _SG_A_to_Revenue) {
+        this._SG_A_to_Revenue = _SG_A_to_Revenue;
+        return this;
     }
 
-    public String getR_D_to_Revenue() {
-        return R_D_to_Revenue;
+    public String get_R_D_to_Revenue() {
+        return _R_D_to_Revenue;
     }
 
-    public void setR_D_to_Revenue(String r_D_to_Revenue) {
-        R_D_to_Revenue = r_D_to_Revenue;
+    public InputDataSets set_R_D_to_Revenue(String _R_D_to_Revenue) {
+        this._R_D_to_Revenue = _R_D_to_Revenue;
+        return this;
     }
 
-    public String getIntangibles_to_Total_Assets() {
-        return Intangibles_to_Total_Assets;
+    public String get_Intangibles_to_Total_Assets() {
+        return _Intangibles_to_Total_Assets;
     }
 
-    public void setIntangibles_to_Total_Assets(String intangibles_to_Total_Assets) {
-        Intangibles_to_Total_Assets = intangibles_to_Total_Assets;
+    public InputDataSets set_Intangibles_to_Total_Assets(String _Intangibles_to_Total_Assets) {
+        this._Intangibles_to_Total_Assets = _Intangibles_to_Total_Assets;
+        return this;
     }
 
-    public String getCapex_to_Operating_Cash_Flow() {
-        return Capex_to_Operating_Cash_Flow;
+    public String get_Capex_to_Operating_Cash_Flow() {
+        return _Capex_to_Operating_Cash_Flow;
     }
 
-    public void setCapex_to_Operating_Cash_Flow(String capex_to_Operating_Cash_Flow) {
-        Capex_to_Operating_Cash_Flow = capex_to_Operating_Cash_Flow;
+    public InputDataSets set_Capex_to_Operating_Cash_Flow(String _Capex_to_Operating_Cash_Flow) {
+        this._Capex_to_Operating_Cash_Flow = _Capex_to_Operating_Cash_Flow;
+        return this;
     }
 
-    public String getCapex_to_Revenue() {
-        return Capex_to_Revenue;
+    public String get_Capex_to_Revenue() {
+        return _Capex_to_Revenue;
     }
 
-    public void setCapex_to_Revenue(String capex_to_Revenue) {
-        Capex_to_Revenue = capex_to_Revenue;
+    public InputDataSets set_Capex_to_Revenue(String _Capex_to_Revenue) {
+        this._Capex_to_Revenue = _Capex_to_Revenue;
+        return this;
     }
 
-    public String getCapex_to_Depreciation() {
-        return Capex_to_Depreciation;
+    public String get_Capex_to_Depreciation() {
+        return _Capex_to_Depreciation;
     }
 
-    public void setCapex_to_Depreciation(String capex_to_Depreciation) {
-        Capex_to_Depreciation = capex_to_Depreciation;
+    public InputDataSets set_Capex_to_Depreciation(String _Capex_to_Depreciation) {
+        this._Capex_to_Depreciation = _Capex_to_Depreciation;
+        return this;
     }
 
-    public String getStock_based_compensation_to_Revenue() {
-        return Stock_based_compensation_to_Revenue;
+    public String get_Stock_based_compensation_to_Revenue() {
+        return _Stock_based_compensation_to_Revenue;
     }
 
-    public void setStock_based_compensation_to_Revenue(String stock_based_compensation_to_Revenue) {
-        Stock_based_compensation_to_Revenue = stock_based_compensation_to_Revenue;
+    public InputDataSets set_Stock_based_compensation_to_Revenue(String _Stock_based_compensation_to_Revenue) {
+        this._Stock_based_compensation_to_Revenue = _Stock_based_compensation_to_Revenue;
+        return this;
     }
 
-    public String getGraham_Number() {
-        return Graham_Number;
+    public String get_Graham_Number() {
+        return _Graham_Number;
     }
 
-    public void setGraham_Number(String graham_Number) {
-        Graham_Number = graham_Number;
+    public InputDataSets set_Graham_Number(String _Graham_Number) {
+        this._Graham_Number = _Graham_Number;
+        return this;
     }
 
-    public String getROIC() {
-        return ROIC;
+    public String get_ROIC() {
+        return _ROIC;
     }
 
-    public void setROIC(String ROIC) {
-        this.ROIC = ROIC;
+    public InputDataSets set_ROIC(String _ROIC) {
+        this._ROIC = _ROIC;
+        return this;
     }
 
-    public String getReturn_on_Tangible_Assets() {
-        return Return_on_Tangible_Assets;
+    public String get_Return_on_Tangible_Assets() {
+        return _Return_on_Tangible_Assets;
     }
 
-    public void setReturn_on_Tangible_Assets(String return_on_Tangible_Assets) {
-        Return_on_Tangible_Assets = return_on_Tangible_Assets;
+    public InputDataSets set_Return_on_Tangible_Assets(String _Return_on_Tangible_Assets) {
+        this._Return_on_Tangible_Assets = _Return_on_Tangible_Assets;
+        return this;
     }
 
-    public String getGraham_Net_Net() {
-        return Graham_Net_Net;
+    public String get_Graham_Net_Net() {
+        return _Graham_Net_Net;
     }
 
-    public void setGraham_Net_Net(String graham_Net_Net) {
-        Graham_Net_Net = graham_Net_Net;
+    public InputDataSets set_Graham_Net_Net(String _Graham_Net_Net) {
+        this._Graham_Net_Net = _Graham_Net_Net;
+        return this;
     }
 
-    public String getWorking_Capital() {
-        return Working_Capital;
+    public String get_Working_Capital() {
+        return _Working_Capital;
     }
 
-    public void setWorking_Capital(String working_Capital) {
-        Working_Capital = working_Capital;
+    public InputDataSets set_Working_Capital(String _Working_Capital) {
+        this._Working_Capital = _Working_Capital;
+        return this;
     }
 
-    public String getTangible_Asset_Value() {
-        return Tangible_Asset_Value;
+    public String get_Tangible_Asset_Value() {
+        return _Tangible_Asset_Value;
     }
 
-    public void setTangible_Asset_Value(String tangible_Asset_Value) {
-        Tangible_Asset_Value = tangible_Asset_Value;
+    public InputDataSets set_Tangible_Asset_Value(String _Tangible_Asset_Value) {
+        this._Tangible_Asset_Value = _Tangible_Asset_Value;
+        return this;
     }
 
-    public String getNet_Current_Asset_Value() {
-        return Net_Current_Asset_Value;
+    public String get_Net_Current_Asset_Value() {
+        return _Net_Current_Asset_Value;
     }
 
-    public void setNet_Current_Asset_Value(String net_Current_Asset_Value) {
-        Net_Current_Asset_Value = net_Current_Asset_Value;
+    public InputDataSets set_Net_Current_Asset_Value(String _Net_Current_Asset_Value) {
+        this._Net_Current_Asset_Value = _Net_Current_Asset_Value;
+        return this;
     }
 
-    public String getInvested_Capital() {
-        return Invested_Capital;
+    public String get_Invested_Capital() {
+        return _Invested_Capital;
     }
 
-    public void setInvested_Capital(String invested_Capital) {
-        Invested_Capital = invested_Capital;
+    public InputDataSets set_Invested_Capital(String _Invested_Capital) {
+        this._Invested_Capital = _Invested_Capital;
+        return this;
     }
 
-    public String getAverage_Receivables() {
-        return Average_Receivables;
+    public String get_Average_Receivables() {
+        return _Average_Receivables;
     }
 
-    public void setAverage_Receivables(String average_Receivables) {
-        Average_Receivables = average_Receivables;
+    public InputDataSets set_Average_Receivables(String _Average_Receivables) {
+        this._Average_Receivables = _Average_Receivables;
+        return this;
     }
 
-    public String getAverage_Payables() {
-        return Average_Payables;
+    public String get_Average_Payables() {
+        return _Average_Payables;
     }
 
-    public void setAverage_Payables(String average_Payables) {
-        Average_Payables = average_Payables;
+    public InputDataSets set_Average_Payables(String _Average_Payables) {
+        this._Average_Payables = _Average_Payables;
+        return this;
     }
 
-    public String getAverage_Inventory() {
-        return Average_Inventory;
+    public String get_Average_Inventory() {
+        return _Average_Inventory;
     }
 
-    public void setAverage_Inventory(String average_Inventory) {
-        Average_Inventory = average_Inventory;
+    public InputDataSets set_Average_Inventory(String _Average_Inventory) {
+        this._Average_Inventory = _Average_Inventory;
+        return this;
     }
 
-    public String getDays_Sales_Outstanding() {
-        return Days_Sales_Outstanding;
+    public String get_Days_Sales_Outstanding() {
+        return _Days_Sales_Outstanding;
     }
 
-    public void setDays_Sales_Outstanding(String days_Sales_Outstanding) {
-        Days_Sales_Outstanding = days_Sales_Outstanding;
+    public InputDataSets set_Days_Sales_Outstanding(String _Days_Sales_Outstanding) {
+        this._Days_Sales_Outstanding = _Days_Sales_Outstanding;
+        return this;
     }
 
-    public String getDays_Payables_Outstanding() {
-        return Days_Payables_Outstanding;
+    public String get_Days_Payables_Outstanding() {
+        return _Days_Payables_Outstanding;
     }
 
-    public void setDays_Payables_Outstanding(String days_Payables_Outstanding) {
-        Days_Payables_Outstanding = days_Payables_Outstanding;
+    public InputDataSets set_Days_Payables_Outstanding(String _Days_Payables_Outstanding) {
+        this._Days_Payables_Outstanding = _Days_Payables_Outstanding;
+        return this;
     }
 
-    public String getDays_of_Inventory_on_Hand() {
-        return Days_of_Inventory_on_Hand;
+    public String get_Days_of_Inventory_on_Hand() {
+        return _Days_of_Inventory_on_Hand;
     }
 
-    public void setDays_of_Inventory_on_Hand(String days_of_Inventory_on_Hand) {
-        Days_of_Inventory_on_Hand = days_of_Inventory_on_Hand;
+    public InputDataSets set_Days_of_Inventory_on_Hand(String _Days_of_Inventory_on_Hand) {
+        this._Days_of_Inventory_on_Hand = _Days_of_Inventory_on_Hand;
+        return this;
     }
 
-    public String getReceivables_Turnover() {
-        return Receivables_Turnover;
+    public String get_Receivables_Turnover() {
+        return _Receivables_Turnover;
     }
 
-    public void setReceivables_Turnover(String receivables_Turnover) {
-        Receivables_Turnover = receivables_Turnover;
+    public InputDataSets set_Receivables_Turnover(String _Receivables_Turnover) {
+        this._Receivables_Turnover = _Receivables_Turnover;
+        return this;
     }
 
-    public String getPayables_Turnover() {
-        return Payables_Turnover;
+    public String get_Payables_Turnover() {
+        return _Payables_Turnover;
     }
 
-    public void setPayables_Turnover(String payables_Turnover) {
-        Payables_Turnover = payables_Turnover;
+    public InputDataSets set_Payables_Turnover(String _Payables_Turnover) {
+        this._Payables_Turnover = _Payables_Turnover;
+        return this;
     }
 
-    public String getInventory_Turnover() {
-        return Inventory_Turnover;
+    public String get_Inventory_Turnover() {
+        return _Inventory_Turnover;
     }
 
-    public void setInventory_Turnover(String inventory_Turnover) {
-        Inventory_Turnover = inventory_Turnover;
+    public InputDataSets set_Inventory_Turnover(String _Inventory_Turnover) {
+        this._Inventory_Turnover = _Inventory_Turnover;
+        return this;
     }
 
-    public String getROE() {
-        return ROE;
+    public String get_ROE() {
+        return _ROE;
     }
 
-    public void setROE(String ROE) {
-        this.ROE = ROE;
+    public InputDataSets set_ROE(String _ROE) {
+        this._ROE = _ROE;
+        return this;
     }
 
-    public String getCapex_per_Share() {
-        return Capex_per_Share;
+    public String get_Capex_per_Share() {
+        return _Capex_per_Share;
     }
 
-    public void setCapex_per_Share(String capex_per_Share) {
-        Capex_per_Share = capex_per_Share;
+    public InputDataSets set_Capex_per_Share(String _Capex_per_Share) {
+        this._Capex_per_Share = _Capex_per_Share;
+        return this;
     }
 
-    public String getGross_Profit_Growth() {
-        return Gross_Profit_Growth;
+    public String get_Gross_Profit_Growth() {
+        return _Gross_Profit_Growth;
     }
 
-    public void setGross_Profit_Growth(String gross_Profit_Growth) {
-        Gross_Profit_Growth = gross_Profit_Growth;
+    public InputDataSets set_Gross_Profit_Growth(String _Gross_Profit_Growth) {
+        this._Gross_Profit_Growth = _Gross_Profit_Growth;
+        return this;
     }
 
-    public String getEBIT_Growth() {
-        return EBIT_Growth;
+    public String get_EBIT_Growth() {
+        return _EBIT_Growth;
     }
 
-    public void setEBIT_Growth(String EBIT_Growth) {
-        this.EBIT_Growth = EBIT_Growth;
+    public InputDataSets set_EBIT_Growth(String _EBIT_Growth) {
+        this._EBIT_Growth = _EBIT_Growth;
+        return this;
     }
 
-    public String getOperating_Income_Growth() {
-        return Operating_Income_Growth;
+    public String get_Operating_Income_Growth() {
+        return _Operating_Income_Growth;
     }
 
-    public void setOperating_Income_Growth(String operating_Income_Growth) {
-        Operating_Income_Growth = operating_Income_Growth;
+    public InputDataSets set_Operating_Income_Growth(String _Operating_Income_Growth) {
+        this._Operating_Income_Growth = _Operating_Income_Growth;
+        return this;
     }
 
-    public String getNet_Income_Growth() {
-        return Net_Income_Growth;
+    public String get_Net_Income_Growth() {
+        return _Net_Income_Growth;
     }
 
-    public void setNet_Income_Growth(String net_Income_Growth) {
-        Net_Income_Growth = net_Income_Growth;
+    public InputDataSets set_Net_Income_Growth(String _Net_Income_Growth) {
+        this._Net_Income_Growth = _Net_Income_Growth;
+        return this;
     }
 
-    public String getEPS_Growth() {
-        return EPS_Growth;
+    public String get_EPS_Growth() {
+        return _EPS_Growth;
     }
 
-    public void setEPS_Growth(String EPS_Growth) {
-        this.EPS_Growth = EPS_Growth;
+    public InputDataSets set_EPS_Growth(String _EPS_Growth) {
+        this._EPS_Growth = _EPS_Growth;
+        return this;
     }
 
-    public String getEPS_Diluted_Growth() {
-        return EPS_Diluted_Growth;
+    public String get_EPS_Diluted_Growth() {
+        return _EPS_Diluted_Growth;
     }
 
-    public void setEPS_Diluted_Growth(String EPS_Diluted_Growth) {
-        this.EPS_Diluted_Growth = EPS_Diluted_Growth;
+    public InputDataSets set_EPS_Diluted_Growth(String _EPS_Diluted_Growth) {
+        this._EPS_Diluted_Growth = _EPS_Diluted_Growth;
+        return this;
     }
 
-    public String getWeighted_Average_Shares_Growth() {
-        return Weighted_Average_Shares_Growth;
+    public String get_Weighted_Average_Shares_Growth() {
+        return _Weighted_Average_Shares_Growth;
     }
 
-    public void setWeighted_Average_Shares_Growth(String weighted_Average_Shares_Growth) {
-        Weighted_Average_Shares_Growth = weighted_Average_Shares_Growth;
+    public InputDataSets set_Weighted_Average_Shares_Growth(String _Weighted_Average_Shares_Growth) {
+        this._Weighted_Average_Shares_Growth = _Weighted_Average_Shares_Growth;
+        return this;
     }
 
-    public String getWeighted_Average_Shares_Diluted_Growth() {
-        return Weighted_Average_Shares_Diluted_Growth;
+    public String get_Weighted_Average_Shares_Diluted_Growth() {
+        return _Weighted_Average_Shares_Diluted_Growth;
     }
 
-    public void setWeighted_Average_Shares_Diluted_Growth(String weighted_Average_Shares_Diluted_Growth) {
-        Weighted_Average_Shares_Diluted_Growth = weighted_Average_Shares_Diluted_Growth;
+    public InputDataSets set_Weighted_Average_Shares_Diluted_Growth(String _Weighted_Average_Shares_Diluted_Growth) {
+        this._Weighted_Average_Shares_Diluted_Growth = _Weighted_Average_Shares_Diluted_Growth;
+        return this;
     }
 
-    public String getDividends_per_Share_Growth() {
-        return Dividends_per_Share_Growth;
+    public String get_Dividends_per_Share_Growth() {
+        return _Dividends_per_Share_Growth;
     }
 
-    public void setDividends_per_Share_Growth(String dividends_per_Share_Growth) {
-        Dividends_per_Share_Growth = dividends_per_Share_Growth;
+    public InputDataSets set_Dividends_per_Share_Growth(String _Dividends_per_Share_Growth) {
+        this._Dividends_per_Share_Growth = _Dividends_per_Share_Growth;
+        return this;
     }
 
-    public String getOperating_Cash_Flow_growth() {
-        return Operating_Cash_Flow_growth;
+    public String get_Operating_Cash_Flow_growth() {
+        return _Operating_Cash_Flow_growth;
     }
 
-    public void setOperating_Cash_Flow_growth(String operating_Cash_Flow_growth) {
-        Operating_Cash_Flow_growth = operating_Cash_Flow_growth;
+    public InputDataSets set_Operating_Cash_Flow_growth(String _Operating_Cash_Flow_growth) {
+        this._Operating_Cash_Flow_growth = _Operating_Cash_Flow_growth;
+        return this;
     }
 
-    public String getFree_Cash_Flow_growth() {
-        return Free_Cash_Flow_growth;
+    public String get_Free_Cash_Flow_growth() {
+        return _Free_Cash_Flow_growth;
     }
 
-    public void setFree_Cash_Flow_growth(String free_Cash_Flow_growth) {
-        Free_Cash_Flow_growth = free_Cash_Flow_growth;
+    public InputDataSets set_Free_Cash_Flow_growth(String _Free_Cash_Flow_growth) {
+        this._Free_Cash_Flow_growth = _Free_Cash_Flow_growth;
+        return this;
     }
 
-    public String getTenY_Revenue_Growth_per_Share() {
-        return tenY_Revenue_Growth_per_Share;
+    public String get_10Y_Revenue_Growth_per_Share() {
+        return _10Y_Revenue_Growth_per_Share;
     }
 
-    public void setTenY_Revenue_Growth_per_Share(String tenY_Revenue_Growth_per_Share) {
-        this.tenY_Revenue_Growth_per_Share = tenY_Revenue_Growth_per_Share;
+    public InputDataSets set_10Y_Revenue_Growth_per_Share(String _10Y_Revenue_Growth_per_Share) {
+        this._10Y_Revenue_Growth_per_Share = _10Y_Revenue_Growth_per_Share;
+        return this;
     }
 
-    public String getFiveY_Revenue_Growth_per_Share() {
-        return fiveY_Revenue_Growth_per_Share;
+    public String get_5Y_Revenue_Growth_per_Share() {
+        return _5Y_Revenue_Growth_per_Share;
     }
 
-    public void setFiveY_Revenue_Growth_per_Share(String fiveY_Revenue_Growth_per_Share) {
-        this.fiveY_Revenue_Growth_per_Share = fiveY_Revenue_Growth_per_Share;
+    public InputDataSets set_5Y_Revenue_Growth_per_Share(String _5Y_Revenue_Growth_per_Share) {
+        this._5Y_Revenue_Growth_per_Share = _5Y_Revenue_Growth_per_Share;
+        return this;
     }
 
-    public String getThreeY_Revenue_Growth_per_Share() {
-        return threeY_Revenue_Growth_per_Share;
+    public String get_3Y_Revenue_Growth_per_Share() {
+        return _3Y_Revenue_Growth_per_Share;
     }
 
-    public void setThreeY_Revenue_Growth_per_Share(String threeY_Revenue_Growth_per_Share) {
-        this.threeY_Revenue_Growth_per_Share = threeY_Revenue_Growth_per_Share;
+    public InputDataSets set_3Y_Revenue_Growth_per_Share(String _3Y_Revenue_Growth_per_Share) {
+        this._3Y_Revenue_Growth_per_Share = _3Y_Revenue_Growth_per_Share;
+        return this;
     }
 
-    public String getTenY_Operating_CF_Growth_per_Share() {
-        return tenY_Operating_CF_Growth_per_Share;
+    public String get_10Y_Operating_CF_Growth_per_Share() {
+        return _10Y_Operating_CF_Growth_per_Share;
     }
 
-    public void setTenY_Operating_CF_Growth_per_Share(String tenY_Operating_CF_Growth_per_Share) {
-        this.tenY_Operating_CF_Growth_per_Share = tenY_Operating_CF_Growth_per_Share;
+    public InputDataSets set_10Y_Operating_CF_Growth_per_Share(String _10Y_Operating_CF_Growth_per_Share) {
+        this._10Y_Operating_CF_Growth_per_Share = _10Y_Operating_CF_Growth_per_Share;
+        return this;
     }
 
-    public String getFiveY_Operating_CF_Growth_per_Share() {
-        return fiveY_Operating_CF_Growth_per_Share;
+    public String get_5Y_Operating_CF_Growth_per_Share() {
+        return _5Y_Operating_CF_Growth_per_Share;
     }
 
-    public void setFiveY_Operating_CF_Growth_per_Share(String fiveY_Operating_CF_Growth_per_Share) {
-        this.fiveY_Operating_CF_Growth_per_Share = fiveY_Operating_CF_Growth_per_Share;
+    public InputDataSets set_5Y_Operating_CF_Growth_per_Share(String _5Y_Operating_CF_Growth_per_Share) {
+        this._5Y_Operating_CF_Growth_per_Share = _5Y_Operating_CF_Growth_per_Share;
+        return this;
     }
 
-    public String getThreeY_Operating_CF_Growth_per_Share() {
-        return threeY_Operating_CF_Growth_per_Share;
+    public String get_3Y_Operating_CF_Growth_per_Share() {
+        return _3Y_Operating_CF_Growth_per_Share;
     }
 
-    public void setThreeY_Operating_CF_Growth_per_Share(String threeY_Operating_CF_Growth_per_Share) {
-        this.threeY_Operating_CF_Growth_per_Share = threeY_Operating_CF_Growth_per_Share;
+    public InputDataSets set_3Y_Operating_CF_Growth_per_Share(String _3Y_Operating_CF_Growth_per_Share) {
+        this._3Y_Operating_CF_Growth_per_Share = _3Y_Operating_CF_Growth_per_Share;
+        return this;
     }
 
-    public String getTenY_Net_Income_Growth_per_Share() {
-        return tenY_Net_Income_Growth_per_Share;
+    public String get_10Y_Net_Income_Growth_per_Share() {
+        return _10Y_Net_Income_Growth_per_Share;
     }
 
-    public void setTenY_Net_Income_Growth_per_Share(String tenY_Net_Income_Growth_per_Share) {
-        this.tenY_Net_Income_Growth_per_Share = tenY_Net_Income_Growth_per_Share;
+    public InputDataSets set_10Y_Net_Income_Growth_per_Share(String _10Y_Net_Income_Growth_per_Share) {
+        this._10Y_Net_Income_Growth_per_Share = _10Y_Net_Income_Growth_per_Share;
+        return this;
     }
 
-    public String getFiveY_Net_Income_Growth_per_Share() {
-        return fiveY_Net_Income_Growth_per_Share;
+    public String get_5Y_Net_Income_Growth_per_Share() {
+        return _5Y_Net_Income_Growth_per_Share;
     }
 
-    public void setFiveY_Net_Income_Growth_per_Share(String fiveY_Net_Income_Growth_per_Share) {
-        this.fiveY_Net_Income_Growth_per_Share = fiveY_Net_Income_Growth_per_Share;
+    public InputDataSets set_5Y_Net_Income_Growth_per_Share(String _5Y_Net_Income_Growth_per_Share) {
+        this._5Y_Net_Income_Growth_per_Share = _5Y_Net_Income_Growth_per_Share;
+        return this;
     }
 
-    public String getThreeY_Net_Income_Growth_per_Share() {
-        return threeY_Net_Income_Growth_per_Share;
+    public String get_3Y_Net_Income_Growth_per_Share() {
+        return _3Y_Net_Income_Growth_per_Share;
     }
 
-    public void setThreeY_Net_Income_Growth_per_Share(String threeY_Net_Income_Growth_per_Share) {
-        this.threeY_Net_Income_Growth_per_Share = threeY_Net_Income_Growth_per_Share;
+    public InputDataSets set_3Y_Net_Income_Growth_per_Share(String _3Y_Net_Income_Growth_per_Share) {
+        this._3Y_Net_Income_Growth_per_Share = _3Y_Net_Income_Growth_per_Share;
+        return this;
     }
 
-    public String getTenY_Shareholders_Equity_Growth_per_Share() {
-        return tenY_Shareholders_Equity_Growth_per_Share;
+    public String get_10Y_Shareholders_Equity_Growth_per_Share() {
+        return _10Y_Shareholders_Equity_Growth_per_Share;
     }
 
-    public void setTenY_Shareholders_Equity_Growth_per_Share(String tenY_Shareholders_Equity_Growth_per_Share) {
-        this.tenY_Shareholders_Equity_Growth_per_Share = tenY_Shareholders_Equity_Growth_per_Share;
+    public InputDataSets set_10Y_Shareholders_Equity_Growth_per_Share(String _10Y_Shareholders_Equity_Growth_per_Share) {
+        this._10Y_Shareholders_Equity_Growth_per_Share = _10Y_Shareholders_Equity_Growth_per_Share;
+        return this;
     }
 
-    public String getFiveY_Shareholders_Equity_Growth_per_Share() {
-        return fiveY_Shareholders_Equity_Growth_per_Share;
+    public String get_5Y_Shareholders_Equity_Growth_per_Share() {
+        return _5Y_Shareholders_Equity_Growth_per_Share;
     }
 
-    public void setFiveY_Shareholders_Equity_Growth_per_Share(String fiveY_Shareholders_Equity_Growth_per_Share) {
-        this.fiveY_Shareholders_Equity_Growth_per_Share = fiveY_Shareholders_Equity_Growth_per_Share;
+    public InputDataSets set_5Y_Shareholders_Equity_Growth_per_Share(String _5Y_Shareholders_Equity_Growth_per_Share) {
+        this._5Y_Shareholders_Equity_Growth_per_Share = _5Y_Shareholders_Equity_Growth_per_Share;
+        return this;
     }
 
-    public String getThreeY_Shareholders_Equity_Growth_per_Share() {
-        return threeY_Shareholders_Equity_Growth_per_Share;
+    public String get_3Y_Shareholders_Equity_Growth_per_Share() {
+        return _3Y_Shareholders_Equity_Growth_per_Share;
     }
 
-    public void setThreeY_Shareholders_Equity_Growth_per_Share(String threeY_Shareholders_Equity_Growth_per_Share) {
-        this.threeY_Shareholders_Equity_Growth_per_Share = threeY_Shareholders_Equity_Growth_per_Share;
+    public InputDataSets set_3Y_Shareholders_Equity_Growth_per_Share(String _3Y_Shareholders_Equity_Growth_per_Share) {
+        this._3Y_Shareholders_Equity_Growth_per_Share = _3Y_Shareholders_Equity_Growth_per_Share;
+        return this;
     }
 
-    public String getTenY_Dividend_per_Share_Growth_per_Share() {
-        return tenY_Dividend_per_Share_Growth_per_Share;
+    public String get_10Y_Dividend_per_Share_Growth_per_Share() {
+        return _10Y_Dividend_per_Share_Growth_per_Share;
     }
 
-    public void setTenY_Dividend_per_Share_Growth_per_Share(String tenY_Dividend_per_Share_Growth_per_Share) {
-        this.tenY_Dividend_per_Share_Growth_per_Share = tenY_Dividend_per_Share_Growth_per_Share;
+    public InputDataSets set_10Y_Dividend_per_Share_Growth_per_Share(String _10Y_Dividend_per_Share_Growth_per_Share) {
+        this._10Y_Dividend_per_Share_Growth_per_Share = _10Y_Dividend_per_Share_Growth_per_Share;
+        return this;
     }
 
-    public String getFiveY_Dividend_per_Share_Growth_per_Share() {
-        return fiveY_Dividend_per_Share_Growth_per_Share;
+    public String get_5Y_Dividend_per_Share_Growth_per_Share() {
+        return _5Y_Dividend_per_Share_Growth_per_Share;
     }
 
-    public void setFiveY_Dividend_per_Share_Growth_per_Share(String fiveY_Dividend_per_Share_Growth_per_Share) {
-        this.fiveY_Dividend_per_Share_Growth_per_Share = fiveY_Dividend_per_Share_Growth_per_Share;
+    public InputDataSets set_5Y_Dividend_per_Share_Growth_per_Share(String _5Y_Dividend_per_Share_Growth_per_Share) {
+        this._5Y_Dividend_per_Share_Growth_per_Share = _5Y_Dividend_per_Share_Growth_per_Share;
+        return this;
     }
 
-    public String getThreeY_Dividend_per_Share_Growth_per_Share() {
-        return threeY_Dividend_per_Share_Growth_per_Share;
+    public String get_3Y_Dividend_per_Share_Growth_per_Share() {
+        return _3Y_Dividend_per_Share_Growth_per_Share;
     }
 
-    public void setThreeY_Dividend_per_Share_Growth_per_Share(String threeY_Dividend_per_Share_Growth_per_Share) {
-        this.threeY_Dividend_per_Share_Growth_per_Share = threeY_Dividend_per_Share_Growth_per_Share;
+    public InputDataSets set_3Y_Dividend_per_Share_Growth_per_Share(String _3Y_Dividend_per_Share_Growth_per_Share) {
+        this._3Y_Dividend_per_Share_Growth_per_Share = _3Y_Dividend_per_Share_Growth_per_Share;
+        return this;
     }
 
-    public String getReceivables_growth() {
-        return Receivables_growth;
+    public String get_Receivables_growth() {
+        return _Receivables_growth;
     }
 
-    public void setReceivables_growth(String receivables_growth) {
-        Receivables_growth = receivables_growth;
+    public InputDataSets set_Receivables_growth(String _Receivables_growth) {
+        this._Receivables_growth = _Receivables_growth;
+        return this;
     }
 
-    public String getInventory_Growth() {
-        return Inventory_Growth;
+    public String get_Inventory_Growth() {
+        return _Inventory_Growth;
     }
 
-    public void setInventory_Growth(String inventory_Growth) {
-        Inventory_Growth = inventory_Growth;
+    public InputDataSets set_Inventory_Growth(String _Inventory_Growth) {
+        this._Inventory_Growth = _Inventory_Growth;
+        return this;
     }
 
-    public String getAsset_Growth() {
-        return Asset_Growth;
+    public String get_Asset_Growth() {
+        return _Asset_Growth;
     }
 
-    public void setAsset_Growth(String asset_Growth) {
-        Asset_Growth = asset_Growth;
+    public InputDataSets set_Asset_Growth(String _Asset_Growth) {
+        this._Asset_Growth = _Asset_Growth;
+        return this;
     }
 
-    public String getBook_Value_per_Share_Growth() {
-        return Book_Value_per_Share_Growth;
+    public String get_Book_Value_per_Share_Growth() {
+        return _Book_Value_per_Share_Growth;
     }
 
-    public void setBook_Value_per_Share_Growth(String book_Value_per_Share_Growth) {
-        Book_Value_per_Share_Growth = book_Value_per_Share_Growth;
+    public InputDataSets set_Book_Value_per_Share_Growth(String _Book_Value_per_Share_Growth) {
+        this._Book_Value_per_Share_Growth = _Book_Value_per_Share_Growth;
+        return this;
     }
 
-    public String getDebt_Growth() {
-        return Debt_Growth;
+    public String get_Debt_Growth() {
+        return _Debt_Growth;
     }
 
-    public void setDebt_Growth(String debt_Growth) {
-        Debt_Growth = debt_Growth;
+    public InputDataSets set_Debt_Growth(String _Debt_Growth) {
+        this._Debt_Growth = _Debt_Growth;
+        return this;
     }
 
-    public String getR_D_Expense_Growth() {
-        return R_D_Expense_Growth;
+    public String get_R_D_Expense_Growth() {
+        return _R_D_Expense_Growth;
     }
 
-    public void setR_D_Expense_Growth(String r_D_Expense_Growth) {
-        R_D_Expense_Growth = r_D_Expense_Growth;
+    public InputDataSets set_R_D_Expense_Growth(String _R_D_Expense_Growth) {
+        this._R_D_Expense_Growth = _R_D_Expense_Growth;
+        return this;
     }
 
-    public String getSG_A_Expenses_Growth() {
-        return SG_A_Expenses_Growth;
+    public String get_SG_A_Expenses_Growth() {
+        return _SG_A_Expenses_Growth;
     }
 
-    public void setSG_A_Expenses_Growth(String SG_A_Expenses_Growth) {
-        this.SG_A_Expenses_Growth = SG_A_Expenses_Growth;
+    public InputDataSets set_SG_A_Expenses_Growth(String _SG_A_Expenses_Growth) {
+        this._SG_A_Expenses_Growth = _SG_A_Expenses_Growth;
+        return this;
     }
 
-    public String getSector() {
-        return Sector;
+    public String get_Sector() {
+        return _Sector;
     }
 
-    public void setSector(String sector) {
-        Sector = sector;
+    public InputDataSets set_Sector(String _Sector) {
+        this._Sector = _Sector;
+        return this;
     }
 
-    public String getTwo019_PRICE_VAR_percent() {
-        return two019_PRICE_VAR_percent;
+    public String get_2018_PRICE_VAR_percent() {
+        return _2018_PRICE_VAR_percent;
     }
 
-    public void setTwo019_PRICE_VAR_percent(String two019_PRICE_VAR_percent) {
-        this.two019_PRICE_VAR_percent = two019_PRICE_VAR_percent;
+    public InputDataSets set_2018_PRICE_VAR_percent(String _2018_PRICE_VAR_percent) {
+        this._2018_PRICE_VAR_percent = _2018_PRICE_VAR_percent;
+        return this;
     }
 
-
+    public String get_Class() {
+        return _Class;
+    }
 
+    public InputDataSets set_Class(String _Class) {
+        this._Class = _Class;
+        return this;
+    }
 }

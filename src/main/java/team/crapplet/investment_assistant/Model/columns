@@ -1,226 +1,225 @@
-private String company_id;
-private String Cost_of_Revenue;
-private String Gross_Profit;
-private String SG_A_Expense;
-private String Operating_Expenses;
-private String Operating_Income;
-private String R_D_Expenses;
-private String Interest_Expense;
-private String Earnings_before_Tax;
-private String Income_Tax_Expense;
-private String Net_Income_Non_Controlling_int;
-private String Net_Income_Discontinued_ops;
-private String Net_Income;
-private String Preferred_Dividends;
-private String Net_Income_Com;
-private String EPS;
-private String EPS_Diluted;
-private String Weighted_Average_Shs_Out;
-private String Weighted_Average_Shs_Out_Dil;
-private String Dividend_per_Share;
-private String Gross_Margin;
-private String Revenue_Growth;
-private String Revenue;
-private String EBITDA_Margin;
-private String EBIT_Margin;
-private String Profit_Margin;
-private String Free_Cash_Flow_margin;
-private String EBITDA;
-private String EBIT;
-private String Consolidated_Income;
-private String Earnings_Before_Tax_Margin;
-private String Net_Profit_Margin;
-private String Cash_and_cash_equivalents;
-private String Short_term_investments;
-private String Cash_and_short_term_investments;
-private String Receivables;
-private String Inventories;
-private String Total_current_assets;
-private String Property;
-private String Plant_Equipment_Net;
-private String Goodwill_and_Intangible_Assets;
-private String Long_term_investments;
-private String Tax_assets;
-private String Total_non_current_assets;
-private String Total_assets;
-private String Payables;
-private String Short_term_debt;
-private String Total_current_liabilities;
-private String Long_term_debt;
-private String Total_debt;
-private String Deferred_revenue;
-private String Tax_Liabilities;
-private String Deposit_Liabilities;
-private String Total_non_current_liabilities;
-private String Total_liabilities;
-private String Other_comprehensive_income;
-private String Retained_earnings_deficit;
-private String Total_shareholders_equity;
-private String Investments;
-private String Net_Debt;
-private String Other_Assets;
-private String Other_Liabilities;
-private String Depreciation_Amortization;
-private String Stock_based_compensation;
-private String Operating_Cash_Flow;
-private String Capital_Expenditure;
-private String Acquisitions_and_disposals;
-private String Investment_purchases_and_sales;
-private String Investing_Cash_flow;
-private String Issuance_repayment_of_debt;
-private String Issuance_buybacks_of_shares;
-private String Dividend_payments;
-private String Financing_Cash_Flow;
-private String Effect_of_forex_changes_on_cash;
-private String Net_cash_flow__per__Change_in_cash;
-private String Free_Cash_Flow;
-private String Net_Cash_per_Marketcap;
-private String priceBookValueRatio;
-private String priceToBookRatio;
-private String priceToSalesRatio;
-private String priceEarningsRatio;
-private String priceToFreeCashFlowsRatio;
-private String priceToOperatingCashFlowsRatio;
-private String priceCashFlowRatio;
-private String priceEarningsToGrowthRatio;
-private String priceSalesRatio;
-private String dividendYield;
-private String enterpriseValueMultiple;
-private String priceFairValue;
-private String ebitperRevenue;
-private String ebtperEBIT;
-private String niperEBT;
-private String grossProfitMargin;
-private String operatingProfitMargin;
-private String pretaxProfitMargin;
-private String netProfitMargin;
-private String effectiveTaxRate;
-private String returnOnAssets;
-private String returnOnEquity;
-private String returnOnCapitalEmployed;
-private String nIperEBT;
-private String eBTperEBIT;
-private String eBITperRevenue;
-private String payablesTurnover;
-private String inventoryTurnover;
-private String fixedAssetTurnover;
-private String assetTurnover;
-private String currentRatio;
-private String quickRatio;
-private String cashRatio;
-private String daysOfSalesOutstanding;
-private String daysOfInventoryOutstanding;
-private String operatingCycle;
-private String daysOfPayablesOutstanding;
-private String cashConversionCycle;
-private String debtRatio;
-private String debtEquityRatio;
-private String longtermDebtToCapitalization;
-private String totalDebtToCapitalization;
-private String interestCoverage;
-private String cashFlowToDebtRatio;
-private String companyEquityMultiplier;
-private String operatingCashFlowPerShare;
-private String freeCashFlowPerShare;
-private String cashPerShare;
-private String payoutRatio;
-private String operatingCashFlowSalesRatio;
-private String freeCashFlowOperatingCashFlowRatio;
-private String cashFlowCoverageRatios;
-private String shortTermCoverageRatios;
-private String capitalExpenditureCoverageRatios;
-private String dividendpaidAndCapexCoverageRatios;
-private String dividendPayoutRatio;
-private String Revenue_per_Share;
-private String Net_Income_per_Share;
-private String Operating_Cash_Flow_per_Share;
-private String Free_Cash_Flow_per_Share;
-private String Cash_per_Share;
-private String Book_Value_per_Share;
-private String Tangible_Book_Value_per_Share;
-private String Shareholders_Equity_per_Share;
-private String Interest_Debt_per_Share;
-private String Market_Cap;
-private String Enterprise_Value;
-private String PE_ratio;
-private String Price_to_Sales_Ratio;
-private String POCF_ratio;
-private String PFCF_ratio;
-private String PB_ratio;
-private String PTB_ratio;
-private String EV_to_Sales;
-private String Enterprise_Value_over_EBITDA;
-private String EV_to_Operating_cash_flow;
-private String EV_to_Free_cash_flow;
-private String Earnings_Yield;
-private String Free_Cash_Flow_Yield;
-private String Debt_to_Equity;
-private String Debt_to_Assets;
-private String Net_Debt_to_EBITDA;
-private String Current_ratio;
-private String Interest_Coverage;
-private String Income_Quality;
-private String Dividend_Yield;
-private String Payout_Ratio;
-private String SG_A_to_Revenue;
-private String R_D_to_Revenue;
-private String Intangibles_to_Total_Assets;
-private String Capex_to_Operating_Cash_Flow;
-private String Capex_to_Revenue;
-private String Capex_to_Depreciation;
-private String Stock_based_compensation_to_Revenue;
-private String Graham_Number;
-private String ROIC;
-private String Return_on_Tangible_Assets;
-private String Graham_Net_Net;
-private String Working_Capital;
-private String Tangible_Asset_Value;
-private String Net_Current_Asset_Value;
-private String Invested_Capital;
-private String Average_Receivables;
-private String Average_Payables;
-private String Average_Inventory;
-private String Days_Sales_Outstanding;
-private String Days_Payables_Outstanding;
-private String Days_of_Inventory_on_Hand;
-private String Receivables_Turnover;
-private String Payables_Turnover;
-private String Inventory_Turnover;
-private String ROE;
-private String Capex_per_Share;
-private String Gross_Profit_Growth;
-private String EBIT_Growth;
-private String Operating_Income_Growth;
-private String Net_Income_Growth;
-private String EPS_Growth;
-private String EPS_Diluted_Growth;
-private String Weighted_Average_Shares_Growth;
-private String Weighted_Average_Shares_Diluted_Growth;
-private String Dividends_per_Share_Growth;
-private String Operating_Cash_Flow_growth;
-private String Free_Cash_Flow_growth;
-private String tenY_Revenue_Growth_per_Share;
-private String fiveY_Revenue_Growth_per_Share;
-private String threeY_Revenue_Growth_per_Share;
-private String tenY_Operating_CF_Growth_per_Share;
-private String fiveY_Operating_CF_Growth_per_Share;
-private String threeY_Operating_CF_Growth_per_Share;
-private String tenY_Net_Income_Growth_per_Share;
-private String fiveY_Net_Income_Growth_per_Share;
-private String threeY_Net_Income_Growth_per_Share;
-private String tenY_Shareholders_Equity_Growth_per_Share;
-private String fiveY_Shareholders_Equity_Growth_per_Share;
-private String threeY_Shareholders_Equity_Growth_per_Share;
-private String tenY_Dividend_per_Share_Growth_per_Share;
-private String fiveY_Dividend_per_Share_Growth_per_Share;
-private String threeY_Dividend_per_Share_Growth_per_Share;
-private String Receivables_growth;
-private String Inventory_Growth;
-private String Asset_Growth;
-private String Book_Value_per_Share_Growth;
-private String Debt_Growth;
-private String R_D_Expense_Growth;
-private String SG_A_Expenses_Growth;
-private String Sector;
-private String two019_PRICE_VAR_percent;
-private String cls;
+,
+Revenue,
+Revenue Growth,
+Cost of Revenue,
+Gross Profit,
+R&D Expenses,
+SG&A Expense,
+Operating Expenses,
+Operating Income,
+Interest Expense,
+Earnings before Tax,
+Income Tax Expense,
+Net Income - Non-Controlling int,
+Net Income - Discontinued ops,
+Net Income,
+Preferred Dividends,
+Net Income Com,
+EPS,
+EPS Diluted,
+Weighted Average Shs Out,
+Weighted Average Shs Out (Dil),
+Dividend per Share,
+Gross Margin,
+EBITDA Margin,
+EBIT Margin,
+Profit Margin,
+Free Cash Flow margin,
+EBITDA,
+EBIT,
+Consolidated Income,
+Earnings Before Tax Margin,
+Net Profit Margin,
+Cash and cash equivalents,
+Short-term investments,
+Cash and short-term investments,
+Receivables,
+Inventories,
+Total current assets,
+"Property, Plant & Equipment Net",
+ Goodwill and Intangible Assets,
+ Long-term investments,
+ Tax assets,
+ Total non-current assets,
+ Total assets,
+ Payables,
+ Short-term debt,
+ Total current liabilities,
+ Long-term debt,
+ Total debt,
+ Deferred revenue,
+ Tax Liabilities,
+ Deposit Liabilities,
+ Total non-current liabilities,
+ Total liabilities,
+ Other comprehensive income,
+ Retained earnings (deficit),
+ Total shareholders equity,
+ Investments,
+ Net Debt,
+ Other Assets,
+ Other Liabilities,
+ Depreciation & Amortization,
+ Stock-based compensation,
+ Operating Cash Flow,
+ Capital Expenditure,
+ Acquisitions and disposals,
+ Investment purchases and sales,
+ Investing Cash flow,
+ Issuance (repayment) of debt,
+ Issuance (buybacks) of shares,
+ Dividend payments,
+ Financing Cash Flow,
+ Effect of forex changes on cash,
+ Net cash flow / Change in cash,
+ Free Cash Flow,
+ Net Cash/Marketcap,
+ priceBookValueRatio,
+ priceToBookRatio,
+ priceToSalesRatio,
+ priceEarningsRatio,
+ priceToFreeCashFlowsRatio,
+ priceToOperatingCashFlowsRatio,
+ priceCashFlowRatio,
+ priceEarningsToGrowthRatio,
+ priceSalesRatio,
+ dividendYield,
+ enterpriseValueMultiple,
+ priceFairValue,
+ ebitperRevenue,
+ ebtperEBIT,
+ niperEBT,
+ grossProfitMargin,
+ operatingProfitMargin,
+ pretaxProfitMargin,
+ netProfitMargin,
+ effectiveTaxRate,
+ returnOnAssets,
+ returnOnEquity,
+ returnOnCapitalEmployed,
+ nIperEBT,
+ eBTperEBIT,
+ eBITperRevenue,
+ payablesTurnover,
+ inventoryTurnover,
+ fixedAssetTurnover,
+ assetTurnover,
+ currentRatio,
+ quickRatio,
+ cashRatio,
+ daysOfSalesOutstanding,
+ daysOfInventoryOutstanding,
+ operatingCycle,
+ daysOfPayablesOutstanding,
+ cashConversionCycle,
+ debtRatio,
+ debtEquityRatio,
+ longtermDebtToCapitalization,
+ totalDebtToCapitalization,
+ interestCoverage,
+ cashFlowToDebtRatio,
+ companyEquityMultiplier,
+ operatingCashFlowPerShare,
+ freeCashFlowPerShare,
+ cashPerShare,
+ payoutRatio,
+ operatingCashFlowSalesRatio,
+ freeCashFlowOperatingCashFlowRatio,
+ cashFlowCoverageRatios,
+ shortTermCoverageRatios,
+ capitalExpenditureCoverageRatios,
+ dividendpaidAndCapexCoverageRatios,
+ dividendPayoutRatio,
+ Revenue per Share,
+ Net Income per Share,
+ Operating Cash Flow per Share,
+ Free Cash Flow per Share,
+ Cash per Share,
+ Book Value per Share,
+ Tangible Book Value per Share,
+ Shareholders Equity per Share,
+ Interest Debt per Share,
+ Market Cap,
+ Enterprise Value,
+ PE ratio,
+ Price to Sales Ratio,
+ POCF ratio,
+ PFCF ratio,
+ PB ratio,
+ PTB ratio,
+ EV to Sales,
+ Enterprise Value over EBITDA,
+ EV to Operating cash flow,
+ EV to Free cash flow,
+ Earnings Yield,
+ Free Cash Flow Yield,
+ Debt to Equity,
+ Debt to Assets,
+ Net Debt to EBITDA,
+ Current ratio,
+ Interest Coverage,
+ Income Quality,
+ Dividend Yield,
+ Payout Ratio,
+ SG&A to Revenue,
+ R&D to Revenue,
+ Intangibles to Total Assets,
+ Capex to Operating Cash Flow,
+ Capex to Revenue,
+ Capex to Depreciation,
+ Stock-based compensation to Revenue,
+ Graham Number,
+ ROIC,
+ Return on Tangible Assets,
+ Graham Net-Net,
+ Working Capital,
+ Tangible Asset Value,
+ Net Current Asset Value,
+ Invested Capital,
+ Average Receivables,
+ Average Payables,
+ Average Inventory,
+ Days Sales Outstanding,
+ Days Payables Outstanding,
+ Days of Inventory on Hand,
+ Receivables Turnover,
+ Payables Turnover,
+ Inventory Turnover,
+ ROE,
+ Capex per Share,
+ Gross Profit Growth,
+ EBIT Growth,
+ Operating Income Growth,
+ Net Income Growth,
+ EPS Growth,
+ EPS Diluted Growth,
+ Weighted Average Shares Growth,
+ Weighted Average Shares Diluted Growth,
+ Dividends per Share Growth,
+ Operating Cash Flow growth,
+ Free Cash Flow growth,
+ 10Y Revenue Growth (per Share),
+ 5Y Revenue Growth (per Share),
+ 3Y Revenue Growth (per Share),
+ 10Y Operating CF Growth (per Share),
+ 5Y Operating CF Growth (per Share),
+ 3Y Operating CF Growth (per Share),
+ 10Y Net Income Growth (per Share),
+ 5Y Net Income Growth (per Share),
+ 3Y Net Income Growth (per Share),
+ 10Y Shareholders Equity Growth (per Share),
+ 5Y Shareholders Equity Growth (per Share),
+ 3Y Shareholders Equity Growth (per Share),
+ 10Y Dividend per Share Growth (per Share),
+ 5Y Dividend per Share Growth (per Share),
+ 3Y Dividend per Share Growth (per Share),
+ Receivables growth,
+ Inventory Growth,
+ Asset Growth,
+ Book Value per Share Growth,
+ Debt Growth,
+ R&D Expense Growth,
+ SG&A Expenses Growth,
+ Sector,
+ 2017 PRICE VAR [%],
+ Class
