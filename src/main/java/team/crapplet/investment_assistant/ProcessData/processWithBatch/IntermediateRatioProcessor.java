@@ -25,7 +25,7 @@ public class IntermediateRatioProcessor implements ItemProcessor<InputDataSets, 
 
 
         values.setCodeName(inputDataSets.getName());
-        System.out.println("Name: "+inputDataSets.get_Sector());
+        log.info("Name: "+inputDataSets.get_Sector());
 
 //        values.setEnterprise_Value_over_EBITDA(312321.30921);
 //        values.setEnterprise_Value(Double.parseDouble(inputDataSets.getEnterprise_Value()));

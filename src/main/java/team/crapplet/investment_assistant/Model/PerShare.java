@@ -1,8 +1,15 @@
 package team.crapplet.investment_assistant.Model;
 
+import org.springframework.data.annotation.TypeAlias;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "per_share")
 public class PerShare {
 
-    private  String CodeName;
+    private  String comapny_code;
 
     private  int year;
 
@@ -63,12 +70,12 @@ public class PerShare {
 
     private String Dividends_per_Share_Growth;
 
-    public String getCodeName() {
-        return CodeName;
+    public String getcomapny_code() {
+        return comapny_code;
     }
 
-    public void setCodeName(String codeName) {
-        CodeName = codeName;
+    public void setcomapny_code(String comapny_code) {
+        comapny_code = comapny_code;
     }
 
     public int getYear() {
