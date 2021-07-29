@@ -37,9 +37,19 @@ public class Values {
 
 
     public  Values(){}
-    public Values(String codeName, int year) {
-        comapny_code = codeName;
+
+    public Values(String comapny_code, int year, Double enterpriseValueMultiple, Double priceFairValue,
+                  Double enterprise_Value,
+                  Double enterprise_Value_over_EBITDA, Double tangible_Asset_Value,
+                  Double net_Current_Asset_Value) {
+        this.comapny_code = comapny_code;
         this.year = year;
+        this.enterpriseValueMultiple = enterpriseValueMultiple;
+        this.priceFairValue = priceFairValue;
+        Enterprise_Value = enterprise_Value;
+        Enterprise_Value_over_EBITDA = enterprise_Value_over_EBITDA;
+        Tangible_Asset_Value = tangible_Asset_Value;
+        Net_Current_Asset_Value = net_Current_Asset_Value;
     }
 
     public String getcomapny_code() {
