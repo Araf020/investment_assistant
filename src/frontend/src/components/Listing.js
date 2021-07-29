@@ -1,5 +1,7 @@
 import React from 'react';
 import { Dropdown,NavDropdown,Nav,Navbar,Container} from 'react-bootstrap';
+import Top from "./Top";
+import Footer from "./Footer";
 
 
 
@@ -8,7 +10,10 @@ function Listing() {
     
    
     return (
+        <div>
+            <Top/>
        <div className="container">
+
           <div className="list mt-4">
             <div className="left-list col-md-3 ">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -257,6 +262,8 @@ function Listing() {
           </div>
 
        </div>
+            <Footer/>
+        </div>
     );
 }
 
