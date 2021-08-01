@@ -1,0 +1,23 @@
+Analysis:
+
+1. ratio analysis====>>
+	a. quick ratio vs year
+	.
+	.
+	.
+	.
+	z. debt equity vs year
+2. Balance sheet analysis
+     Balance sheet has Two Section Asset and liabilites
+		Asset Section has two option : SHORT TERM ASSETS AND LONG TERM ASSETS
+		
+		LIABILITIES section also has two option : short term liabilities and long term Liabilities
+		
+		SHORT TERM ASSEt : Cash and cash reserve,cash equivalent,Inventories,account receviables,securities etc..
+		
+		LONG TERM ASSET : Property ,plant and equipment,long term investment,all intengible assets
+		
+		SHORT TERM LIABILITIES : Short term debts, dividend payable,trade account payable,customer deposits,current position 			of long term debts
+		
+		LONG TERM LIABILITIES : Long term loans,deffered revenues, deffered compenstions etc..
+		Let's analyze one by one
