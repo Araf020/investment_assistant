@@ -1,69 +1,110 @@
 package team.crapplet.investment_assistant.Model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "ratios")
+@IdClass(MakeCompositeKey.class)
 public class Ratios {
 
-
+    @Id
+    @Column(name = "code_name")
     private  String CodeName;
     private  int year;
 
+    @Column(name = "pricebookvalueratio")
+
     private Double priceBookValueRatio;
 
+    @Column(name = "pricetobookratio")
     private Double priceToBookRatio;
+
+    @Column(name = "pricetosalesratio")
 
     private Double priceToSalesRatio;
 
+    @Column(name = "pricetofreecashflowsratio")
+
     private Double priceToFreeCashFlowsRatio;
 
+    @Column(name = "pricetooperatingcashflowsratio")
     private Double priceToOperatingCashFlowsRatio;
 
+    @Column(name = "pricecashflowratio")
     private Double priceCashFlowRatio;
 
+    @Column(name = "pricesalesratio")
     private Double priceSalesRatio;
 
+    @Column(name = "current_ratio")
     private Double currentRatio;
+    @Column(name = "priceearningstogrowthratio")
+    private Double priceEarningsToGrowthRatio;
 
+
+    @Column(name = "quickratio")
     private Double quickRatio;
 
+    @Column(name = "priceearningsratio")
     private Double priceEarningsRatio;
 
+    @Column(name = "cashratio")
     private Double cashRatio;
 
+    @Column(name = "debtratio")
     private Double debtRatio;
 
+    @Column(name = "debtequityratio")
     private Double debtEquityRatio;
 
+    @Column(name = "cashflowtodebtratio")
     private Double cashFlowToDebtRatio;
 
+    @Column(name = "payoutratio")
     private Double payoutRatio;
 
+    @Column(name = "operatingcashflowsalesratio")
     private Double operatingCashFlowSalesRatio;
 
+    @Column(name = "freecashflowoperatingcashflowratio")
     private Double freeCashFlowOperatingCashFlowRatio;
 
+    @Column(name = "cashflowcoverageratios")
     private Double cashFlowCoverageRatios;
 
+    @Column(name = "shorttermcoverageratios")
     private Double shortTermCoverageRatios;
 
+    @Column(name = "capitalexpenditurecoverageratios")
     private Double capitalExpenditureCoverageRatios;
 
+    @Column(name = "dividendpaidandcapexcoverageratios")
     private Double dividendpaidAndCapexCoverageRatios;
 
+
+    @Column(name = "dividendpayoutratio")
     private Double dividendPayoutRatio;
 
+    @Column(name = "pe_ratio")
     private Double PE_ratio;
 
+    @Column(name = "price_to_sales_ratio")
     private Double Price_to_Sales_Ratio;
 
+    @Column(name = "pocf_ratio")
     private Double POCF_ratio;
 
+    @Column(name = "pfcf_ratio")
     private Double PFCF_ratio;
 
+    @Column(name = "pb_ratio")
     private Double PB_ratio;
+
+    @Column(name = "ptb_ratio")
 
     private Double PTB_ratio;
 
-    private Double Current_ratio;
-
+    @Column(name = "payout_ratio")
     private Double Payout_Ratio;
 
 
@@ -211,6 +252,15 @@ public class Ratios {
         this.operatingCashFlowSalesRatio = operatingCashFlowSalesRatio;
     }
 
+    public Double getPriceEarningsToGrowthRatio() {
+        return priceEarningsToGrowthRatio;
+    }
+
+    public Ratios setPriceEarningsToGrowthRatio(Double priceEarningsToGrowthRatio) {
+        this.priceEarningsToGrowthRatio = priceEarningsToGrowthRatio;
+        return this;
+    }
+
     public Double getFreeCashFlowOperatingCashFlowRatio() {
         return freeCashFlowOperatingCashFlowRatio;
     }
@@ -307,13 +357,13 @@ public class Ratios {
         this.PTB_ratio = PTB_ratio;
     }
 
-    public Double getCurrent_ratio() {
-        return Current_ratio;
-    }
-
-    public void setCurrent_ratio(Double current_ratio) {
-        Current_ratio = current_ratio;
-    }
+//    public Double getCurrent_ratio() {
+//        return Current_ratio;
+//    }
+//
+//    public void setCurrent_ratio(Double current_ratio) {
+//        Current_ratio = current_ratio;
+//    }
 
     public Double getPayout_Ratio() {
         return Payout_Ratio;

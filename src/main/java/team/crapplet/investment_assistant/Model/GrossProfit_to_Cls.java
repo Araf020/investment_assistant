@@ -44,7 +44,7 @@ public class GrossProfit_to_Cls {
     private String Graham_Net_Net;
     private String Working_Capital;
     private String Sector;
-    private String PRICE_VAR_percent_2019;
+    private String PRICE_VAR_percent;
     private String cls;
 
 }

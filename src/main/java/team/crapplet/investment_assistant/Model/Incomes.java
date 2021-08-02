@@ -47,6 +47,7 @@ public class Incomes {
         return Operating_Income;
     }
 
+
     public void setOperating_Income(String operating_Income) {
         Operating_Income = operating_Income;
     }
