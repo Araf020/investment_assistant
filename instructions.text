@@ -1,0 +1,15 @@
+
+1. See the Model Folder. Hope you know JPA models in spring boot. This is basically java representaion of Database Table. 
+	Your Task is to get ready the rest of the model class in that folder which are incomplete. To complete the the task you may 		compare incomplete Tables with a complete Enitiy class such as Ratios.java in the same folder(Model).
+	
+2. Then write Controller(BAsically RESTcontroller) for those Models classes. hope you know what is Controller in SPRINF BOOT.
+		   write some basic getmapping, post mapping for now. I will ask you more specifically later.
+   
+3. Learn something about spring batch. this is very simple if you read my code of processData folder. This actually helps to populate 		database from csv file. Your Task is to find out if there's a way to fully automate the process of populating database from 		the csv files. 
+N.B: you can find those csv files in main/resources folder
+
+if you feel any trouble doing it please contact me my friend. 
+Good Luck.
+
+DeadLine: 11:00 PM 8th August,2021.
+
