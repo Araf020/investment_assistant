@@ -2,28 +2,31 @@ package team.crapplet.investment_assistant.Model;
 
 import org.springframework.data.annotation.TypeAlias;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "per_share")
+@IdClass(MakeCompositeKey.class)
 public class PerShare {
 
     @Id
-    private  String comapny_code;
+    @Column(name = "code_name")
+    private  String CodeName;
 
+    @Id
     private  int year;
 
-    private Double Dividend_per_Share;
-
-    private Double Cash_per_Share;
-
+    @Column(name = "dividend_per_share")
+    private Double dividend_per_Share;
+    @Column(name = "cash_per_share")
+    private Double cash_per_Share;
+    @Column(name = "book_value_per_share")
     private Double Book_Value_per_Share;
 
     private Double Tangible_Book_Value_per_Share;
 
     private Double Shareholders_Equity_per_Share;
+
 
     private Double Interest_Debt_per_Share;
 
@@ -76,15 +79,15 @@ public class PerShare {
 
     }
     public PerShare(String comapny_code) {
-        this.comapny_code = comapny_code;
+        this.CodeName = comapny_code;
     }
 
     public PerShare(String comapny_code, int year, Double dividend_per_Share, Double cash_per_Share, Double book_Value_per_Share, Double tangible_Book_Value_per_Share, Double shareholders_Equity_per_Share, Double interest_Debt_per_Share, Double book_Value_per_Share_Growth, Double capex_per_Share, Double earnings_Per_Share, Double diluted_Earnings_Per_Share, Double operating_Cash_Flow_per_Share, Double free_Cash_Flow_per_Share, Double tenY_Revenue_Growth_per_Share, Double fiveY_Revenue_Growth_per_Share, Double threeY_Revenue_Growth_per_Share, Double tenY_Operating_CF_Growth_per_Share, Double fiveY_Operating_CF_Growth_per_Share, Double threeY_Operating_CF_Growth_per_Share, Double tenY_Net_Income_Growth_per_Share, Double fiveY_Net_Income_Growth_per_Share, Double threeY_Net_Income_Growth_per_Share, Double tenY_Shareholders_Equity_Growth_per_Share, Double fiveY_Shareholders_Equity_Growth_per_Share, Double threeY_Shareholders_Equity_Growth_per_Share, Double tenY_Dividend_per_Share_Growth_per_Share, Double fiveY_Dividend_per_Share_Growth_per_Share,
                     Double threeY_Dividend_per_Share_Growth_per_Share, Double dividends_per_Share_Growth) {
-        this.comapny_code = comapny_code;
+        this.CodeName = comapny_code;
         this.year = year;
-        Dividend_per_Share = dividend_per_Share;
-        Cash_per_Share = cash_per_Share;
+        this.dividend_per_Share = dividend_per_Share;
+        this.cash_per_Share = cash_per_Share;
         Book_Value_per_Share = book_Value_per_Share;
         Tangible_Book_Value_per_Share = tangible_Book_Value_per_Share;
         Shareholders_Equity_per_Share = shareholders_Equity_per_Share;
@@ -114,12 +117,12 @@ public class PerShare {
     }
 
 
-    public String getcomapny_code() {
-        return comapny_code;
+    public String getCodeName() {
+        return this.CodeName;
     }
 
-    public void setcomapny_code(String  comapny_code) {
-        this.comapny_code = comapny_code;
+    public void setCodeName(String  codeName) {
+        this.CodeName = codeName;
     }
 
     public int getYear() {
@@ -131,19 +134,19 @@ public class PerShare {
     }
 
     public Double getDividend_per_Share() {
-        return Dividend_per_Share;
+        return this.dividend_per_Share;
     }
 
     public void setDividend_per_Share(Double dividend_per_Share) {
-        Dividend_per_Share = dividend_per_Share;
+        this.dividend_per_Share = dividend_per_Share;
     }
 
     public Double getCash_per_Share() {
-        return Cash_per_Share;
+        return this.cash_per_Share;
     }
 
     public void setCash_per_Share(Double cash_per_Share) {
-        Cash_per_Share = cash_per_Share;
+        this.cash_per_Share = cash_per_Share;
     }
 
     public Double getBook_Value_per_Share() {

@@ -10,6 +10,7 @@ public class Ratios {
     @Id
     @Column(name = "code_name")
     private  String CodeName;
+    @Id
     private  int year;
 
     @Column(name = "pricebookvalueratio")
