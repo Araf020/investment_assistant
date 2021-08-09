@@ -34,6 +34,7 @@ public class PerShare {
 
     private Double Capex_per_Share;
 
+    @Column(name = "earnings_per_share")
     private Double Earnings_Per_Share;
 
     private Double Diluted_Earnings_Per_Share;
@@ -75,46 +76,8 @@ public class PerShare {
 
     private Double Dividends_per_Share_Growth;
 
-    public PerShare() {
 
-    }
-    public PerShare(String comapny_code) {
-        this.CodeName = comapny_code;
-    }
 
-    public PerShare(String comapny_code, int year, Double dividend_per_Share, Double cash_per_Share, Double book_Value_per_Share, Double tangible_Book_Value_per_Share, Double shareholders_Equity_per_Share, Double interest_Debt_per_Share, Double book_Value_per_Share_Growth, Double capex_per_Share, Double earnings_Per_Share, Double diluted_Earnings_Per_Share, Double operating_Cash_Flow_per_Share, Double free_Cash_Flow_per_Share, Double tenY_Revenue_Growth_per_Share, Double fiveY_Revenue_Growth_per_Share, Double threeY_Revenue_Growth_per_Share, Double tenY_Operating_CF_Growth_per_Share, Double fiveY_Operating_CF_Growth_per_Share, Double threeY_Operating_CF_Growth_per_Share, Double tenY_Net_Income_Growth_per_Share, Double fiveY_Net_Income_Growth_per_Share, Double threeY_Net_Income_Growth_per_Share, Double tenY_Shareholders_Equity_Growth_per_Share, Double fiveY_Shareholders_Equity_Growth_per_Share, Double threeY_Shareholders_Equity_Growth_per_Share, Double tenY_Dividend_per_Share_Growth_per_Share, Double fiveY_Dividend_per_Share_Growth_per_Share,
-                    Double threeY_Dividend_per_Share_Growth_per_Share, Double dividends_per_Share_Growth) {
-        this.CodeName = comapny_code;
-        this.year = year;
-        this.dividend_per_Share = dividend_per_Share;
-        this.cash_per_Share = cash_per_Share;
-        Book_Value_per_Share = book_Value_per_Share;
-        Tangible_Book_Value_per_Share = tangible_Book_Value_per_Share;
-        Shareholders_Equity_per_Share = shareholders_Equity_per_Share;
-        Interest_Debt_per_Share = interest_Debt_per_Share;
-        Book_Value_per_Share_Growth = book_Value_per_Share_Growth;
-        Capex_per_Share = capex_per_Share;
-        Earnings_Per_Share = earnings_Per_Share;
-        Diluted_Earnings_Per_Share = diluted_Earnings_Per_Share;
-        Operating_Cash_Flow_per_Share = operating_Cash_Flow_per_Share;
-        Free_Cash_Flow_per_Share = free_Cash_Flow_per_Share;
-        this.tenY_Revenue_Growth_per_Share = tenY_Revenue_Growth_per_Share;
-        this.fiveY_Revenue_Growth_per_Share = fiveY_Revenue_Growth_per_Share;
-        this.threeY_Revenue_Growth_per_Share = threeY_Revenue_Growth_per_Share;
-        this.tenY_Operating_CF_Growth_per_Share = tenY_Operating_CF_Growth_per_Share;
-        this.fiveY_Operating_CF_Growth_per_Share = fiveY_Operating_CF_Growth_per_Share;
-        this.threeY_Operating_CF_Growth_per_Share = threeY_Operating_CF_Growth_per_Share;
-        this.tenY_Net_Income_Growth_per_Share = tenY_Net_Income_Growth_per_Share;
-        this.fiveY_Net_Income_Growth_per_Share = fiveY_Net_Income_Growth_per_Share;
-        this.threeY_Net_Income_Growth_per_Share = threeY_Net_Income_Growth_per_Share;
-        this.tenY_Shareholders_Equity_Growth_per_Share = tenY_Shareholders_Equity_Growth_per_Share;
-        this.fiveY_Shareholders_Equity_Growth_per_Share = fiveY_Shareholders_Equity_Growth_per_Share;
-        this.threeY_Shareholders_Equity_Growth_per_Share = threeY_Shareholders_Equity_Growth_per_Share;
-        this.tenY_Dividend_per_Share_Growth_per_Share = tenY_Dividend_per_Share_Growth_per_Share;
-        this.fiveY_Dividend_per_Share_Growth_per_Share = fiveY_Dividend_per_Share_Growth_per_Share;
-        this.threeY_Dividend_per_Share_Growth_per_Share = threeY_Dividend_per_Share_Growth_per_Share;
-        Dividends_per_Share_Growth = dividends_per_Share_Growth;
-    }
 
 
     public String getCodeName() {

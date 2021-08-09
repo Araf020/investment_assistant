@@ -4,10 +4,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import team.crapplet.investment_assistant.Model.PerShare;
+import team.crapplet.investment_assistant.Repository.Name_EPS;
 import team.crapplet.investment_assistant.Repository.PerShareRepository;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 @RestController
@@ -23,17 +26,24 @@ public class PershareController {
     }
 
     @GetMapping("/pershares/{codeName}")
-    public List<PerShare> getRatioByCodeName(@PathVariable String codeName){
+    public List<PerShare> getEPSbyCodeName(@PathVariable String codeName){
 
         List<PerShare> pershares= pershareRepository.findAll();
         List<PerShare> result = new ArrayList<>();
 
+
         for (PerShare pershare:pershares)
         {
+
             if (pershare.getCodeName().equalsIgnoreCase(codeName))
                 result.add(pershare);
         }
 
         return result;
+    }
+    @GetMapping("/pershares/top_company_by_eps")
+    public List<Name_EPS> getTopCompanyByEPS(){
+        return pershareRepository.getEPSandName();
+
     }
 }
